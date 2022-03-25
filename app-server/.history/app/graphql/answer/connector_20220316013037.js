@@ -3,33 +3,31 @@ const _ = require('lodash');
 const ObjectId = require('mongodb').ObjectId;
 
 class Connector {
-    constructor(ctx) {
+    constructor(ctx){
         this.ctx = ctx;
     }
 
-    async getAnswer(filters) {
+    async getAnswer(filters){
         const conditions = {};
 
-        if (filters?.paper_id) {
+        if(filters?.paper_id) {
             conditions.paper_id = ObjectId(filters.paper_id);
         }
 
-        if (filters?.user_id) {
+        if(filters?.user_id){
             conditions.user_id = ObjectId(filters.user_id);
         }
 
         const data = await this.ctx.model.Answer.find(conditions).populate('question_id');
 
-        console.log(data)
-
         return data;
     }
 
-    async addAnswers(answers) {
+    async addAnswers(answers){
         return await this.ctx.service.answer.addAnswers(answers);
     }
 
-    async delAnswer(ids) {
+    async delAnswer(ids){
         try {
             await this.ctx.model.Answer.deleteMany({
                 id: {

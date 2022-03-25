@@ -17,7 +17,7 @@ type Query {
   # question
   questionList(filters: Filters): [Question] @deprecated(reason: "获取题目列表")
   # answer
-  answerList(filters: Filters): AnswerList @deprecated(reason: "获取回答列表")
+  answerList(filters: Filters): ID @deprecated(reason: "获取回答列表")
   # exam
   examList(filters: Filters): ExamList @deprecated(reason: "获取考试列表")
 }

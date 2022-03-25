@@ -25,7 +25,7 @@ class MyTable extends BaseTable {
          data{
             _id
           paper_id
-          question_id
+      
           question_type
           answer_value
           user_id

@@ -18,9 +18,11 @@ class Connector {
             conditions.user_id = ObjectId(filters.user_id);
         }
 
+        console.log(conditions)
+
         const data = await this.ctx.model.Answer.find(conditions).populate('question_id');
 
-        console.log(data)
+
 
         return data;
     }

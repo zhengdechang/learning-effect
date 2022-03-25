@@ -1,0 +1,24 @@
+
+type User{
+    _id: ID @deprecated(reason: "用户ID")
+    uname: String @deprecated(reason: "用户名")
+    phone: String @deprecated(reason: "用户手机号")
+    name: String @deprecated(reason: "用户姓名")
+    user_type: Int @deprecated(reason: "用户类型")
+    created_at: String @deprecated(reason: "用户创建时间")
+    classes_id: String @deprecated(reason: "用户所在班级")
+}
+
+type UserList{
+    data: [User]
+    total: Int
+}
+
+input UserInput{
+    name: String @deprecated(reason: "用户姓名")
+    pwd: String @deprecated(reason: "密码")
+    user_type: Int @deprecated(reason: "用户类型")
+    phone: String @deprecated(reason: "用户手机号")
+    created_at: String @deprecated(reason: "用户创建时间")
+    classes_id: String @deprecated(reason: "用户所在班级")
+}

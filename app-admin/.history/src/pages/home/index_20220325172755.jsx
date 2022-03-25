@@ -70,27 +70,27 @@ export default class App extends React.Component {
     } catch (error) {
       console.error(error);
     }
+   
+  //   const query = `query SignList( $filters: Filters, $current: Int, $pageSize: Int){
+  //            signList(current: $current, pageSize: $pageSize, filters: $filters){
+  //           data {
+  //             _id
+  //             user_id
+  //             sign_in
+  //             sign_out
+  //             date
+  //           }
+  //           total
+  //         }
+  //       }`;
+  //   const variables = {};
 
-    //   const query = `query SignList( $filters: Filters, $current: Int, $pageSize: Int){
-    //            signList(current: $current, pageSize: $pageSize, filters: $filters){
-    //           data {
-    //             _id
-    //             user_id
-    //             sign_in
-    //             sign_out
-    //             date
-    //           }
-    //           total
-    //         }
-    //       }`;
-    //   const variables = {};
-
-    //   try {
-    //     await graphql(query, variables);
-    //   } catch (error) {
-    //     console.error(error);
-    //   }
-  };
+  //   try {
+  //     await graphql(query, variables);
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
 
   signOut = async () => {
     const user = await getUser();

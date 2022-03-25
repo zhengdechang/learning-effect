@@ -1,17 +1,16 @@
 type Answer {
   _id: ID @deprecated(reason: "回答ID")
   paper_id: ID @deprecated(reason: "试卷ID")
-  question_id: ID @deprecated(reason: "题目")
+  question_id: Question @deprecated(reason: "题目")
   question_type: Int @deprecated(reason: "题目类型")
   answer_value: String @deprecated(reason: "回答内容")
   user_id: ID @deprecated(reason: "回答者")
 }
 
 type AnswerList {
-  data: [Answer]
+  data: Answer
   total: Int
 }
-
 input AnswerInput {
   paper_id: ID @deprecated(reason: "试卷ID")
   question_id: ID @deprecated(reason: "题目ID")

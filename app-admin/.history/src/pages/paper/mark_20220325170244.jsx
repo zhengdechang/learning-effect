@@ -19,39 +19,6 @@ class MyTable extends BaseTable {
     });
   }
 
-  getAnswerList = async (id, pid) => {
-    const query = `query AnswerList($filters: Filters) {
-        answerList(filters: $filters){
-         data{
-            _id
-          paper_id
-          question_id
-          question_type
-          answer_value
-          user_id
-         }
-         total
-        }
-      }`;
-    const variables = {
-      filters: {
-        paper_id: pid,
-        user_id: id,
-      },
-    };
-
-    let res;
-    try {
-      res = await graphql(query, variables);
-      console.log(res, 'res');
-    } catch (error) {
-      console.error(error);
-    }
-
-    // const questionList = _.get(res, 'questionList');
-    // this.formQuestionList(questionList);
-  };
-
   getColumns = () => {
     return [
       {
@@ -89,16 +56,8 @@ class MyTable extends BaseTable {
         title: '操作',
         valueType: 'option',
         render: (text, record, _, action) => {
-          console.log('record: ', record.user_id);
-          return [
-            <a
-              onClick={() => {
-                this.getAnswerList(record.user_id, record.paper_id);
-              }}
-            >
-              评阅
-            </a>,
-          ];
+          console.log('record: ', record);
+          return [<a>评阅</a>];
         },
       },
     ];
@@ -185,9 +144,38 @@ export default class Component extends React.PureComponent {
     this.state = {};
   }
 
-  // componentDidMount() {
-  //   this.getAnswerList();
-  // }
+  getQuestions = async () => {
+    const query = `query QuestionList($filters: Filters) {
+        questionList(filters: $filters){
+          _id
+          paper_id
+          question_type
+          question_content
+          question_value
+          question_score
+        }
+      }`;
+    const variables = {
+      filters: {
+        paper_id: this.paperId,
+      },
+    };
+
+    let res;
+    try {
+      res = await graphql(query, variables);
+      console.log(res, 'res');
+    } catch (error) {
+      console.error(error);
+    }
+
+    // const questionList = _.get(res, 'questionList');
+    // this.formQuestionList(questionList);
+  };
+
+  componentDidMount() {
+    this.getQuestions();
+  }
 
   render = () => {
     return (
