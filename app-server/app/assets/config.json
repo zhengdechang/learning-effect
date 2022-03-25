@@ -1,0 +1,30 @@
+{
+    "user_type": {
+        "super": 1,
+        "teacher": 2,
+        "student": 3
+    },
+    "question_type": {
+        "choice": 1,
+        "completion": 2,
+        "short": 3
+    },
+    "paper_status": {
+        "pass": 1,
+        "nopass": 0
+    },
+    "course_type": {
+        "Chinese": {
+            "type": 1,
+            "label": "语文"
+        },
+        "Math": {
+            "type": 2,
+            "label": "数学"
+        },
+        "English": {
+            "type": 3,
+            "label": "英语"
+        }
+    }
+}

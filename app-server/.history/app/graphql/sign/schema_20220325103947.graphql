@@ -1,0 +1,19 @@
+type Sign {
+  _id: ID @deprecated(reason: "考勤ID")
+  user_id: ID @deprecated(reason: "用户ID")
+  sign_in: String @deprecated(reason: "签到")
+  sign_out: String @deprecated(reason: "签退")
+  date: String @deprecated(reason: "日期")
+}
+
+type UserList {
+  data: [Sign]
+  total: Int
+}
+
+input SignInput {
+  user_id: ID @deprecated(reason: "用户ID")
+  sign_in: String @deprecated(reason: "签到")
+  sign_out: String @deprecated(reason: "签退")
+  date: String @deprecated(reason: "日期")
+}

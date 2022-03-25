@@ -1,0 +1,33 @@
+
+type Paper{
+    _id: ID @deprecated(reason: "试卷ID")
+    paper_title: String @deprecated(reason: "试卷名称")
+    paper_type: Int @deprecated(reason: "试卷类型")
+    user_id: ID @deprecated(reason: "创建者ID")
+    created_at: String @deprecated(reason: "创建时间")
+    pass_at: String @deprecated(reason: "发布时间")
+    name: String @deprecated(reason: "创建者")
+    paper_points: String @deprecated(reason: "试卷考察知识点")
+    paper_status: Int @deprecated(reason: "试卷是否已发布")
+    paper_time: Int @deprecated(reason: "考试时长")
+    paper_for_classes: [ID] @deprecated(reason: "参考班级ID")
+    paper_score: Int @deprecated(reason: "试卷总分")
+    exam: Int @deprecated(reason: "该学生是否已参加考试")
+}
+
+type PaperList {
+    data: [Paper]
+    total: Int
+}
+
+input PaperInput{
+    paper_title: String @deprecated(reason: "试卷名称")
+    paper_type: Int @deprecated(reason: "试卷类型")
+    created_at: String @deprecated(reason: "创建时间")
+    pass_at: String @deprecated(reason: "发布时间")
+    paper_points: String @deprecated(reason: "试卷考察知识点")
+    paper_status: Int @deprecated(reason: "试卷是否已发布")
+    paper_time: Int @deprecated(reason: "考试时长")
+    paper_for_classes: [ID] @deprecated(reason: "参考班级ID")
+    paper_score: Int @deprecated(reason: "试卷总分")
+}
