@@ -71,25 +71,8 @@ class MyTable extends BaseTable {
             start_time
             end_time
             score
-            user{
-              _id
-              name
-              user_type
-              phone
-              created_at
-              classes_id
-            }
-            paper{
-              paper_status,
-              paper_title,
-              paper_type,
-              created_at,
-              paper_points,
-              paper_time,
-              paper_score,
-              user_id,
-              pass_at,
-            }
+            user[name]
+            paper[name]
           }
           total
         }

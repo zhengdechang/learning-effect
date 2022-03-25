@@ -24,29 +24,30 @@ class Connector {
         // 
         let exams = [];
         try {
-            exams = await this.ctx.model.Exam.aggregate([{
-                $lookup: {
-                    from: 'users',
-                    localField: 'user_id',
-                    foreignField: '_id',
-                    as: 'user',
-                },
-            },
-            {
-                $lookup: {
-                    from: 'papers',
-                    localField: 'paper_id',
-                    foreignField: '_id',
-                    as: 'paper',
-                },
-            },
-            {
-                $match: conditions
-            }])
+            exams = await this.ctx.model.Exam.find(conditions).populate("user_id").populate("classes_id");
+            // exams = await this.ctx.model.Exam.aggregate([{
+            //     $lookup: {
+            //         from: 'users',
+            //         localField: 'user_id',
+            //         foreignField: '_id',
+            //         as: 'user',
+            //     },
+            // },
+            // {
+            //     $lookup: {
+            //         from: 'papers',
+            //         localField: 'paper_id',
+            //         foreignField: '_id',
+            //         as: 'paper',
+            //     },
+            // },
+            // {
+            //     $match: conditions
+            // }])
         } catch (error) {
             this.ctx.throw("获取失败");
         }
-        console.log(exams[0]?.user, exams[0]?.paper)
+        console.log(exams)
         data = exams;
         return { data, total: exams.length };
     }

@@ -46,7 +46,7 @@ class Connector {
         } catch (error) {
             this.ctx.throw("获取失败");
         }
-        console.log(exams[0]?.user, exams[0]?.paper)
+        console.log(exams)
         data = exams;
         return { data, total: exams.length };
     }

@@ -21,7 +21,7 @@ class Connector {
         // 返回渲染成一个 table，需要改谁的卷子就跳转（如果 exams 已经有 score 成绩，跳转查看批阅详情）
         // 跳转后批改试卷，将每题得分更新到 answer，并将总分更新到 exams
         // exams 有总分，学生端显示已批改，可查看每项的得分，总分
-        // 
+        // const exams = await this.ctx.model.Exam.find(conditions).populate("user_id").populate("classes_id");
         let exams = [];
         try {
             exams = await this.ctx.model.Exam.aggregate([{
@@ -46,7 +46,7 @@ class Connector {
         } catch (error) {
             this.ctx.throw("获取失败");
         }
-        console.log(exams[0]?.user, exams[0]?.paper)
+        console.log(exams)
         data = exams;
         return { data, total: exams.length };
     }
