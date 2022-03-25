@@ -37,6 +37,7 @@ class Connector {
                             foreignField: '_id',
                             as: 'class',
                         }
+
                     }],
                 },
             },
@@ -57,7 +58,7 @@ class Connector {
         } catch (error) {
             this.ctx.throw("获取失败");
         }
-        console.log(exams[0]?.user)
+        console.log(exams[0]?.class)
         data = exams;
         return { data, total: exams.length };
     }

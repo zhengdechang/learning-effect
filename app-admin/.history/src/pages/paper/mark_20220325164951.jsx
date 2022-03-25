@@ -56,7 +56,7 @@ class MyTable extends BaseTable {
         title: '操作',
         valueType: 'option',
         render: (text, record, _, action) => {
-          console.log('record: ', record);
+          record;
           return [<a>评阅</a>];
         },
       },

@@ -55,10 +55,7 @@ class MyTable extends BaseTable {
       {
         title: '操作',
         valueType: 'option',
-        render: (text, record, _, action) => {
-          console.log('record: ', record);
-          return [<a>评阅</a>];
-        },
+        render: (text, record, _, action) => [<a>评阅</a>],
       },
     ];
   };
@@ -108,12 +105,11 @@ class MyTable extends BaseTable {
       },
     };
     const res = await graphql(query, variables);
-    let { total, data } = res?.examList;
+    const { total, data } = res?.examList;
     console.log(data, res, 'data');
-    data = data?.map((item, index) => {
+    data = data.map((item) => {
       let { user, paper, ...i } = item;
       return {
-        key: index,
         ...i,
         ...user?.[0],
         ...paper?.[0],

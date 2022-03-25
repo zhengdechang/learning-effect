@@ -30,14 +30,6 @@ class Connector {
                     localField: 'user_id',
                     foreignField: '_id',
                     as: 'user',
-                    pipeline: [{
-                        $lookup: {
-                            from: 'classes',
-                            localField: 'classes_id',
-                            foreignField: '_id',
-                            as: 'class',
-                        }
-                    }],
                 },
             },
             {
@@ -48,44 +40,51 @@ class Connector {
                     as: 'paper',
 
                 },
-
+                  {
+                $lookup: {
+                    from: 'classes',
+                    localField: 'classes_id',
+                    foreignField: '_id',
+                    as: 'class',
+                },
+            },
             },
 
-            {
-                $match: conditions
-            }])
-        } catch (error) {
-            this.ctx.throw("获取失败");
-        }
-        console.log(exams[0]?.user)
-        data = exams;
-        return { data, total: exams.length };
+        {
+            $match: conditions
+        }])
+    } catch(error) {
+        this.ctx.throw("获取失败");
+    }
+        console.log(exams[0]?.class)
+data = exams;
+return { data, total: exams.length };
     }
 
     async addExam(exam) {
-        return await this.ctx.service.exam.addExam(exam);
-    }
+    return await this.ctx.service.exam.addExam(exam);
+}
 
     async updateExam(id, exam) {
-        try {
-            this.ctx.service.exam.where({ _id: ObjectId(id) }).update(exam);
-        } catch (error) {
-            this.ctx.throw(500, '更新失败');
-        }
+    try {
+        this.ctx.service.exam.where({ _id: ObjectId(id) }).update(exam);
+    } catch (error) {
+        this.ctx.throw(500, '更新失败');
     }
+}
 
     async delExam(ids) {
-        try {
-            await this.ctx.model.Exam.deleteMany({
-                id: {
-                    $in: ids
-                }
-            });
-        } catch (error) {
-            this.ctx.throw(500, '删除失败');
-        }
-        return ids;
+    try {
+        await this.ctx.model.Exam.deleteMany({
+            id: {
+                $in: ids
+            }
+        });
+    } catch (error) {
+        this.ctx.throw(500, '删除失败');
     }
+    return ids;
+}
 }
 
 module.exports = Connector;

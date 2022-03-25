@@ -55,10 +55,7 @@ class MyTable extends BaseTable {
       {
         title: '操作',
         valueType: 'option',
-        render: (text, record, _, action) => {
-          console.log('record: ', record);
-          return [<a>评阅</a>];
-        },
+        render: (text, record, _, action) => [<a>评阅</a>],
       },
     ];
   };
@@ -76,26 +73,24 @@ class MyTable extends BaseTable {
             end_time
             score
             user{
+              _id
               name
               user_type
               phone
               created_at
               classes_id
-              class{
-              classes_name
-            }
             }
             paper{
-              paper_status
-              paper_title
-              paper_type
-              created_at
-              paper_points
-              paper_time
-              paper_score
-              pass_at
+              paper_status,
+              paper_title,
+              paper_type,
+              created_at,
+              paper_points,
+              paper_time,
+              paper_score,
+              user_id,
+              pass_at,
             }
-            
           }
           total
         }
@@ -108,19 +103,8 @@ class MyTable extends BaseTable {
       },
     };
     const res = await graphql(query, variables);
-    let { total, data } = res?.examList;
-    console.log(data, res, 'data');
-    data = data?.map((item, index) => {
-      let { user, paper, ...i } = item;
-      return {
-        key: index,
-        ...i,
-        ...user?.[0],
-        ...paper?.[0],
-        ...user?.[0]?.class[0],
-      };
-    });
-    console.log(data, '222');
+    const { total, data } = res;
+    console.log(res);
     return {
       total,
       data,
@@ -132,7 +116,9 @@ class MyTable extends BaseTable {
   //   this.getData({ current: 1, pageSize: 5 });
   // };
 
-  toolBarRender = () => {};
+  toolBarRender = () => {
+    return [<BaseForm ref={this.modalRef} {...this.getColumns()} />];
+  };
 }
 
 export default class Component extends React.PureComponent {
@@ -152,7 +138,6 @@ export default class Component extends React.PureComponent {
         }}
       >
         <MyTable paperId={this.paperId} />
-
         {/* <Detail
               type="view"
               ref={this.paperDetailRef}
