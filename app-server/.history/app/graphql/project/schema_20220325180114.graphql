@@ -44,10 +44,8 @@ type Mutation {
   # answer
   addAnswers(answers: [AnswerInput]): [ID] @deprecated(reason: "交卷")
   delAnswer(ids: [ID]): [ID] @deprecated(reason: "删除回答")
-
   # exam
   addExam(exam: ExamInput): Exam @deprecated(reason: "添加考试")
   delExam(ids: [ID]): [ID] @deprecated(reason: "删除考试")
   updateExam(id: ID, exam: ExamInput): ID @deprecated(reason: "更新考试")
-  addScore(id: ID, sign: UpdateScore): ID @deprecated(reason: "改卷")
 }

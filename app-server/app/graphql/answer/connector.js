@@ -9,6 +9,7 @@ class Connector {
 
     async getAnswer(filters) {
         const conditions = {};
+        let data =[],total=0;
 
         if (filters?.paper_id) {
             conditions.paper_id = ObjectId(filters.paper_id);
@@ -18,11 +19,24 @@ class Connector {
             conditions.user_id = ObjectId(filters.user_id);
         }
 
-        const data = await this.ctx.model.Answer.find(conditions).populate('question_id');
+        if (filters?.exam_id) {
+            conditions.exam_id = ObjectId(filters.exam_id);
+        }
 
-        console.log(data)
+        console.log(conditions,'1')
 
-        return data;
+        try {
+            data = await this.ctx.model.Answer.find(conditions).populate('question_id');
+
+            total =  await this.ctx.model.Answer.find(conditions).count()
+        } catch (error) {
+            this.ctx.throw(500, '删除回答失败');
+        }
+
+       
+        console.log(data[0]?.question_id,total)
+
+        return { data, total };
     }
 
     async addAnswers(answers) {
@@ -41,6 +55,9 @@ class Connector {
         }
         return ids;
     }
+
+  
+
 }
 
 module.exports = Connector;

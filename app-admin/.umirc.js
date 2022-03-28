@@ -63,7 +63,7 @@ export default defineConfig({
             hideInMenu: true,
         },
         {
-            path: '/paper/score/:paperId',
+            path: '/score/:paperId',
             title: '成绩',
             icon: 'icon-xingtuxuetang-kaoshi-',
             component: '@/pages/paper/score',

@@ -6,6 +6,7 @@ module.exports = app => {
   const schema = new Schema({
     paper_id: { type: Schema.Types.ObjectId, ref: 'Paper' },
     question_id: { type: Schema.Types.ObjectId, ref: 'Question' },
+    exam_id: { type: Schema.Types.ObjectId, ref: 'Exam' },
     question_type: { type: Number },
     answer_value: { type: String },
     user_id: { type: Schema.Types.ObjectId, ref: 'User' },

@@ -11,5 +11,7 @@ module.exports = {
         delAnswer(root, { ids }, ctx){
             return ctx.connector.answer.delAnswer(ids);
         },
+      
+        
     }
 }

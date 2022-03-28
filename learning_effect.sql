@@ -1,0 +1,2786 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : serve
+ Source Server Type    : MongoDB
+ Source Server Version : 50006
+ Source Host           : localhost:27017
+ Source Schema         : learning_effect
+
+ Target Server Type    : MongoDB
+ Target Server Version : 50006
+ File Encoding         : 65001
+
+ Date: 27/03/2022 17:28:00
+*/
+
+
+// ----------------------------
+// Collection structure for answers
+// ----------------------------
+db.getCollection("answers").drop();
+db.createCollection("answers");
+
+// ----------------------------
+// Documents of answers
+// ----------------------------
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364dd"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c677d223f3620fc4f99ce"),
+    "question_type": NumberInt("1"),
+    "answer_value": "A",
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364de"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c861ad6fabe549ce68399"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364df"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c8673d6fabe549ce6839c"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e0"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622ed31b7dbf4260802f7187"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e1"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0198b8afca64ec684c0e"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e2"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0206b8afca64ec684c10"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e3"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c86fbd6fabe549ce6839f"),
+    "question_type": NumberInt("2"),
+    "answer_value": "1",
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e4"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c872cd6fabe549ce683a5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e5"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c873cd6fabe549ce683a8"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e6"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c874fd6fabe549ce683ab"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e7"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cacd387fe280dbc805693"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e8"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafa887fe280dbc8056ad"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364e9"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafd187fe280dbc8056b1"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364ea"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb00287fe280dbc8056b5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364eb"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb04587fe280dbc8056b9"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364ec"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f04579c0a0c0f300b640f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364ed"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c877bd6fabe549ce683ae"),
+    "question_type": NumberInt("3"),
+    "answer_value": "1",
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364ee"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87a4d6fabe549ce683b3"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4d0b6c38f2070b364ef"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87b5d6fabe549ce683b5"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "exam_id": ObjectId("623ea4cbb6c38f2070b364d9"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b364fc"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c677d223f3620fc4f99ce"),
+    "question_type": NumberInt("1"),
+    "answer_value": "A",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b364fd"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c861ad6fabe549ce68399"),
+    "question_type": NumberInt("1"),
+    "answer_value": "B",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b364fe"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c8673d6fabe549ce6839c"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b364ff"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622ed31b7dbf4260802f7187"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36500"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0198b8afca64ec684c0e"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36501"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0206b8afca64ec684c10"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36502"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c86fbd6fabe549ce6839f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36503"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c872cd6fabe549ce683a5"),
+    "question_type": NumberInt("2"),
+    "answer_value": "2",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36504"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c873cd6fabe549ce683a8"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36505"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c874fd6fabe549ce683ab"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36506"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cacd387fe280dbc805693"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36507"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafa887fe280dbc8056ad"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36508"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafd187fe280dbc8056b1"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b36509"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb00287fe280dbc8056b5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b3650a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb04587fe280dbc8056b9"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b3650b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f04579c0a0c0f300b640f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b3650c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c877bd6fabe549ce683ae"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b3650d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87a4d6fabe549ce683b3"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ea4e3b6c38f2070b3650e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87b5d6fabe549ce683b5"),
+    "question_type": NumberInt("3"),
+    "answer_value": "2",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ea4dbb6c38f2070b364f8"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edbfe"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c677d223f3620fc4f99ce"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edbff"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c861ad6fabe549ce68399"),
+    "question_type": NumberInt("1"),
+    "answer_value": "B",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc00"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c8673d6fabe549ce6839c"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc01"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622ed31b7dbf4260802f7187"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc02"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0198b8afca64ec684c0e"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc03"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0206b8afca64ec684c10"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc04"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c86fbd6fabe549ce6839f"),
+    "question_type": NumberInt("2"),
+    "answer_value": "1",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc05"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c872cd6fabe549ce683a5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc06"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c873cd6fabe549ce683a8"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc07"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c874fd6fabe549ce683ab"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc08"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cacd387fe280dbc805693"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc09"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafa887fe280dbc8056ad"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc0a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafd187fe280dbc8056b1"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc0b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb00287fe280dbc8056b5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc0c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb04587fe280dbc8056b9"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc0d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f04579c0a0c0f300b640f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc0e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c877bd6fabe549ce683ae"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc0f"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87a4d6fabe549ce683b3"),
+    "question_type": NumberInt("3"),
+    "answer_value": "1",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623eaadb62d53c11583edc10"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87b5d6fabe549ce683b5"),
+    "question_type": NumberInt("3"),
+    "answer_value": "1",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623eaad462d53c11583edbfa"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74773"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c677d223f3620fc4f99ce"),
+    "question_type": NumberInt("1"),
+    "answer_value": "B",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74774"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c861ad6fabe549ce68399"),
+    "question_type": NumberInt("1"),
+    "answer_value": "C",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74775"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c8673d6fabe549ce6839c"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74776"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622ed31b7dbf4260802f7187"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74777"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0198b8afca64ec684c0e"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74778"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0206b8afca64ec684c10"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74779"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c86fbd6fabe549ce6839f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a7477a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c872cd6fabe549ce683a5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a7477b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c873cd6fabe549ce683a8"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a7477c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c874fd6fabe549ce683ab"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a7477d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cacd387fe280dbc805693"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a7477e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafa887fe280dbc8056ad"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a7477f"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafd187fe280dbc8056b1"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74780"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb00287fe280dbc8056b5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74781"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb04587fe280dbc8056b9"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74782"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f04579c0a0c0f300b640f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74783"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c877bd6fabe549ce683ae"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74784"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87a4d6fabe549ce683b3"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623ebb5b36416e3118a74785"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87b5d6fabe549ce683b5"),
+    "question_type": NumberInt("3"),
+    "answer_value": "1",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623ebb5536416e3118a7476f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2804cb56e616f0c2fc3a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f3e143754fe678cd1eb05"),
+    "question_type": NumberInt("2"),
+    "answer_value": "112",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f27ffcb56e616f0c2fc36"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2804cb56e616f0c2fc3b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f4ae93754fe678cd1eb58"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f27ffcb56e616f0c2fc36"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2804cb56e616f0c2fc3c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f54263754fe678cd1ebac"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f27ffcb56e616f0c2fc36"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2804cb56e616f0c2fc3d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f50f03754fe678cd1eb86"),
+    "question_type": NumberInt("3"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f27ffcb56e616f0c2fc36"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2804cb56e616f0c2fc3e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f51683754fe678cd1eb90"),
+    "question_type": NumberInt("3"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f27ffcb56e616f0c2fc36"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f280bcb56e616f0c2fc48"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("623c5047bb3eaf2ef81d28d8"),
+    "question_id": ObjectId("623c506ebb3eaf2ef81d28f9"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f2807cb56e616f0c2fc44"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f280bcb56e616f0c2fc49"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("623c5047bb3eaf2ef81d28d8"),
+    "question_id": ObjectId("623c5083bb3eaf2ef81d28fc"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f2807cb56e616f0c2fc44"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2812cb56e616f0c2fc53"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("623dadc0889c5e317cff274f"),
+    "question_id": ObjectId("623daddd889c5e317cff2753"),
+    "question_type": NumberInt("1"),
+    "answer_value": "2222",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f280fcb56e616f0c2fc4f"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f2819cb56e616f0c2fc5d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("623daff7889c5e317cff278f"),
+    "question_id": ObjectId("623db018889c5e317cff2793"),
+    "question_type": NumberInt("3"),
+    "answer_value": "235fd",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f2816cb56e616f0c2fc59"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bd5"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c677d223f3620fc4f99ce"),
+    "question_type": NumberInt("1"),
+    "answer_value": "B",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bd6"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c861ad6fabe549ce68399"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bd7"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c8673d6fabe549ce6839c"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bd8"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622ed31b7dbf4260802f7187"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bd9"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0198b8afca64ec684c0e"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bda"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0206b8afca64ec684c10"),
+    "question_type": NumberInt("1"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bdb"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c86fbd6fabe549ce6839f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bdc"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c872cd6fabe549ce683a5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bdd"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c873cd6fabe549ce683a8"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bde"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c874fd6fabe549ce683ab"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9bdf"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cacd387fe280dbc805693"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be0"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafa887fe280dbc8056ad"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be1"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafd187fe280dbc8056b1"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be2"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb00287fe280dbc8056b5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be3"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb04587fe280dbc8056b9"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be4"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f04579c0a0c0f300b640f"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be5"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c877bd6fabe549ce683ae"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be6"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87a4d6fabe549ce683b3"),
+    "question_type": NumberInt("3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623f30bb1c382d091ccb9be7"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87b5d6fabe549ce683b5"),
+    "question_type": NumberInt("3"),
+    "answer_value": "12",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623f30b71c382d091ccb9bd1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe0c2ca9f901ccc52580b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f3e143754fe678cd1eb05"),
+    "question_type": NumberInt("2"),
+    "answer_value": "223",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0b8ca9f901ccc525807"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe0c2ca9f901ccc52580c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f4ae93754fe678cd1eb58"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0b8ca9f901ccc525807"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe0c2ca9f901ccc52580d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f54263754fe678cd1ebac"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0b8ca9f901ccc525807"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe0c2ca9f901ccc52580e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f50f03754fe678cd1eb86"),
+    "question_type": NumberInt("3"),
+    "answer_value": "232",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0b8ca9f901ccc525807"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe0c2ca9f901ccc52580f"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f51683754fe678cd1eb90"),
+    "question_type": NumberInt("3"),
+    "answer_value": "45",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0b8ca9f901ccc525807"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe104079c452ccc70eae3"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f3e143754fe678cd1eb05"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0fb079c452ccc70eadf"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe104079c452ccc70eae4"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f4ae93754fe678cd1eb58"),
+    "question_type": NumberInt("2"),
+    "answer_value": "4",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0fb079c452ccc70eadf"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe104079c452ccc70eae5"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f54263754fe678cd1ebac"),
+    "question_type": NumberInt("2"),
+    "answer_value": "43",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0fb079c452ccc70eadf"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe104079c452ccc70eae6"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f50f03754fe678cd1eb86"),
+    "question_type": NumberInt("3"),
+    "answer_value": "234",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0fb079c452ccc70eadf"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe104079c452ccc70eae7"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f51683754fe678cd1eb90"),
+    "question_type": NumberInt("3"),
+    "answer_value": "34",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe0fb079c452ccc70eadf"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe17804bc4d2cac833664"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f3e143754fe678cd1eb05"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe16f04bc4d2cac833660"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe17804bc4d2cac833665"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f4ae93754fe678cd1eb58"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe16f04bc4d2cac833660"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe17804bc4d2cac833666"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f54263754fe678cd1ebac"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe16f04bc4d2cac833660"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe17804bc4d2cac833667"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f50f03754fe678cd1eb86"),
+    "question_type": NumberInt("3"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe16f04bc4d2cac833660"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe17804bc4d2cac833668"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f51683754fe678cd1eb90"),
+    "question_type": NumberInt("3"),
+    "answer_value": "32",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe16f04bc4d2cac833660"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe5ab04bc4d2cac83369a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f3e143754fe678cd1eb05"),
+    "question_type": NumberInt("2"),
+    "answer_value": "22",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe46f04bc4d2cac833696"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe5ab04bc4d2cac83369b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f4ae93754fe678cd1eb58"),
+    "question_type": NumberInt("2"),
+    "answer_value": "11",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe46f04bc4d2cac833696"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe5ab04bc4d2cac83369c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f54263754fe678cd1ebac"),
+    "question_type": NumberInt("2"),
+    "answer_value": "11",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe46f04bc4d2cac833696"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe5ab04bc4d2cac83369d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f50f03754fe678cd1eb86"),
+    "question_type": NumberInt("3"),
+    "answer_value": "111",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe46f04bc4d2cac833696"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("623fe5ab04bc4d2cac83369e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f51683754fe678cd1eb90"),
+    "question_type": NumberInt("3"),
+    "answer_value": "11",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("623fe46f04bc4d2cac833696"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009b803d3131948c8e44b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f3e143754fe678cd1eb05"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009af03d3131948c8e447"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009b803d3131948c8e44c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f4ae93754fe678cd1eb58"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009af03d3131948c8e447"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009b803d3131948c8e44d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f54263754fe678cd1ebac"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009af03d3131948c8e447"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009b803d3131948c8e44e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f50f03754fe678cd1eb86"),
+    "question_type": NumberInt("3"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009af03d3131948c8e447"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009b803d3131948c8e44f"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_id": ObjectId("622f51683754fe678cd1eb90"),
+    "question_type": NumberInt("3"),
+    "answer_value": "132",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009af03d3131948c8e447"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e45a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c677d223f3620fc4f99ce"),
+    "question_type": NumberInt("1"),
+    "answer_value": "A",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e45b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c861ad6fabe549ce68399"),
+    "question_type": NumberInt("1"),
+    "answer_value": "B",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e45c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c8673d6fabe549ce6839c"),
+    "question_type": NumberInt("1"),
+    "answer_value": "C",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e45d"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622ed31b7dbf4260802f7187"),
+    "question_type": NumberInt("1"),
+    "answer_value": "B",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e45e"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0198b8afca64ec684c0e"),
+    "question_type": NumberInt("1"),
+    "answer_value": "A",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e45f"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f0206b8afca64ec684c10"),
+    "question_type": NumberInt("1"),
+    "answer_value": "A",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e460"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c86fbd6fabe549ce6839f"),
+    "question_type": NumberInt("2"),
+    "answer_value": "2",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e461"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c872cd6fabe549ce683a5"),
+    "question_type": NumberInt("2"),
+    "answer_value": "231",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e462"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c873cd6fabe549ce683a8"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e463"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c874fd6fabe549ce683ab"),
+    "question_type": NumberInt("2"),
+    "answer_value": "12",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e464"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cacd387fe280dbc805693"),
+    "question_type": NumberInt("2"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e465"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafa887fe280dbc8056ad"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e466"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cafd187fe280dbc8056b1"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e467"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb00287fe280dbc8056b5"),
+    "question_type": NumberInt("2"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e468"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622cb04587fe280dbc8056b9"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e469"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622f04579c0a0c0f300b640f"),
+    "question_type": NumberInt("2"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e46a"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c877bd6fabe549ce683ae"),
+    "question_type": NumberInt("3"),
+    "answer_value": "213",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e46b"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87a4d6fabe549ce683b3"),
+    "question_type": NumberInt("3"),
+    "answer_value": "23",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("answers").insert([ {
+    _id: ObjectId("624009ce03d3131948c8e46c"),
+    "answer_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_id": ObjectId("622c87b5d6fabe549ce683b5"),
+    "question_type": NumberInt("3"),
+    "answer_value": "123",
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "exam_id": ObjectId("624009bd03d3131948c8e456"),
+    __v: NumberInt("0")
+} ]);
+
+// ----------------------------
+// Collection structure for classes
+// ----------------------------
+db.getCollection("classes").drop();
+db.createCollection("classes");
+db.getCollection("classes").createIndex({
+    "classes_name": NumberInt("1")
+}, {
+    name: "classes_name_1",
+    background: true,
+    unique: true
+});
+
+// ----------------------------
+// Documents of classes
+// ----------------------------
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2007975a2a6948676d90"),
+    "classes_name": "1705",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2014975a2a6948676d92"),
+    "classes_name": "1704",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2017975a2a6948676d94"),
+    "classes_name": "1703",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2022975a2a6948676d96"),
+    "classes_name": "1702",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2088681f907e2c5ef6c1"),
+    "classes_name": "1802",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b208b681f907e2c5ef6c3"),
+    "classes_name": "1803",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b208e681f907e2c5ef6c5"),
+    "classes_name": "1804",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2090681f907e2c5ef6c7"),
+    "classes_name": "1805",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b2097681f907e2c5ef6c9"),
+    "classes_name": "1901",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b209a681f907e2c5ef6cb"),
+    "classes_name": "1902",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b209d681f907e2c5ef6cd"),
+    "classes_name": "1903",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20a0681f907e2c5ef6cf"),
+    "classes_name": "1904",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20a3681f907e2c5ef6d1"),
+    "classes_name": "1905",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20a7681f907e2c5ef6d3"),
+    "classes_name": "2005",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20a9681f907e2c5ef6d5"),
+    "classes_name": "2001",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20ac681f907e2c5ef6d7"),
+    "classes_name": "2002",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20b0681f907e2c5ef6d9"),
+    "classes_name": "2003",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20b3681f907e2c5ef6db"),
+    "classes_name": "2004",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20b8681f907e2c5ef6dd"),
+    "classes_name": "2104",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20bb681f907e2c5ef6df"),
+    "classes_name": "2105",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20be681f907e2c5ef6e1"),
+    "classes_name": "2103",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20c0681f907e2c5ef6e3"),
+    "classes_name": "2102",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b20c3681f907e2c5ef6e5"),
+    "classes_name": "2101",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b6576589f8021482fbb8f"),
+    "classes_name": "2201",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b6671589f8021482fbb93"),
+    "classes_name": "2202",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b667b589f8021482fbb96"),
+    "classes_name": "2203",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622b6a94fdfa4657d017a2b2"),
+    "classes_name": "2204",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("622c0d078af193236898c0d4"),
+    "classes_name": "计算机1703",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("classes").insert([ {
+    _id: ObjectId("6240098f03d3131948c8e434"),
+    "classes_name": "计算机123",
+    __v: NumberInt("0")
+} ]);
+
+// ----------------------------
+// Collection structure for exams
+// ----------------------------
+db.getCollection("exams").drop();
+db.createCollection("exams");
+
+// ----------------------------
+// Documents of exams
+// ----------------------------
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623ea4cbb6c38f2070b364d9"),
+    "sum_score": NumberInt("75"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "user_id": ObjectId("62300c3329ef3926a01382a5"),
+    "start_time": "1648354415171",
+    __v: NumberInt("0"),
+    "brief_score": NumberInt("31"),
+    "empty_score": NumberInt("31"),
+    "select_score": NumberInt("13"),
+    "end_time": 1648354415171
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623ea4dbb6c38f2070b364f8"),
+    "sum_score": NumberInt("75"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648272602966",
+    __v: NumberInt("0"),
+    "brief_score": NumberInt("11"),
+    "empty_score": NumberInt("11"),
+    "select_score": NumberInt("11"),
+    "end_time": 1648353656779
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623eaad462d53c11583edbfa"),
+    "sum_score": NumberInt("75"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648274132111",
+    __v: NumberInt("0"),
+    "brief_score": NumberInt("17777"),
+    "empty_score": NumberInt("11"),
+    "select_score": NumberInt("11"),
+    "end_time": 1648353656779
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623ebb5536416e3118a7476f"),
+    "sum_score": NumberInt("139"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648278356752",
+    __v: NumberInt("0"),
+    "brief_score": 12,
+    "empty_score": 23,
+    "select_score": 123,
+    "end_time": 1648353656779
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623f27ffcb56e616f0c2fc36"),
+    "sum_score": 123,
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648306174944",
+    __v: NumberInt("0"),
+    "brief_score": NumberInt("213"),
+    "empty_score": NumberInt("123"),
+    "select_score": 213,
+    "end_time": 1648353656779
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623f2807cb56e616f0c2fc44"),
+    "sum_score": NumberInt("75"),
+    "paper_id": ObjectId("623c5047bb3eaf2ef81d28d8"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648354415171",
+    __v: NumberInt("0"),
+    "brief_score": 213,
+    "empty_score": 123,
+    "end_time": 1648354731460
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623f280fcb56e616f0c2fc4f"),
+    "sum_score": 23,
+    "paper_id": ObjectId("623dadc0889c5e317cff274f"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648354415171",
+    __v: NumberInt("0"),
+    "select_score": NumberInt("123"),
+    "empty_score": 123,
+    "brief_score": 123,
+    "end_time": 1648353656779
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623f2816cb56e616f0c2fc59"),
+    "sum_score": NumberInt("82"),
+    "paper_id": ObjectId("623daff7889c5e317cff278f"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648354415171",
+    __v: NumberInt("0"),
+    "empty_score": 123,
+    "brief_score": 123,
+    "select_score": 123,
+    "end_time": 1648354731460
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623f30b71c382d091ccb9bd1"),
+    "sum_score": NumberInt("64"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648308406916",
+    __v: NumberInt("0"),
+    "brief_score": 12
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623fe0b8ca9f901ccc525807"),
+    "sum_score": 64,
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648353464401",
+    __v: NumberInt("0"),
+    "brief_score": NumberInt("123"),
+    "empty_score": NumberInt("123")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623fe0fb079c452ccc70eadf"),
+    "sum_score": 64,
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648353530880",
+    __v: NumberInt("0"),
+    "brief_score": NumberInt("31"),
+    "empty_score": NumberInt("31")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623fe16f04bc4d2cac833660"),
+    "sum_score": 12,
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648353646969",
+    __v: NumberInt("0"),
+    "end_time": "1648353656779",
+    "brief_score": NumberInt("1"),
+    "empty_score": NumberInt("1")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623fe3d804bc4d2cac83368e"),
+    "sum_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648354415171",
+    __v: NumberInt("0"),
+    "end_time": 1648354731460,
+    "brief_score": 1
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("623fe46f04bc4d2cac833696"),
+    "sum_score": NumberInt("28"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648354415171",
+    __v: NumberInt("0"),
+    "end_time": "16483547314601648354415171",
+    "brief_score": NumberInt("4"),
+    "empty_score": NumberInt("24")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("624009af03d3131948c8e447"),
+    "sum_score": NumberInt("0"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648363950872",
+    __v: NumberInt("0"),
+    "end_time": "1648363960569"
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("624009bd03d3131948c8e456"),
+    "sum_score": NumberInt("0"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "start_time": "1648363964711",
+    __v: NumberInt("0"),
+    "end_time": "1648363982966"
+} ]);
+
+// ----------------------------
+// Collection structure for papers
+// ----------------------------
+db.getCollection("papers").drop();
+db.createCollection("papers");
+
+// ----------------------------
+// Documents of papers
+// ----------------------------
+db.getCollection("papers").insert([ {
+    _id: ObjectId("622ee63a265b5f608059fe18"),
+    "paper_status": NumberInt("1"),
+    "paper_for_classes": [
+        ObjectId("622b208e681f907e2c5ef6c5"),
+        ObjectId("622b208b681f907e2c5ef6c3"),
+        ObjectId("622b667b589f8021482fbb96")
+    ],
+    "paper_title": "java",
+    "paper_type": NumberInt("1"),
+    "created_at": "1647240762532",
+    "paper_points": "本书覆盖 ES6 与上一个版本 ES5 的所有不同之处，对涉及的语法知识给予详细介绍，并给出大量简洁易懂的示例代码。\n\n本书为中级难度，适合已经掌握 ES5 的读者，用来了解这门语言的最新发展；也可当作参考手册，查寻新增的语法点。如果你是 JavaScript 语言的初学者，建议先学完《JavaScript 语言入门教程》，再来看本书。\n\n全书已由电子工业出版社出版，2017年9月推出了第三版，书名为《ES6 标准入门》。纸版是基于网站内容排版印刷的。\n\n感谢张春雨编辑支持我将全书开源的做法。如果您认可这本书，建议购买纸版。这样可以使出版社不因出版开源书籍而亏钱，进而鼓励更多的作者开源自己的书籍。下面是第三版的购买地址。",
+    "paper_time": NumberInt("60"),
+    "paper_score": NumberInt("120"),
+    "user_id": ObjectId("622c0c868af193236898c0b5"),
+    __v: NumberInt("0"),
+    "pass_at": "1647360877052"
+} ]);
+db.getCollection("papers").insert([ {
+    _id: ObjectId("622f014ab8afca64ec684c0a"),
+    "paper_status": NumberInt("1"),
+    "paper_for_classes": [
+        ObjectId("622b2014975a2a6948676d92"),
+        ObjectId("622b2017975a2a6948676d94"),
+        ObjectId("622b20b0681f907e2c5ef6d9")
+    ],
+    "paper_title": "张三讲法律",
+    "paper_type": NumberInt("1"),
+    "created_at": "1647247690503",
+    "paper_points": "法本书覆盖 ES6 与上一个版本 ES5 的所有不同之处，对涉及的语法知识给予详细介绍，并给出大量简洁易懂的示例代码。\n\n本书为中级难度，适合已经掌握 ES5 的读者，用来了解这门语言的最新发展；也可当作参考手册，查寻新增的语法点。如果你是 JavaScript 语言的初学者，建议先学完《JavaScript 语言入门教程》，再来看本书。\n\n全书已由电子工业出版社出版，2017年9月推出了第三版，书名为《ES6 标准入门》。纸版是基于网站内容排版印刷的。\n\n感谢张春雨编辑支持我将全书开源的做法。如果您认可这本书，建议购买纸版。这样可以使出版社不因出版开源书籍而亏钱，进而鼓励更多的作者开源自己的书籍。下面是第三版的购买地址。",
+    "paper_time": NumberInt("120"),
+    "paper_score": NumberInt("120"),
+    "user_id": ObjectId("622c0c868af193236898c0b5"),
+    __v: NumberInt("0"),
+    "pass_at": "1648119818381"
+} ]);
+db.getCollection("papers").insert([ {
+    _id: ObjectId("623c5047bb3eaf2ef81d28d8"),
+    "paper_status": NumberInt("1"),
+    "paper_for_classes": [
+        ObjectId("622b2088681f907e2c5ef6c1")
+    ],
+    "paper_title": "11",
+    "paper_type": NumberInt("1"),
+    "created_at": "1648119879721",
+    "paper_points": "11",
+    "paper_time": NumberInt("1"),
+    "paper_score": NumberInt("1"),
+    __v: NumberInt("0"),
+    "pass_at": "1648131819301"
+} ]);
+db.getCollection("papers").insert([ {
+    _id: ObjectId("623dadc0889c5e317cff274f"),
+    "paper_status": NumberInt("1"),
+    "paper_for_classes": [
+        ObjectId("622b2007975a2a6948676d90"),
+        ObjectId("622b2014975a2a6948676d92"),
+        ObjectId("622b2017975a2a6948676d94")
+    ],
+    "paper_title": "小李",
+    "paper_type": NumberInt("1"),
+    "created_at": "1648209344519",
+    "paper_points": "小李",
+    "paper_time": NumberInt("100"),
+    "paper_score": NumberInt("100"),
+    __v: NumberInt("0"),
+    "pass_at": "1648209404474"
+} ]);
+db.getCollection("papers").insert([ {
+    _id: ObjectId("623daff7889c5e317cff278f"),
+    "paper_status": NumberInt("1"),
+    "paper_for_classes": [
+        ObjectId("622b2017975a2a6948676d94")
+    ],
+    "paper_title": "11",
+    "paper_type": NumberInt("3"),
+    "created_at": "1648209911003",
+    "paper_points": "11",
+    "paper_time": NumberInt("100"),
+    "paper_score": NumberInt("100"),
+    __v: NumberInt("0"),
+    "pass_at": "1648209949480"
+} ]);
+
+// ----------------------------
+// Collection structure for questions
+// ----------------------------
+db.getCollection("questions").drop();
+db.createCollection("questions");
+
+// ----------------------------
+// Documents of questions
+// ----------------------------
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c677d223f3620fc4f99ce"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "张三说李四来了",
+        options: [
+            {
+                "option_key": "A",
+                "option_value": "张三来了"
+            },
+            {
+                "option_key": "B",
+                "option_value": "李四来了"
+            }
+        ]
+    },
+    "question_value": "B",
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c861ad6fabe549ce68399"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "计算机系统采用总线结构对存储器和外设进行协调。总线常有（ ）3部分组成。",
+        options: [
+            {
+                "option_key": "A",
+                "option_value": "数据总线、地址总线和控制总线"
+            },
+            {
+                "option_key": "B",
+                "option_value": "输入总线、输出总线和控制总线"
+            },
+            {
+                "option_key": "C",
+                "option_value": "外部总线、内部总线和中枢总线"
+            },
+            {
+                "option_key": "D",
+                "option_value": "通信总线、接受总线和发送总线"
+            }
+        ]
+    },
+    "question_value": "A",
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c8673d6fabe549ce6839c"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "在多媒体计算机系统中，不能用以存储多媒体信息的是（ ）",
+        options: [
+            {
+                "option_key": "A",
+                "option_value": "磁带"
+            },
+            {
+                "option_key": "B",
+                "option_value": "光缆"
+            },
+            {
+                "option_key": "C",
+                "option_value": "磁盘 "
+            },
+            {
+                "option_key": "D",
+                "option_value": "光盘"
+            }
+        ]
+    },
+    "question_value": "B",
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c86fbd6fabe549ce6839f"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "通常将计算机的中央处理器称为运算控制单元，又称为_______，它是由控制器和运算器组成的。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c872cd6fabe549ce683a5"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "磁盘在第一次使用前，通常要进行________。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c873cd6fabe549ce683a8"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "一个汉字存放在计算机内，一般占用________个字节。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c874fd6fabe549ce683ab"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "WindowsXP对磁盘信息进行管理和使用是以________为单位的。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c877bd6fabe549ce683ae"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("3"),
+    "question_content": {
+        "question_title": "简述计算机系统的多级层次结构的分层理由及各层功能？"
+    },
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c87a4d6fabe549ce683b3"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("3"),
+    "question_content": {
+        "question_title": "计算机的五大基本组成是什么"
+    },
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622c87b5d6fabe549ce683b5"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("3"),
+    "question_content": {
+        "question_title": "计算机系统5层层次结构从下到上由哪五层组成？哪些是物理机，哪些是虚拟机？"
+    },
+    "question_score": NumberInt("20"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622cacd387fe280dbc805693"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "操作系统的作用是管理和控制________的使用。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622cafa887fe280dbc8056ad"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "汉字输入、输出、存储和处理过程中所使用的汉字代码不相同。有用于汉字输入的输入码，用于计算机内部汉字存储和处理的________。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622cafd187fe280dbc8056b1"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "计算机是由运算器、存储器、________、输入设备和输出设备五个基本部分组成的。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622cb00287fe280dbc8056b5"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "________是连接计算机中各个部件的物理信号线。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622cb04587fe280dbc8056b9"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "运算器的功能主要是进行算术运算和________。"
+    },
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622ed31b7dbf4260802f7187"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "计算机系统采用总线结构对存储器和外设进行协调。总线常有（ ）3部分组成。",
+        options: [
+            {
+                "option_key": "A",
+                "option_value": "数据总线、地址总线和控制总线"
+            },
+            {
+                "option_key": "B",
+                "option_value": "输入总线、输出总线和控制总线   "
+            },
+            {
+                "option_key": "C",
+                "option_value": "外部总线、内部总线和中枢总线 "
+            },
+            {
+                "option_key": "D",
+                "option_value": "通信总线、接受总线和发送总线"
+            }
+        ]
+    },
+    "question_value": "A",
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f0198b8afca64ec684c0e"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "张三杀了人，但是是在迫不得已的情况下，这个时候要判几年？",
+        options: [
+            {
+                "option_key": "A",
+                "option_value": "1-3年"
+            },
+            {
+                "option_key": "B",
+                "option_value": "3-5年"
+            },
+            {
+                "option_key": "C",
+                "option_value": "5-10年"
+            },
+            {
+                "option_key": "D",
+                "option_value": "10-20年"
+            },
+            {
+                "option_key": "E",
+                "option_value": "无期徒刑"
+            }
+        ]
+    },
+    "question_value": "C",
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f0206b8afca64ec684c10"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "张三杀了人，但是是在迫不得已的情况下，这个时候要判几年？",
+        options: [
+            {
+                "option_key": "A",
+                "option_value": "1-3年"
+            },
+            {
+                "option_key": "B",
+                "option_value": "3-5年"
+            },
+            {
+                "option_key": "C",
+                "option_value": "5-10年"
+            },
+            {
+                "option_key": "D",
+                "option_value": "10-20年"
+            },
+            {
+                "option_key": "E",
+                "option_value": "无期徒刑"
+            }
+        ]
+    },
+    "question_value": "C",
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f04579c0a0c0f300b640f"),
+    "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "控制器是由程序计数器、指令寄存器和________等组成的。"
+    },
+    "question_score": NumberInt("5"),
+    "question_value": "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f3e143754fe678cd1eb05"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "计算机的硬件能够识别并执行的一个基本操作命令称为________。"
+    },
+    "question_score": NumberInt("5"),
+    "question_value": "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f4ae93754fe678cd1eb58"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "一条指令至少包括操作码和________两部分内容。"
+    },
+    "question_score": NumberInt("5"),
+    "question_value": "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f50f03754fe678cd1eb86"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_type": NumberInt("3"),
+    "question_content": {
+        "question_title": "什么是存储单元、存储字、存储字长、存储体？"
+    },
+    "question_value": "\n存储单元：存储一个存储字并具有特定存储地址的存储单位；\n存储字：一个存储单元中存放的所有的二进制数据，按照某个地址访问某个存储单元获取的二进制数据。\n存储字长：存储字中二进制数据的位数，即按照某个地址访问某个存储单元获取的二进制数据的位数；\n存储体：由多个存储单元构成的存储器件。",
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f51683754fe678cd1eb90"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_type": NumberInt("3"),
+    "question_content": {
+        "question_title": "浮点加减运算基本按照哪几步来进行"
+    },
+    "question_value": "\n1）对阶：使小数点对齐；\n2）尾数求和：将对阶后的两个尾数按照定点加减运算规则求和；\n3）规格化：尾数规格化；\n4）舍入：尾数右规时，丢失数值位；\n5）溢出判断：判断结果是否溢出。",
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("622f54263754fe678cd1ebac"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "指令的有序排列称为________。"
+    },
+    "question_score": NumberInt("5"),
+    "question_value": "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("623c506ebb3eaf2ef81d28f9"),
+    "paper_id": ObjectId("623c5047bb3eaf2ef81d28d8"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "11"
+    },
+    "question_value": "111",
+    "question_score": NumberInt("1"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("623c5083bb3eaf2ef81d28fc"),
+    "paper_id": ObjectId("623c5047bb3eaf2ef81d28d8"),
+    "question_type": NumberInt("2"),
+    "question_content": {
+        "question_title": "123123"
+    },
+    "question_value": "123213",
+    "question_score": NumberInt("0"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("623daddd889c5e317cff2753"),
+    "paper_id": ObjectId("623dadc0889c5e317cff274f"),
+    "question_type": NumberInt("1"),
+    "question_content": {
+        "question_title": "小李来了",
+        options: [
+            {
+                "option_key": "11",
+                "option_value": "11"
+            },
+            {
+                "option_key": "2222",
+                "option_value": "11"
+            }
+        ]
+    },
+    "question_value": "B",
+    "question_score": NumberInt("5"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("questions").insert([ {
+    _id: ObjectId("623db018889c5e317cff2793"),
+    "paper_id": ObjectId("623daff7889c5e317cff278f"),
+    "question_type": NumberInt("3"),
+    "question_content": {
+        "question_title": "我是谁"
+    },
+    "question_value": "地方数据是给打发了结果还是豆腐干和山东积分时都会发生的恢复开放和受到了发货速度的佛教是的覅和山东i发货送到丰厚的是  红烧豆腐和史丹佛i",
+    "question_score": NumberInt("10"),
+    __v: NumberInt("0")
+} ]);
+
+// ----------------------------
+// Collection structure for signs
+// ----------------------------
+db.getCollection("signs").drop();
+db.createCollection("signs");
+
+// ----------------------------
+// Documents of signs
+// ----------------------------
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623ee3e1a94676304465c7c3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648288737949",
+    date: 23,
+    __v: NumberInt("0"),
+    "sign_out": "1648289569358"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623ee756a94676304465c7c6"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648289622702",
+    __v: NumberInt("0"),
+    date: "126",
+    "sign_out": "1648289673726"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623ee795a94676304465c7c9"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648289685248",
+    __v: NumberInt("0"),
+    date: "214",
+    "sign_out": "1648289859215"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623ee881a94676304465c7cc"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648289921056",
+    __v: NumberInt("0"),
+    date: "1",
+    "sign_out": "1648290013615"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623ee8e7a94676304465c7d3"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648290023359",
+    __v: NumberInt("0"),
+    date: "",
+    "sign_out": "1648290048895"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623ee903a94676304465c7d8"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648290051239",
+    __v: NumberInt("0"),
+    date: "30",
+    "sign_out": "1648290260088"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: "623ee3e1a94676304465c7c3",
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648288737949,
+    date: 23,
+    __v: 0,
+    "sign_out": 1648289569358
+} ]);
+db.getCollection("signs").insert([ {
+    _id: "623ee756a94676304465c7c6",
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648289622702,
+    date: 126,
+    __v: 0,
+    "sign_out": 1648289673726
+} ]);
+db.getCollection("signs").insert([ {
+    _id: "623ee795a94676304465c7c9",
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648289685248,
+    date: 214,
+    __v: 0,
+    "sign_out": 1648289859215
+} ]);
+db.getCollection("signs").insert([ {
+    _id: "623ee881a94676304465c7cc",
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648289921056,
+    date: 1,
+    __v: 0,
+    "sign_out": 1648290013615
+} ]);
+db.getCollection("signs").insert([ {
+    _id: "623ee8e7a94676304465c7d3",
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290023359,
+    date: "",
+    __v: 0,
+    "sign_out": 1648290048895
+} ]);
+db.getCollection("signs").insert([ {
+    _id: "623ee903a94676304465c7d8",
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290051239,
+    date: 30,
+    __v: 0,
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efba898760000e20035c2"),
+    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    date: 78,
+    "sign_in": 1648290051239,
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbc898760000e20035c3"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290051239,
+    date: 30,
+    __v: 0,
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbc898760000e20035c4"),
+    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "sign_in": 1648290051239,
+    date: 78,
+    __v: "",
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035c5"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290051239,
+    date: 30,
+    __v: 0,
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035c6"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648288737949,
+    date: 23,
+    __v: 0,
+    "sign_out": 1648289569358
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035c7"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648289622702,
+    date: 126,
+    __v: 0,
+    "sign_out": 1648289673726
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035c8"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648289685248,
+    date: 214,
+    __v: 0,
+    "sign_out": 1648289859215
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035c9"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648289921056,
+    date: 1,
+    __v: 0,
+    "sign_out": 1648290013615
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035ca"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290023359,
+    date: "",
+    __v: 0,
+    "sign_out": 1648290048895
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035cb"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290051239,
+    date: 30,
+    __v: 0,
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035cc"),
+    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "sign_in": 1648290051239,
+    date: 78,
+    __v: "",
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035cd"),
+    "user_id": "62300c1829ef3926a0138297",
+    "sign_in": 1648290051239,
+    date: 56,
+    __v: 0,
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("623efbd098760000e20035ce"),
+    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "sign_in": 1648290051239,
+    date: 78,
+    __v: "",
+    "sign_out": 1648290260088
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("624008a903d3131948c8e3ea"),
+    "user_id": ObjectId("622e3aee8856fa50f049a593"),
+    "sign_in": "1648363689493",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1648363690461"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6240091803d3131948c8e3f2"),
+    "user_id": ObjectId("622e3aee8856fa50f049a593"),
+    "sign_in": "1648363800246",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1648363804294"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("624009a803d3131948c8e43e"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1648363944350",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1648363945846"
+} ]);
+
+// ----------------------------
+// Collection structure for users
+// ----------------------------
+db.getCollection("users").drop();
+db.createCollection("users");
+db.getCollection("users").createIndex({
+    uname: NumberInt("1")
+}, {
+    name: "uname_1",
+    background: true,
+    unique: true
+});
+db.getCollection("users").createIndex({
+    phone: NumberInt("1")
+}, {
+    name: "phone_1",
+    background: true,
+    unique: true
+});
+
+// ----------------------------
+// Documents of users
+// ----------------------------
+db.getCollection("users").insert([ {
+    _id: ObjectId("62272af4db71000061001e24"),
+    uname: "root",
+    pwd: "123456",
+    "user_type": 1,
+    phone: "root",
+    name: "超管"
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("622b8d161a6fca6d60b4bce7"),
+    name: "张三",
+    "user_type": NumberInt("3"),
+    phone: "18899793105",
+    "created_at": "1647021334538",
+    pwd: "123456",
+    uname: "18333333105",
+    __v: NumberInt("0"),
+    "classes_id": ObjectId("622b2022975a2a6948676d96")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("622c0c868af193236898c0b5"),
+    name: "李四",
+    "user_type": NumberInt("2"),
+    phone: "17136679925",
+    "created_at": "1647053958227",
+    pwd: "123456",
+    uname: "17133333324",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("622e3aee8856fa50f049a593"),
+    name: "wangwu",
+    "user_type": NumberInt("2"),
+    phone: "11111111111",
+    "created_at": "1647196910667",
+    pwd: "111111",
+    uname: "11111111111",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("622f7d3e5d33e46aac3cf4e4"),
+    name: "网管",
+    "user_type": NumberInt("3"),
+    phone: "13745678900",
+    "created_at": "1647279422433",
+    "classes_id": ObjectId("622b20b0681f907e2c5ef6d9"),
+    pwd: "123456",
+    uname: "13745678900",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("62300c1829ef3926a0138297"),
+    name: "刘德华",
+    "user_type": NumberInt("3"),
+    phone: "10000000000",
+    "created_at": "1647315991801",
+    "classes_id": ObjectId("622b20c0681f907e2c5ef6e3"),
+    pwd: "000000",
+    uname: "10000000000",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("62300c4d29ef3926a01382b4"),
+    name: "六六",
+    "user_type": NumberInt("2"),
+    phone: "16666666666",
+    "created_at": "1647316045286",
+    pwd: "666666",
+    uname: "16666666666",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("62300c9f29ef3926a01382bb"),
+    name: "wuwu",
+    "user_type": NumberInt("2"),
+    phone: "15555555555",
+    "created_at": "1647316127617",
+    pwd: "555555",
+    uname: "15555555555",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("6240097803d3131948c8e42a"),
+    name: "1212",
+    "user_type": NumberInt("3"),
+    phone: "13692995968",
+    "created_at": "1648363896314",
+    "classes_id": ObjectId("622b2017975a2a6948676d94"),
+    pwd: "995968",
+    uname: "13692995968",
+    __v: NumberInt("0")
+} ]);

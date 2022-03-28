@@ -9,13 +9,24 @@ type UserQuery {
   class: [Classes]
 }
 
+ input UpdateScore {
+  select_score: Int @deprecated(reason: "选择题得分")
+  empty_score: Int @deprecated(reason: "填空题得分")
+  brief_score: Int @deprecated(reason: "简答题得分")
+  sum_score: Int @deprecated(reason: "总分")
+}
+
 type Exam {
   _id: ID @deprecated(reason: "回答ID")
   paper_id: ID @deprecated(reason: "试卷ID")
   user_id: ID @deprecated(reason: "考试者")
   start_time: String @deprecated(reason: "开始时间")
   end_time: String @deprecated(reason: "结束时间")
-  score: Int @deprecated(reason: "考试得分")
+   time: String @deprecated(reason: "时长")
+  select_score: Int @deprecated(reason: "选择得分")
+  empty_score: Int @deprecated(reason: "填空得分")
+  brief_score: Int @deprecated(reason: "简答得分")
+  sum_score: Int @deprecated(reason: "总分")
   user: [UserQuery]
   paper: [Paper]
 }
@@ -25,6 +36,7 @@ input ExamInput {
   user_id: ID @deprecated(reason: "考试者")
   start_time: String @deprecated(reason: "开始时间")
   end_time: String @deprecated(reason: "结束时间")
+  time: String @deprecated(reason: "时长")
   score: Int @deprecated(reason: "考试得分")
 }
 
@@ -32,3 +44,4 @@ type ExamList {
   data: [Exam]
   total: Int
 }
+

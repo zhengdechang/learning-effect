@@ -14,10 +14,9 @@ import Marquee from 'react-fast-marquee';
 import { endExam } from '@/services/exam';
 import { connect } from 'dva'
 
+class AnswerSheet extends BaseForm {
 
-class AnswerSheet extends BaseForm{
-
-    constructor(props){
+    constructor(props) {
         super(props);
         _.assign(this.state, {});
     }
@@ -34,70 +33,93 @@ class AnswerSheet extends BaseForm{
         return {
             // 配置按钮文本
             searchConfig: {
-              resetText: '重置',
-              submitText: '提交',
+                resetText: '重置',
+                submitText: '提交',
             },
             // 配置按钮的属性
             resetButtonProps: {
-              style: {
-                // 隐藏重置按钮
-                display: 'none',
-              },
+                style: {
+                    // 隐藏重置按钮
+                    display: 'none',
+                },
             },
             submitButtonProps: {},
 
             // 完全自定义整个区域
             render: (props, doms) => {
-              return [
-                <Popconfirm
-                    placement="topRight"
-                    title="确定要重置答题卡？"
-                    onConfirm={() => props.form?.resetFields()}
-                    okText="确定"
-                    cancelText="取消"
-                    key="rest"
-                >
-                    <Button type="primary" danger>
-                        重置
-                    </Button>
-                </Popconfirm>,
-                <Popconfirm
-                    placement="topRight"
-                    title="确定要提交答题卡？"
-                    onConfirm={() => props.form?.submit?.()}
-                    okText="确定"
-                    cancelText="取消"
-                    key="submit"
-                >
-                    <Button type="primary">
-                        交卷
-                    </Button>
-                </Popconfirm>,
-              ];
+                return [
+                    <Popconfirm
+                        placement="topRight"
+                        title="确定要重置答题卡？"
+                        onConfirm={() => props.form?.resetFields()}
+                        okText="确定"
+                        cancelText="取消"
+                        key="rest"
+                    >
+                        <Button type="primary" danger>
+                            重置
+                        </Button>
+                    </Popconfirm>,
+                    <Popconfirm
+                        placement="topRight"
+                        title="确定要提交答题卡？"
+                        onConfirm={() => props.form?.submit?.()}
+                        okText="确定"
+                        cancelText="取消"
+                        key="submit"
+                    >
+                        <Button type="primary">
+                            交卷
+                        </Button>
+                    </Popconfirm>,
+                ];
             },
         };
     }
 
     handleSubmit = async () => {
+
         const validateValue = await this.formRef.current?.validateFields();
         const answers = this.formatValue(validateValue);
+
+
+        console.log(answers, '1')
+
+        const user = await getUser();
+        console.log(user, '12')
+
 
         const query = `mutation AddAnswers($answers: [AnswerInput]) {
           addAnswers(answers: $answers)
         }`;
+
+
+
+
+
         const variables = {
-            answers,
+            answers: answers.map(item => {
+                return {
+                    ...item,
+                    user_id: user._id,
+                    exam_id: this.props.examId
+                }
+            }),
         };
 
         try {
-          await graphql(query, variables);
-          await endExam(this.props.examId);
-          message.success('交卷完成');
-          history.push('/paper');
+            this.props.handlEndtExam
+            await graphql(query, variables);
+            await endExam(this.props.examId);
+            message.success('交卷完成');
+            history.push('/paper');
         } catch (error) {
-          console.error(error);
+            console.error(error);
         }
     }
+
+
+
 
     formatValue = (obj) => {
         const data = [];
@@ -106,7 +128,7 @@ class AnswerSheet extends BaseForm{
             questionDict[item._id] = item;
         });
 
-        for(let key in obj){
+        for (let key in obj) {
             const question = questionDict[key];
 
             data.push({
@@ -127,11 +149,13 @@ class AnswerSheet extends BaseForm{
                 type: 'select',
                 width: 'xs',
                 name: `${item?._id}`,
-                label: `选择题 ${index+1}`,
+                label: `选择题 ${index + 1}`,
                 options: _.map(item?.question_content?.options, option => ({
                     value: option?.option_key,
                     label: option?.option_key,
-                }))
+                })),
+                // disabled:true,
+                // value:'B'
             }
         });
 
@@ -139,7 +163,7 @@ class AnswerSheet extends BaseForm{
             type: "text",
             width: 'lg',
             name: `${item?._id}`,
-            label: `填空题 ${index+1}`,
+            label: `填空题 ${index + 1}`,
             placeholder: "请输入",
         }));
 
@@ -147,7 +171,7 @@ class AnswerSheet extends BaseForm{
             type: "area",
             width: 'lg',
             name: `${item?._id}`,
-            label: `简答题 ${index+1}`,
+            label: `简答题 ${index + 1}`,
             placeholder: "请输入",
         }));
 
@@ -164,12 +188,13 @@ class AnswerSheet extends BaseForm{
     completionList: state.paper.completionList,
     shortList: state.paper.shortList,
 }))
-export default class Component extends React.PureComponent{
+export default class Component extends React.PureComponent {
     paperDetailRef = React.createRef();
     answerSheetRef = React.createRef();
 
-    constructor(props){
+    constructor(props) {
         super(props);
+        this.paperId = this.props.paperId || this.props.match?.params?.paperId;
         this.state = {
             config: {},
             user: {},
@@ -185,8 +210,16 @@ export default class Component extends React.PureComponent{
         // 参加过考试的学生不可以再参加考试
         const config = await getConfig();
         const user = await getUser();
-        const { data: papers } = await getPapers();
-        const paper = !_.isEmpty(papers) && papers[0];
+        const { data } = await getPapers();
+
+        // const paper = !_.isEmpty(data) && Array.form(data).fliter(item=>item?._id == props.match?.params?.paperId)
+
+        const paper = data.filter(item => {
+            return item?._id == this.paperId
+        })?.[0]
+
+        console.log(paper, 'paper')
+
         this.setState({
             config,
             user,
@@ -200,6 +233,31 @@ export default class Component extends React.PureComponent{
         //     message.warning('非法操作');
         //     history.push('/paper');
         // }
+    }
+
+
+    handlEndtExam = async () => {
+        // 开始考试
+        const query = `mutation updateExam($exam: ExamInput){
+            addExam(exam: $exam)
+        }`;
+
+        const variables = {
+            id: this.state.examId,
+            exam: {
+                end_time: moment(),
+            }
+        };
+
+        try {
+            const res = await graphql(query, variables);
+            console.log(res)
+        } catch (error) {
+            console.error(error);
+            return;
+        }
+
+
     }
 
     componentWillUnmount = async () => {
@@ -221,6 +279,7 @@ export default class Component extends React.PureComponent{
             }
         }`;
 
+        console.log(this.state.paper, '1')
         const variables = {
             exam: {
                 paper_id: this.state.paper?._id,
@@ -238,6 +297,8 @@ export default class Component extends React.PureComponent{
             return;
         }
 
+        console.log(examId, 'examId')
+
         this.setState({
             examStatus: true,
             examId,
@@ -246,7 +307,7 @@ export default class Component extends React.PureComponent{
         const self = this;
         // 计时，到时间交卷
         self.timer = window.setInterval(async () => {
-            if(self.state.remainTime <= 0){
+            if (self.state.remainTime <= 0) {
                 // 到时间交卷
                 await self.answerSheetRef?.current?.props?.form?.submit?.();
                 // 离开此页面
@@ -271,6 +332,7 @@ export default class Component extends React.PureComponent{
                 completionList={this.props.completionList}
                 shortList={this.props.shortList}
                 examId={this.state.examId}
+                handlEndtExam={this.handlEndtExam}
             />
         </ProCard>)
     }
@@ -282,17 +344,17 @@ export default class Component extends React.PureComponent{
         //     +':'+moment.duration(this.state.remainTime).seconds();
         return (<PageContainer
             header={{
-              title: '考试',
-              extra: [
-                <Alert
-                    message={this.state.remainTime}
-                    type="warning"
-                    showIcon
-                />
-              ],
+                title: '考试',
+                extra: [
+                    <Alert
+                        message={this.state.remainTime}
+                        type="warning"
+                        showIcon
+                    />
+                ],
             }}
-          >
-            { !this.state.examStatus && <ProCard>
+        >
+            {!this.state.examStatus && <ProCard>
                 <Descriptions
                     title={this.state.paper?.paper_title}
                     bordered
@@ -310,9 +372,9 @@ export default class Component extends React.PureComponent{
                         <div>3. 考试时间结束，自动交卷。</div>
                     </Descriptions.Item>
                 </Descriptions>
-                <Button type="primary"  style={{ marginTop: 10 }} onClick={this.handleStartExam}>开始考试</Button>
-            </ProCard> }
-            { this.state.examStatus && this.state.examId != undefined && <>
+                <Button type="primary" style={{ marginTop: 10 }} onClick={this.handleStartExam}>开始考试</Button>
+            </ProCard>}
+            {this.state.examStatus && this.state.examId != undefined && <>
                 <Alert
                     banner
                     message={
@@ -320,10 +382,10 @@ export default class Component extends React.PureComponent{
                             诚信考试；考试过程中请勿跳转页面或者关闭页面，系统对于此操作视为交卷。
                         </Marquee>
                     }
-                    />
+                />
                 {this.renderAnswerSheet()}
-                <Detail ref={this.paperDetailRef} type="exam" />
-            </> }
-          </PageContainer>);
+                <Detail ref={this.paperDetailRef} type="exam" paperId={this.state.paper?._id} />
+            </>}
+        </PageContainer>);
     }
 }

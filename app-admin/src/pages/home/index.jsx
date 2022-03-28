@@ -5,6 +5,7 @@ import styles from './index.less';
 import { getConfig, getUser } from '@/utils/dict';
 import graphql from '@/utils/graphql';
 
+
 export default class App extends React.Component {
   state = {
     value: moment(),
@@ -31,8 +32,32 @@ export default class App extends React.Component {
       {
         signTime: isSign,
       },
-      () => {
-        console.log(isSign);
+      async() => {
+
+        const query = `query SignList( $filters: Filters, $current: Int, $pageSize: Int){
+               signList(current: $current, pageSize: $pageSize, filters: $filters){
+              data {
+                _id
+                user_id
+                sign_in
+                sign_out
+                date
+              }
+              total
+            }
+          }`;
+        const variables = {};
+
+        try {
+          await graphql(query, variables);
+        } catch (error) {
+          console.error(error);
+        }
+
+
+
+        console.log(isSign, moment(Number(isSign)).format('YYYYMMDD HH:mm:ss'), '1234');
+        console.log(moment(Number(moment().valueOf())).diff(moment(Number(isSign)), 'minute'), '1234');
       },
     );
   };
@@ -56,8 +81,7 @@ export default class App extends React.Component {
     const variables = {
       sign: {
         user_id: user._id,
-        sign_in: moment().format('YYYYMMDD HHmmss'),
-        date: moment().format('YYYYMMDD HHmmss'),
+        sign_in: moment().valueOf(),
       },
     };
 
@@ -71,25 +95,7 @@ export default class App extends React.Component {
       console.error(error);
     }
 
-    //   const query = `query SignList( $filters: Filters, $current: Int, $pageSize: Int){
-    //            signList(current: $current, pageSize: $pageSize, filters: $filters){
-    //           data {
-    //             _id
-    //             user_id
-    //             sign_in
-    //             sign_out
-    //             date
-    //           }
-    //           total
-    //         }
-    //       }`;
-    //   const variables = {};
 
-    //   try {
-    //     await graphql(query, variables);
-    //   } catch (error) {
-    //     console.error(error);
-    //   }
   };
 
   signOut = async () => {
@@ -103,8 +109,8 @@ export default class App extends React.Component {
       sign: {
         user_id: user._id,
         sign_in: isSign?.sign_in,
-        sign_out: moment().format('YYYYMMDD HHmmss'),
-        date: moment().format('YYYYMMDD HHmmss'),
+        sign_out: moment().valueOf(),
+        date: moment(moment().valueOf()).diff(moment(Number(isSign?.sign_in)), 'minute'),
       },
     };
 
@@ -122,18 +128,17 @@ export default class App extends React.Component {
 
   render() {
     const { value, selectedValue } = this.state;
-    console.log(!!this.state.signTime, this.state.signTime, '11');
+    // console.log(!!this.state.signTime, this.state.signTime, '11');
     return (
       <div className={styles.sign}>
         <div className={styles.left}>
           <Alert
-            message={`你签到的时间是: ${
-              !!this.state.signTime
-                ? moment(this.state.signTime, 'YYYYMMDD HHmmss').format(
-                    'YYYY-MM-DD HH:mm:ss',
-                  )
+            message={`你签到的时间是: ${!!this.state.signTime
+                ? moment(Number(this.state.signTime)).format(
+                  'YYYY-MM-DD HH:mm:ss',
+                )
                 : ''
-            }`}
+              }`}
           />
           <Calendar
             value={value}

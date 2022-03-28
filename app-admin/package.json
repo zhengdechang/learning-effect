@@ -27,6 +27,7 @@
     "@ant-design/pro-list": "^1.21.37",
     "@ant-design/pro-skeleton": "^1.0.5",
     "@ant-design/pro-table": "^2.66.4",
+    "bizcharts": "^4.1.15",
     "jsencrypt": "^3.2.1",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
@@ -43,5 +44,6 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.0",
     "yorkie": "^2.0.0"
-  }
+  },
+  "__npminstall_done": false
 }

@@ -8,7 +8,11 @@ module.exports = app => {
     user_id: { type: Schema.Types.ObjectId, ref: 'User' },
     start_time: { type: String },
     end_time: { type: String },
-    score: { type: Number },
+    time:{ type: String },
+    select_score: { type: Number},
+    empty_score: { type: Number},
+    brief_score: { type: Number },
+    sum_score: { type: Number, default: 0 },
   });
 
   // 考试记录表

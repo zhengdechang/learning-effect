@@ -15,6 +15,10 @@ class Connector {
             conditions.paper_id = ObjectId(filters.paper_id);
         }
 
+        if (filters?.user_id) {
+            conditions.user_id = ObjectId(filters.user_id);
+        }
+
         // 根据 paper_id 获取 exams
         // 根据 exams 中的 user_id 获取 users
         // 根据 users 中的 classes_id 获取 classes
@@ -50,7 +54,6 @@ class Connector {
                 },
 
             },
-
             {
                 $match: conditions
             }])
@@ -67,12 +70,18 @@ class Connector {
     }
 
     async updateExam(id, exam) {
+        let res
         try {
-            this.ctx.service.exam.where({ _id: ObjectId(id) }).update(exam);
+           res = await this.ctx.model.Exam.where({ _id: ObjectId(id) }).update(exam);
+
         } catch (error) {
             this.ctx.throw(500, '更新失败');
         }
+
+        return res
     }
+
+    
 
     async delExam(ids) {
         try {
@@ -86,6 +95,19 @@ class Connector {
         }
         return ids;
     }
+
+
+    async addScore(id, sign) {
+        let res
+        try {
+            res = await this.ctx.model.Exam.where({ _id: ObjectId(id) }).updateOne(sign);
+        } catch (error) {
+            this.ctx.throw(500, '改卷失败');
+        }
+        return JSON.stringify(res);
+    }
+
+
 }
 
 module.exports = Connector;

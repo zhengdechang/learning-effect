@@ -38,6 +38,7 @@ class Connector {
     }
 
     async signOut(id, sign) {
+        
         try {
             await this.ctx.model.Sign.where({ _id: ObjectId(id) }).updateOne(sign);
         } catch (error) {

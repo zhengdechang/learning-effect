@@ -9,7 +9,7 @@ import { NavLink, patchRoutes } from 'umi';
 // import menus from '@/configs/router'
 import _ from 'lodash';
 import { getUser } from '@/utils/dict';
-
+import { history } from 'umi';
 const IconFont = createFromIconfontCN();
 
 export default class Component extends React.PureComponent{
@@ -32,6 +32,10 @@ export default class Component extends React.PureComponent{
     }
 
     componentDidMount = async () => {
+        if(!localStorage.getItem('token')){
+            history.push('/login')
+        }
+
         const user = await getUser();
         const routes = this.getRoutes();
         this.setState({

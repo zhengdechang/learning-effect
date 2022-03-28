@@ -187,7 +187,11 @@ export default class Component extends React.PureComponent {
           <section>
             <span>{index + 1}.</span>&nbsp;
             <span>{item?.question_content?.question_title}</span>&nbsp;
-            <span>（{item?.question_score} 分）</span>
+            <span>（{item?.question_score} 分）</span>&nbsp;&nbsp;&nbsp;
+            {this.state.type == 'mark' &&
+             (item?.question_type=='1'? <span>参考答案： {item?.question_value} </span>:
+              <div>参考答案： {item?.question_value} </div>)
+            }
             {this.state.type === 'edit' && (
               <Popconfirm
                 key="3"

@@ -14,5 +14,8 @@ module.exports = {
         updateExam(root, { id, exam }, ctx){
             return ctx.connector.exam.updateExam(id, exam);
         },
+        addScore(root, { id,sign }, ctx){
+            return ctx.connector.exam.addScore(id,sign);
+        },
     }
 }
