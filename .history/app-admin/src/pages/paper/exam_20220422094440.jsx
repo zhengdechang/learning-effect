@@ -217,7 +217,7 @@ export default class Component extends React.PureComponent {
       user,
       paper,
       // 转毫秒
-      remainTime: 60 * paper?.paper_time,
+      remainTime: 60 * 1000 * paper?.paper_time,
     });
 
     // 如果不是指定的参考班级的用户
@@ -247,27 +247,6 @@ export default class Component extends React.PureComponent {
       console.error(error);
       return;
     }
-  };
-
-  timeFilter = (seconds) => {
-    let ss = Math.floor(seconds); // 秒
-    let mm = 0; // 分
-    let hh = 0; // 小时
-    if (ss > 60) {
-      mm = Math.floor(ss / 60);
-      ss = Math.floor(ss % 60);
-    }
-    if (mm > 60) {
-      hh = Math.floor(mm / 60);
-      mm = Math.floor(mm % 60);
-    }
-
-    let result = ('00' + Math.floor(ss)).slice(-2);
-    if (mm > 0) result = ('00' + Math.floor(mm)).slice(-2) + ':' + result;
-    else result = '00:' + result;
-
-    if (hh > 0) result = ('00' + Math.floor(hh)).slice(-2) + ':' + result;
-    return result;
   };
 
   componentWillUnmount = async () => {
@@ -324,9 +303,14 @@ export default class Component extends React.PureComponent {
         history.push('/paper');
       }
 
-      self.setState((state) => ({
-        remainTime: state.remainTime - 1,
-      }));
+      self.setState(
+        (state) => ({
+          remainTime: state.remainTime - 1,
+        }),
+        () => {
+          console.log(new Date(self.state.remainTime).getTime());
+        },
+      );
     }, 1000);
   };
 
@@ -357,7 +341,7 @@ export default class Component extends React.PureComponent {
           title: '考试',
           extra: [
             <Alert
-              message={this.timeFilter(this.state.remainTime)}
+              message={moment(this.state.remainTime, 'x').format('HH:mm:ss')}
               type="warning"
               showIcon
             />,

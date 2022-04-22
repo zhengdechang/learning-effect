@@ -324,9 +324,14 @@ export default class Component extends React.PureComponent {
         history.push('/paper');
       }
 
-      self.setState((state) => ({
-        remainTime: state.remainTime - 1,
-      }));
+      self.setState(
+        (state) => ({
+          remainTime: state.remainTime - 1,
+        }),
+        () => {
+          console.log(this.timeFilter(self.state.remainTime));
+        },
+      );
     }, 1000);
   };
 
@@ -357,7 +362,7 @@ export default class Component extends React.PureComponent {
           title: '考试',
           extra: [
             <Alert
-              message={this.timeFilter(this.state.remainTime)}
+              message={moment(this.state.remainTime, 'x').format('HH:mm:ss')}
               type="warning"
               showIcon
             />,

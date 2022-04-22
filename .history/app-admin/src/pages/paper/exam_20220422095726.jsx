@@ -357,7 +357,7 @@ export default class Component extends React.PureComponent {
           title: '考试',
           extra: [
             <Alert
-              message={this.timeFilter(this.state.remainTime)}
+              message={this.timeFilter(self.state.remainTime)}
               type="warning"
               showIcon
             />,
