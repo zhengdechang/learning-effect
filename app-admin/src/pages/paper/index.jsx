@@ -11,7 +11,7 @@ import { getClasses } from '@/services/classes';
 import { getPapers, delPaper } from '@/services/paper';
 
 class PaperForm extends BaseForm {
-  constructor(props){
+  constructor(props) {
     super(props);
     _.assign(this.state, {
       showSelectForm: false,
@@ -31,7 +31,7 @@ class PaperForm extends BaseForm {
     this.setState({
       classes,
     });
-  }
+  };
 
   handleSubmit = async () => {
     const validateValue = await this.formRef.current?.validateFields();
@@ -67,35 +67,38 @@ class PaperForm extends BaseForm {
       id: this.state.initialValues?._id,
       paper: {
         ...validateValue,
-      }
-    }
+        pass_at: validateValue?.paper_status == '1' && moment().valueOf(),
+      },
+    };
 
     try {
       const { addPaper: paper } = await graphql(
-        this.state.optionType==='update' ? updateQuery : addQuery,
-        this.state.optionType==='update' ? updateVariables : addVariables,
+        this.state.optionType === 'update' ? updateQuery : addQuery,
+        this.state.optionType === 'update' ? updateVariables : addVariables,
       );
-      message.success(this.state.optionType==='update' ? '更新成功' : '添加成功');
+      message.success(
+        this.state.optionType === 'update' ? '更新成功' : '添加成功',
+      );
 
-      if(this.state.optionType==='add'){
+      if (this.state.optionType === 'add') {
         history.push(`/paper/edit/${paper?._id}`);
-      }else if(this.state.optionType==='update'){
+      } else if (this.state.optionType === 'update') {
         this.props.preRef?.current.reload();
       }
       return true;
     } catch (error) {
       console.error(error);
     }
-  }
+  };
 
   getColumns = () => {
     return [
       [
         {
           type: 'select',
-          width: "sm",
-          name: "paper_type",
-          label: "试卷类型",
+          width: 'sm',
+          name: 'paper_type',
+          label: '试卷类型',
           options: [
             {
               value: 1,
@@ -121,9 +124,9 @@ class PaperForm extends BaseForm {
         },
         {
           type: 'digit',
-          width: "number",
-          name: "paper_score",
-          label: "卷面总分",
+          width: 'number',
+          name: 'paper_score',
+          label: '卷面总分',
           formItemProps: {
             rules: [
               {
@@ -135,10 +138,10 @@ class PaperForm extends BaseForm {
         },
         {
           type: 'digit',
-          width: "number",
-          name: "paper_time",
-          label: "考试时长",
-          addonAfter: (<>分钟</>),
+          width: 'number',
+          name: 'paper_time',
+          label: '考试时长',
+          addonAfter: <>分钟</>,
           formItemProps: {
             rules: [
               {
@@ -151,8 +154,8 @@ class PaperForm extends BaseForm {
       ],
       {
         type: 'text',
-        name: "paper_title",
-        label: "试卷标题",
+        name: 'paper_title',
+        label: '试卷标题',
         formItemProps: {
           rules: [
             {
@@ -164,8 +167,8 @@ class PaperForm extends BaseForm {
       },
       {
         type: 'area',
-        name: "paper_points",
-        label: "考查内容",
+        name: 'paper_points',
+        label: '考查内容',
         formItemProps: {
           rules: [
             {
@@ -177,8 +180,8 @@ class PaperForm extends BaseForm {
       },
       {
         type: 'select',
-        name: "paper_for_classes",
-        label: "参考班级",
+        name: 'paper_for_classes',
+        label: '参考班级',
         mode: 'multiple',
         options: [...this.state.classes],
         formItemProps: {
@@ -190,15 +193,25 @@ class PaperForm extends BaseForm {
           ],
         },
       },
+      {
+        type: 'select',
+        name: 'paper_status',
+        label: '试卷状态',
+        options: [
+          { value: '0', label: '未发布' },
+          { value: '1', label: '发布' },
+          { value: '10', label: '失效' },
+        ],
+      },
     ];
-  }
+  };
 }
 
-export default class Component extends BaseTable{
-  constructor(props){
+export default class Component extends BaseTable {
+  constructor(props) {
     super(props);
     _.assign(this.state, {
-      headerTitle: "试卷列表",
+      headerTitle: '试卷列表',
       rowKey: '_id',
       user: {},
       config: {},
@@ -210,19 +223,19 @@ export default class Component extends BaseTable{
     const config = await getConfig();
     this.setState({
       user,
-      config
+      config,
     });
-  }
+  };
 
   handleDelete = async (ids) => {
     try {
       await delPaper(ids);
-      message.success('删除成功')
+      message.success('删除成功');
       this.actionRef.current.reload();
     } catch (error) {
       console.error(error);
     }
-  }
+  };
 
   getColumns = () => {
     const columns = [
@@ -237,10 +250,10 @@ export default class Component extends BaseTable{
         ellipsis: true,
         formItemProps: {
           rules: [
-              {
+            {
               required: true,
               message: '此项为必填项',
-              },
+            },
           ],
         },
       },
@@ -274,7 +287,9 @@ export default class Component extends BaseTable{
         dataIndex: 'created_at',
         hideInSearch: true,
         renderText: (text) => {
-          return parseInt(text) ? moment(parseInt(text)).format('YYYY-MM-DD HH:mm') : '-';
+          return parseInt(text)
+            ? moment(parseInt(text)).format('YYYY-MM-DD HH:mm')
+            : '-';
         },
       },
       {
@@ -283,7 +298,9 @@ export default class Component extends BaseTable{
         dataIndex: 'pass_at',
         hideInSearch: true,
         renderText: (text) => {
-          return parseInt(text) ? moment(parseInt(text)).format('YYYY-MM-DD HH:mm') : '-';
+          return parseInt(text)
+            ? moment(parseInt(text)).format('YYYY-MM-DD HH:mm')
+            : '-';
         },
       },
       {
@@ -306,27 +323,78 @@ export default class Component extends BaseTable{
         render: (text, record, _, action) => {
           const options = [];
 
-          if(this.state.user?.user_type === this.state.config?.user_type?.teacher){
-            if(record?.paper_status === this.state.config?.paper_status?.nopass){
-              options.push(<PaperForm key="1" initialValues={record} optionType="update" preRef={this.actionRef}>
+          if (
+            this.state.user?.user_type === this.state.config?.user_type?.teacher
+          ) {
+            options.push(
+              <PaperForm
+                key="1"
+                initialValues={record}
+                optionType="update"
+                preRef={this.actionRef}
+              >
                 <a>编辑</a>
-              </PaperForm>);
-              options.push(<NavLink key="2" to={`/paper/edit/${record?._id}`}>修改题目</NavLink>);
-            } if(record?.paper_status === this.state.config?.paper_status?.pass){
-              options.push(<NavLink key="3" to={`/paper/view/${record?._id}`}>预览</NavLink>);
-              options.push(<NavLink key="4" to={`/paper/mark/${record?._id}`}>评卷</NavLink>);
+              </PaperForm>,
+            );
+            if (
+              record?.paper_status === this.state.config?.paper_status?.nopass
+            ) {
+              // options.push(
+              //   <PaperForm
+              //     key="1"
+              //     initialValues={record}
+              //     optionType="update"
+              //     preRef={this.actionRef}
+              //   >
+              //     <a>编辑</a>
+              //   </PaperForm>,
+              // );
+              options.push(
+                <NavLink key="2" to={`/paper/edit/${record?._id}`}>
+                  修改题目
+                </NavLink>,
+              );
+            }
+            if (
+              record?.paper_status === this.state.config?.paper_status?.pass
+            ) {
+              options.push(
+                <NavLink key="3" to={`/paper/view/${record?._id}`}>
+                  预览
+                </NavLink>,
+              );
+              options.push(
+                <NavLink key="4" to={`/paper/mark/${record?._id}`}>
+                  评卷
+                </NavLink>,
+              );
             }
 
-            options.push(<Popconfirm key="5" placement="rightTop" title="确认删除该试卷？" okText="删除" cancelText="取消" onConfirm={this.handleDelete.bind(this, [record._id])}>
-              <a>删除</a>
-            </Popconfirm>,);
+            options.push(
+              <Popconfirm
+                key="5"
+                placement="rightTop"
+                title="确认删除该试卷？"
+                okText="删除"
+                cancelText="取消"
+                onConfirm={this.handleDelete.bind(this, [record._id])}
+              >
+                <a>删除</a>
+              </Popconfirm>,
+            );
           }
 
-          if(this.state.user?.user_type === this.state.config?.user_type?.student){
-            if(record.exam){
-              options.push(<NavLink key="7" to={`/paper/score/${record?._id}`}>查看成绩</NavLink>);
+          if (
+            this.state.user?.user_type === this.state.config?.user_type?.student
+          ) {
+            if (record?.paper_status == '1') {
+              options.push(
+                <NavLink key="6" to={`/paper/exam/${record?._id}`}>
+                  参加考试
+                </NavLink>,
+              );
             } else {
-              options.push(<NavLink key="6" to={`/paper/exam/${record?._id}`}>参加考试</NavLink>);
+              options.push(<div key="7">试卷失效</div>);
             }
           }
 
@@ -335,7 +403,7 @@ export default class Component extends BaseTable{
       },
     ];
 
-    if(this.state.user?.user_type === this.state.config?.user_type?.student){
+    if (this.state.user?.user_type === this.state.config?.user_type?.student) {
       columns.splice(3, 0, {
         title: '出卷老师',
         dataIndex: 'name',
@@ -343,40 +411,44 @@ export default class Component extends BaseTable{
         formItemProps: {
           rules: [
             {
-            required: true,
-            message: '此项为必填项',
+              required: true,
+              message: '此项为必填项',
             },
           ],
         },
       });
-  }
+    }
 
     return columns;
-  }
+  };
 
   getData = async (params = {}) => {
     const { current, pageSize, startTime, endTime, ...filters } = params;
 
-    const {total, data} = await getPapers({
-      ...filters,
-      startTime: startTime && moment(startTime).valueOf().toString(),
-      endTime: endTime && moment(endTime).valueOf().toString()
-    }, current, pageSize);
+    const { total, data } = await getPapers(
+      {
+        ...filters,
+        startTime: startTime && moment(startTime).valueOf().toString(),
+        endTime: endTime && moment(endTime).valueOf().toString(),
+      },
+      current,
+      pageSize,
+    );
 
     return {
       total,
       data,
       status: 'success',
-    }
-  }
+    };
+  };
 
   handleAddPaper = () => {
-    history.push('/paper/edit')
-  }
+    history.push('/paper/edit');
+  };
 
-  toolBarRender = () =>{
+  toolBarRender = () => {
     const toolBar = [];
-    if(this.state.user?.user_type === this.state.config?.user_type?.teacher){
+    if (this.state.user?.user_type === this.state.config?.user_type?.teacher) {
       toolBar.push([
         <PaperForm key="1">
           <Button type="primary">
@@ -387,6 +459,5 @@ export default class Component extends BaseTable{
       ]);
     }
     return toolBar;
-  }
+  };
 }
-
