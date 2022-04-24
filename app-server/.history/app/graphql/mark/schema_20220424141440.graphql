@@ -1,0 +1,13 @@
+type Mark {
+  _id: ID @deprecated(reason: "考勤ID")
+  mark_name: String @deprecated(reason: "标签名称")
+}
+
+type MarkList {
+  data: [Mark]
+  total: Int
+}
+
+input MarkInput {
+  mark_name: String @deprecated(reason: "标签名称")
+}
