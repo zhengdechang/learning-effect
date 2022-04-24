@@ -1,0 +1,14 @@
+
+type Classes{
+    _id: ID @deprecated(reason: "考勤ID")
+    classes_name: String @deprecated(reason: "班级名称")
+}
+
+type ClassesList{
+    data: [Classes]
+    total: Int
+}
+
+input ClassesInput{
+    classes_name: String @deprecated(reason: "班级名称")
+}

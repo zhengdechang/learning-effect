@@ -1,0 +1,113 @@
+{
+  "common": [
+    {
+      "path": "/home",
+      "title": "首页",
+      "icon": "icon-homefill",
+      "exact": true,
+      "component": "@/pages/home"
+    },
+    {
+      "path": "/my",
+      "title": "我的",
+      "icon": "icon-wode-wode",
+      "exact": true,
+      "component": "@/pages/my",
+      "hideInMenu": true
+    },
+    {
+      "path": "/paper",
+      "title": "试卷列表",
+      "icon": "icon-xingtuxuetang-kaoshi-",
+      "exact": true,
+      "component": "@/pages/paper"
+    }
+  ],
+  "teacher": [
+    {
+      "path": "/paper/edit/:paperId",
+      "title": "编辑试卷",
+      "icon": "icon-xingtuxuetang-kaoshi-",
+      "component": "@/pages/paper/edit",
+      "hideInMenu": true
+    },
+    {
+      "path": "/paper/view/:paperId",
+      "title": "预览试卷",
+      "icon": "icon-xingtuxuetang-kaoshi-",
+      "component": "@/pages/paper/view",
+      "hideInMenu": true
+    },
+    {
+      "path": "/paper/mark/:paperId",
+      "title": "评卷",
+      "icon": "icon-xingtuxuetang-kaoshi-",
+      "component": "@/pages/paper/mark",
+      "hideInMenu": true
+    },
+    {
+      "path": "/teacher",
+      "title": "教师列表",
+      "icon": "icon-ic_teacher",
+      "exact": true,
+      "component": "@/pages/user/teacher"
+    },
+    {
+      "path": "/student",
+      "title": "学生列表",
+      "icon": "icon-ic_student",
+      "exact": true,
+      "component": "@/pages/user/student"
+    },
+    {
+      "path": "/classes",
+      "title": "班级列表",
+      "icon": "icon-banji",
+      "exact": true,
+      "component": "@/pages/classes"
+    },
+    {
+      "path": "/score",
+      "title": "成绩列表",
+      "icon": "icon-banji",
+      "exact": true,
+      "component": "@/pages/score/index"
+    },
+    {
+      "path": "/sign",
+      "title": "签到列表",
+      "icon": "icon-banji",
+      "exact": true,
+      "component": "@/pages/sign/index"
+    },
+    {
+      "path": "/mark",
+      "title": "标签管理",
+      "icon": "icon-banji",
+      "exact": true,
+      "component": "@/pages/mark/index"
+    },
+    {
+      "path": "/statistics",
+      "title": "统计",
+      "icon": "icon-zhexiantu",
+      "exact": true,
+      "component": "@/pages/statistics"
+    }
+  ],
+  "student": [
+    {
+      "path": "/paper/exam/:paperId",
+      "title": "考试",
+      "icon": "icon-xingtuxuetang-kaoshi-",
+      "component": "@/pages/paper/exam",
+      "hideInMenu": true
+    },
+    {
+      "path": "/score/:paperId",
+      "title": "我的成绩",
+      "icon": "icon-xingtuxuetang-kaoshi-",
+      "component": "@/pages/paper/score"
+    }
+  ]
+}

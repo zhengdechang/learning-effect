@@ -1,0 +1,60 @@
+scalar Filters
+
+type Query {
+  # user
+  userList(current: Int, pageSize: Int, filters: Filters): UserList
+    @deprecated(reason: "获取用户列表")
+  getUserById(id: ID): User @deprecated(reason: "根据uuid获取用户信息")
+  # paper
+  paperList(current: Int, pageSize: Int, filters: Filters): PaperList
+    @deprecated(reason: "获取试卷列表")
+  # classes
+  classesList(current: Int, pageSize: Int, filters: Filters): ClassesList
+    @deprecated(reason: "获取班级列表")
+  # mark
+  markList(current: Int, pageSize: Int, filters: Filters): MarkList
+    @deprecated(reason: "获取标签列表")
+  # sign
+  signList(current: Int, pageSize: Int, filters: Filters): SignList
+    @deprecated(reason: "获取考勤信息")
+  # question
+  questionList(filters: Filters): [Question] @deprecated(reason: "获取题目列表")
+  # answer
+  answerList(filters: Filters): AnswerList @deprecated(reason: "获取回答列表")
+  # exam
+  examList(filters: Filters): ExamList @deprecated(reason: "获取考试列表")
+}
+
+type Mutation {
+  # user
+  addUser(user: UserInput): User @deprecated(reason: "新增用户")
+  delUser(ids: [ID]): [ID] @deprecated(reason: "删除用户")
+  updateUser(id: ID, user: UserInput, filters: Filters): ID
+    @deprecated(reason: "修改用户信息")
+  # paper
+  addPaper(paper: PaperInput): Paper @deprecated(reason: "新增试卷")
+  delPaper(ids: [ID]): [ID] @deprecated(reason: "删除试卷")
+  updatePaper(id: ID, paper: PaperInput): ID @deprecated(reason: "更新试卷")
+  # classes
+  addClasses(classes: ClassesInput): Classes @deprecated(reason: "新增班级")
+  delClasses(ids: [ID]): [ID] @deprecated(reason: "删除班级")
+  # mark
+  addMark(mark: MarkInput): Mark @deprecated(reason: "添加标签")
+  delMark(ids: [ID]): [ID] @deprecated(reason: "删除标签")
+  # sign
+  signIn(sign: SignInput): Sign @deprecated(reason: "签到")
+  signOut(id: ID, sign: SignInput): ID @deprecated(reason: "签退")
+  delSign(ids: [ID]): [ID] @deprecated(reason: "删除签到")
+  # question
+  addQuestion(question: QuestionInput): Question @deprecated(reason: "添加题目")
+  delQuestion(ids: [ID]): [ID] @deprecated(reason: "删除题目")
+  # answer
+  addAnswers(answers: [AnswerInput]): [ID] @deprecated(reason: "交卷")
+  delAnswer(ids: [ID]): [ID] @deprecated(reason: "删除回答")
+
+  # exam
+  addExam(exam: ExamInput): Exam @deprecated(reason: "添加考试")
+  delExam(ids: [ID]): [ID] @deprecated(reason: "删除考试")
+  updateExam(id: ID, exam: ExamInput): ID @deprecated(reason: "更新考试")
+  addScore(id: ID, sign: UpdateScore): ID @deprecated(reason: "改卷")
+}
