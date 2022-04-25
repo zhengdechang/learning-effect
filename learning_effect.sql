@@ -11,7 +11,7 @@
  Target Server Version : 50006
  File Encoding         : 65001
 
- Date: 22/04/2022 17:47:38
+ Date: 24/04/2022 17:31:29
 */
 
 
@@ -1741,7 +1741,7 @@ db.createCollection("exams");
 // ----------------------------
 db.getCollection("exams").insert([ {
     _id: ObjectId("623ea4dbb6c38f2070b364f8"),
-    "sum_score": NumberInt("75"),
+    "sum_score": NumberInt("1000"),
     "paper_id": ObjectId("622f014ab8afca64ec684c0a"),
     "user_id": ObjectId("62300c1829ef3926a0138297"),
     "start_time": "1648272602966",
@@ -2175,6 +2175,147 @@ db.getCollection("exams").insert([ {
     "sum_score": NumberInt("123"),
     "paper_id": ObjectId("623dadc0889c5e317cff274f"),
     "user_id": ObjectId("62300c1829ef3926a0138297"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("6262d17b78a8b61a6c22fad3"),
+    "sum_score": NumberInt("0"),
+    "user_id": ObjectId("622b8d161a6fca6d60b4bce7"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("6262d1aa78a8b61a6c22fae0"),
+    "sum_score": NumberInt("0"),
+    "user_id": ObjectId("6240097803d3131948c8e42a"),
+    __v: NumberInt("0")
+} ]);
+db.getCollection("exams").insert([ {
+    _id: ObjectId("6263883ea6692913e4e43948"),
+    "sum_score": NumberInt("11"),
+    "paper_id": ObjectId("622ee63a265b5f608059fe18"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    __v: NumberInt("0")
+} ]);
+
+// ----------------------------
+// Collection structure for info
+// ----------------------------
+db.getCollection("info").drop();
+db.createCollection("info");
+db.getCollection("info").createIndex({
+    "info_name": NumberInt("1")
+}, {
+    name: "info_name_1",
+    background: true,
+    unique: true
+});
+
+// ----------------------------
+// Documents of info
+// ----------------------------
+db.getCollection("info").insert([ {
+    _id: ObjectId("6263fef3d3190000490079e3"),
+    "info_name": "1212113"
+} ]);
+db.getCollection("info").insert([ {
+    _id: ObjectId("626400b37dedb03b4050efe0"),
+    "info_name": "通知",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("info").insert([ {
+    _id: ObjectId("626406bafaed6a16a0517f13"),
+    "info_name": "124555",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("info").insert([ {
+    _id: ObjectId("626406befaed6a16a0517f16"),
+    "info_name": "234235",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("info").insert([ {
+    _id: ObjectId("626406c2faed6a16a0517f19"),
+    "info_name": "232522",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("info").insert([ {
+    _id: ObjectId("626406c6faed6a16a0517f1c"),
+    "info_name": "2342324",
+    __v: NumberInt("0")
+} ]);
+
+// ----------------------------
+// Collection structure for mark
+// ----------------------------
+db.getCollection("mark").drop();
+db.createCollection("mark");
+db.getCollection("mark").createIndex({
+    "mark_name": NumberInt("1")
+}, {
+    name: "mark_name_1",
+    background: true,
+    unique: true
+});
+
+// ----------------------------
+// Documents of mark
+// ----------------------------
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6263a76ad3190000490079e2"),
+    "mark_name": "非常优秀",
+    "com_score": "10"
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6263a9d52434ae0d34fd5894"),
+    "mark_name": "比较优秀",
+    __v: NumberInt("0"),
+    "com_score": "9"
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6264d47ec44a9133c4811930"),
+    "mark_name": "优秀",
+    __v: NumberInt("0"),
+    "com_score": "8"
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6264db8ec44a9133c4811958"),
+    "mark_name": "比较良好",
+    __v: NumberInt("0"),
+    "com_score": "7"
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("62650f3843e3874fa433f9dc"),
+    "mark_name": "良好",
+    __v: NumberInt("0"),
+    "com_score": "6"
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6265112643e3874fa433fa1e"),
+    "mark_name": "中等",
+    "com_score": "5",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6265116843e3874fa433fa2c"),
+    "mark_name": "不及格",
+    "com_score": "4",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6265120243e3874fa433fa48"),
+    "mark_name": "粗心",
+    "com_score": "3",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6265120a43e3874fa433fa4b"),
+    "mark_name": "比较粗心",
+    "com_score": "2",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("mark").insert([ {
+    _id: ObjectId("6265121143e3874fa433fa4e"),
+    "mark_name": "非常粗心",
+    "com_score": "1",
     __v: NumberInt("0")
 } ]);
 
@@ -2736,26 +2877,26 @@ db.createCollection("signs");
 db.getCollection("signs").insert([ {
     _id: ObjectId("623ee3e1a94676304465c7c3"),
     "user_id": ObjectId("62300c1829ef3926a0138297"),
-    "sign_in": "1648288737949",
-    date: 23,
+    "sign_in": "1650782126000",
+    date: "9180",
     __v: NumberInt("0"),
-    "sign_out": "1648289569358"
+    "sign_out": "1651332927000"
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623ee756a94676304465c7c6"),
     "user_id": ObjectId("62300c1829ef3926a0138297"),
-    "sign_in": "1648289622702",
+    "sign_in": "1650782135028",
     __v: NumberInt("0"),
-    date: "126",
-    "sign_out": "1648289673726"
+    date: "0",
+    "sign_out": "1650782136237"
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623ee795a94676304465c7c9"),
     "user_id": ObjectId("62300c1829ef3926a0138297"),
-    "sign_in": "1648289685248",
+    "sign_in": "1648289685000",
     __v: NumberInt("0"),
-    date: "214",
-    "sign_out": "1648289859215"
+    date: "302",
+    "sign_out": "1648307859000"
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623ee881a94676304465c7cc"),
@@ -2766,20 +2907,12 @@ db.getCollection("signs").insert([ {
     "sign_out": "1648290013615"
 } ]);
 db.getCollection("signs").insert([ {
-    _id: ObjectId("623ee8e7a94676304465c7d3"),
-    "user_id": ObjectId("62300c1829ef3926a0138297"),
-    "sign_in": "1648290023359",
-    __v: NumberInt("0"),
-    date: "",
-    "sign_out": "1648290048895"
-} ]);
-db.getCollection("signs").insert([ {
     _id: ObjectId("623ee903a94676304465c7d8"),
     "user_id": ObjectId("62300c1829ef3926a0138297"),
-    "sign_in": "1648290051239",
+    "sign_in": "1648290051000",
     __v: NumberInt("0"),
-    date: "30",
-    "sign_out": "1648290260088"
+    date: "1443",
+    "sign_out": "1648376660000"
 } ]);
 db.getCollection("signs").insert([ {
     _id: "623ee3e1a94676304465c7c3",
@@ -2831,7 +2964,7 @@ db.getCollection("signs").insert([ {
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623efba898760000e20035c2"),
-    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "user_id": "62300c1829ef3926a0138297",
     date: 78,
     "sign_in": 1648290051239,
     "sign_out": 1648290260088
@@ -2846,7 +2979,7 @@ db.getCollection("signs").insert([ {
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623efbc898760000e20035c4"),
-    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "user_id": "62300c1829ef3926a0138297",
     "sign_in": 1648290051239,
     date: 78,
     __v: "",
@@ -2910,7 +3043,7 @@ db.getCollection("signs").insert([ {
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623efbd098760000e20035cc"),
-    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "user_id": "62300c1829ef3926a0138297",
     "sign_in": 1648290051239,
     date: 78,
     __v: "",
@@ -2926,7 +3059,7 @@ db.getCollection("signs").insert([ {
 } ]);
 db.getCollection("signs").insert([ {
     _id: ObjectId("623efbd098760000e20035ce"),
-    "user_id": "62300c1829ef3926a0138297\t1648288737949\t23\t0\t1648289569358\r\n62300c1829ef3926a0138297\t1648289622702\t126\t0\t1648289673726\r\n62300c1829ef3926a0138297\t1648289685248\t214\t0\t1648289859215\r\n62300c1829ef3926a0138297\t1648289921056\t1\t0\t1648290013615\r\n62300c1829ef3926a0138297\t1648290023359\t\t0\t1648290048895\r\n62300c1829ef3926a0138297\t1648290051239\t30\t0\t1648290260088",
+    "user_id": "62300c1829ef3926a0138297",
     "sign_in": 1648290051239,
     date: 78,
     __v: "",
@@ -2978,6 +3111,68 @@ db.getCollection("signs").insert([ {
     "sign_in": "1650604379094",
     __v: NumberInt("0")
 } ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6262d13a78a8b61a6c22fac7"),
+    "user_id": ObjectId("62300c4d29ef3926a01382b4"),
+    "sign_in": "1650643258022",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1650643259209"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6262d46e78a8b61a6c22fb1b"),
+    "user_id": ObjectId("622b8d161a6fca6d60b4bce7"),
+    "sign_in": "1651076072850",
+    "sign_out": "1651248875864",
+    date: "2880",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6264ef3d60f0ea2ef0347630"),
+    "user_id": ObjectId("6264047e0f381b36a0dbe1c8"),
+    "sign_in": "1649745207450",
+    "sign_out": "1650782012849",
+    date: "17280",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6264f02460f0ea2ef0347659"),
+    "user_id": ObjectId("622f7d3e5d33e46aac3cf4e4"),
+    "sign_in": "1648795038144",
+    "sign_out": "1651214241265",
+    date: "40320",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6264f3de085cea38c090bdae"),
+    "user_id": ObjectId("622e3aee8856fa50f049a593"),
+    "sign_in": "1650783197931",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1650783199116"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6264fce9b3ec6953e8262110"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1650785513344",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("6265020a8c17dd2634dc4f49"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1650786825769",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1650786826518"
+} ]);
+db.getCollection("signs").insert([ {
+    _id: ObjectId("626513fb43e3874fa433fa76"),
+    "user_id": ObjectId("62300c1829ef3926a0138297"),
+    "sign_in": "1650791418737",
+    __v: NumberInt("0"),
+    date: "0",
+    "sign_out": "1650791426246"
+} ]);
 
 // ----------------------------
 // Collection structure for users
@@ -3008,7 +3203,8 @@ db.getCollection("users").insert([ {
     pwd: "123456",
     "user_type": 1,
     phone: "root",
-    name: "超管"
+    name: "超管",
+    "info_id": ""
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("622b8d161a6fca6d60b4bce7"),
@@ -3019,7 +3215,8 @@ db.getCollection("users").insert([ {
     pwd: "123456",
     uname: "18333333105",
     __v: NumberInt("0"),
-    "classes_id": ObjectId("622b2022975a2a6948676d96")
+    "classes_id": ObjectId("622b2088681f907e2c5ef6c1"),
+    "info_id": "6263fef3d3190000490079e3,626400b37dedb03b4050efe0,626406bafaed6a16a0517f13,626406befaed6a16a0517f16"
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("622c0c868af193236898c0b5"),
@@ -3029,7 +3226,8 @@ db.getCollection("users").insert([ {
     "created_at": "1647053958227",
     pwd: "123456",
     uname: "17133333324",
-    __v: NumberInt("0")
+    __v: NumberInt("0"),
+    "info_id": ""
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("622e3aee8856fa50f049a593"),
@@ -3039,7 +3237,8 @@ db.getCollection("users").insert([ {
     "created_at": "1647196910667",
     pwd: "111111",
     uname: "11111111111",
-    __v: NumberInt("0")
+    __v: NumberInt("0"),
+    "info_id": ""
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("622f7d3e5d33e46aac3cf4e4"),
@@ -3050,7 +3249,8 @@ db.getCollection("users").insert([ {
     "classes_id": ObjectId("622b20b0681f907e2c5ef6d9"),
     pwd: "123456",
     uname: "13745678900",
-    __v: NumberInt("0")
+    __v: NumberInt("0"),
+    "info_id": "6263fef3d3190000490079e3,626400b37dedb03b4050efe0"
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("62300c1829ef3926a0138297"),
@@ -3061,7 +3261,9 @@ db.getCollection("users").insert([ {
     "classes_id": ObjectId("622b20c0681f907e2c5ef6e3"),
     pwd: "000000",
     uname: "10000000000",
-    __v: NumberInt("0")
+    __v: NumberInt("0"),
+    "info_id": "6263fef3d3190000490079e3,626400b37dedb03b4050efe0",
+    "mark_id": ObjectId("6263a76ad3190000490079e2")
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("62300c4d29ef3926a01382b4"),
@@ -3071,7 +3273,8 @@ db.getCollection("users").insert([ {
     "created_at": "1647316045286",
     pwd: "666666",
     uname: "16666666666",
-    __v: NumberInt("0")
+    __v: NumberInt("0"),
+    "info_id": ""
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("62300c9f29ef3926a01382bb"),
@@ -3081,7 +3284,8 @@ db.getCollection("users").insert([ {
     "created_at": "1647316127617",
     pwd: "555555",
     uname: "15555555555",
-    __v: NumberInt("0")
+    __v: NumberInt("0"),
+    "info_id": ""
 } ]);
 db.getCollection("users").insert([ {
     _id: ObjectId("6240097803d3131948c8e42a"),
@@ -3092,5 +3296,42 @@ db.getCollection("users").insert([ {
     "classes_id": ObjectId("622b2017975a2a6948676d94"),
     pwd: "995968",
     uname: "13692995968",
+    __v: NumberInt("0"),
+    "info_id": "626400b37dedb03b4050efe0,6263fef3d3190000490079e3"
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("6264047e0f381b36a0dbe1c8"),
+    name: "123",
+    "user_type": NumberInt("3"),
+    phone: "12312311111",
+    "created_at": "1650721918985",
+    "classes_id": ObjectId("622b2014975a2a6948676d92"),
+    "info_id": "6263fef3d3190000490079e3,626400b37dedb03b4050efe0",
+    pwd: "311111",
+    uname: "12312311111",
     __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("62640680faed6a16a0517ef7"),
+    name: "123",
+    "user_type": NumberInt("3"),
+    phone: "12324111111",
+    "created_at": "1650722432124",
+    "classes_id": ObjectId("622b2014975a2a6948676d92"),
+    pwd: "111111",
+    uname: "12324111111",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("users").insert([ {
+    _id: ObjectId("626408c0faed6a16a0517fad"),
+    name: "124124",
+    "user_type": NumberInt("3"),
+    phone: "11123523532",
+    "created_at": "1650723008242",
+    "classes_id": ObjectId("622b2014975a2a6948676d92"),
+    "info_id": "626400b37dedb03b4050efe0,626406bafaed6a16a0517f13,6263fef3d3190000490079e3,626406c2faed6a16a0517f19,626406befaed6a16a0517f16",
+    pwd: "523532",
+    uname: "11123523532",
+    __v: NumberInt("0"),
+    "mark_id": ObjectId("6264d47ec44a9133c4811930")
 } ]);
