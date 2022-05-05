@@ -75,10 +75,8 @@ class AnswerSheet extends BaseForm {
   };
 
   handleSubmit = async () => {
-    // const validateValue = await this.formRef.current?.validateFields();
-
-    // console.log(validateValue, 'validateValue');
-    const answers = this.formatValue(this.props.formValue);
+    const validateValue = await this.formRef.current?.validateFields();
+    const answers = this.formatValue(validateValue);
 
     console.log(answers, '1');
 
@@ -144,10 +142,6 @@ class AnswerSheet extends BaseForm {
         type: 'select',
         width: 'xs',
         name: `${item?._id}`,
-        value: this.props.formValue?.[item?._id],
-        onChange: (value) => {
-          this.props.onChange(item?._id, value);
-        },
         label: `选择题 ${index + 1}`,
         options: _.map(item?.question_content?.options, (option) => ({
           value: option?.option_key,
@@ -163,14 +157,9 @@ class AnswerSheet extends BaseForm {
       (item, index) => ({
         type: 'text',
         width: 'lg',
-        value: '111',
         name: `${item?._id}`,
         label: `填空题 ${index + 1}`,
-        value: this.props.formValue?.[item?._id],
         placeholder: '请输入',
-        onChange: (e) => {
-          this.props.onChange(item?._id, e.target.value);
-        },
       }),
     );
 
@@ -179,11 +168,7 @@ class AnswerSheet extends BaseForm {
       width: 'lg',
       name: `${item?._id}`,
       label: `简答题 ${index + 1}`,
-      value: this.props.formValue?.[item?._id],
       placeholder: '请输入',
-      onChange: (e) => {
-        this.props.onChange(item?._id, e.target.value);
-      },
     }));
 
     return [choiceColumns, completionColumns, shortColumns];
@@ -209,20 +194,8 @@ export default class Component extends React.PureComponent {
       examId: undefined,
       examStatus: false,
       remainTime: 0,
-      formValue: {},
     };
   }
-
-  onChange = (key, value) => {
-    this.setState(
-      {
-        formValue: { ...this.state.formValue, [key]: value },
-      },
-      () => {
-        console.log(this.state.formValue, 'formBalue');
-      },
-    );
-  };
 
   componentDidMount = async () => {
     // 参加考试需要是试卷指定班级的学生
@@ -363,13 +336,11 @@ export default class Component extends React.PureComponent {
       <ProCard style={{ marginBottom: 20 }}>
         <h1>答题卡（试卷在答题卡下方）</h1>
         <AnswerSheet
-          onChange={this.onChange}
           ref={this.answerSheetRef}
           choiceList={this.props.choiceList}
           completionList={this.props.completionList}
           shortList={this.props.shortList}
           examId={this.state.examId}
-          formValue={this.state.formValue}
           handlEndtExam={this.handlEndtExam}
         />
       </ProCard>
@@ -447,8 +418,6 @@ export default class Component extends React.PureComponent {
               ref={this.paperDetailRef}
               type="exam"
               paperId={this.state.paper?._id}
-              formValue={this.state.formValue}
-              onChange={this.onChange}
             />
           </>
         )}

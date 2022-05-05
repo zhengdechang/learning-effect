@@ -8,6 +8,96 @@ import { getPapers } from '@/services/paper';
 import { getConfig, getUser } from '@/utils/dict';
 import { connect } from 'dva';
 // import { history } from 'umi';
+import BaseForm from '@/components/base-form';
+
+class SingleForm extends BaseForm {
+  constructor(props) {
+    super(props);
+    _.assign(this.state, {});
+  }
+
+  extendComponentDidMount = () => {
+    this.setState({
+      options: {
+        submitter: this.getSubmitter(),
+      },
+    });
+  };
+
+  getSubmitter = () => {
+    return {
+      // 配置按钮文本
+      searchConfig: {
+        resetText: '重置',
+        submitText: '提交',
+      },
+      // 配置按钮的属性
+      resetButtonProps: {
+        style: {
+          // 隐藏重置按钮
+          display: 'none',
+        },
+      },
+      submitButtonProps: {},
+
+      // 完全自定义整个区域
+      render: (props, doms) => {
+        return [
+          // <Popconfirm
+          //   placement="topRight"
+          //   title="确定要重置答题卡？"
+          //   onConfirm={() => props.form?.resetFields()}
+          //   okText="确定"
+          //   cancelText="取消"
+          //   key="rest"
+          // >
+          //   <Button type="primary" danger>
+          //     重置
+          //   </Button>
+          // </Popconfirm>,
+          // <Popconfirm
+          //   placement="topRight"
+          //   title="确定要提交答题卡？"
+          //   onConfirm={() => props.form?.submit?.()}
+          //   okText="确定"
+          //   cancelText="取消"
+          //   key="submit"
+          // >
+          //   <Button type="primary">交卷</Button>
+          // </Popconfirm>,
+        ];
+      },
+    };
+  };
+  getColumns = () => {
+    const columns = [
+      {
+        type:
+          this.props.type == '1'
+            ? 'select'
+            : this.props.type == '2'
+            ? 'text'
+            : 'area',
+        width: this.props.type == '1' ? 'xs' : 'lg',
+        name: `item?._id`,
+        value: this.props.value,
+        // value: '111',
+        // onChange: (v) => {
+        //   console.log(v);
+        // },
+        label: ``,
+        // options: _.map(item?.question_content?.options, (option) => ({
+        //   value: option?.option_key,
+        //   label: option?.option_key,
+        // })),
+        // disabled:true,
+        // value:'B'
+      },
+    ];
+
+    return columns;
+  };
+}
 
 // 第4个参数解决ref获取不到问题
 @connect((state) => ({}), null, null, { forwardRef: true })
@@ -184,10 +274,27 @@ export default class Component extends React.PureComponent {
     return _.map(list, (item, index) => {
       return (
         <div className={styles.questionItem} key={index}>
-          <section>
+          <section style={{ display: item?.question_type == '1' && 'flex' }}>
             <span>{index + 1}.</span>&nbsp;
             <span>{item?.question_content?.question_title}</span>&nbsp;
-            <span>（{item?.question_score} 分）</span>
+            <span>（{item?.question_score} 分）</span>&nbsp;&nbsp;&nbsp;
+            <span>
+              {item?.question_type == '1' && (
+                <SingleForm value={'123'} type={'1'} />
+              )}
+              {item?.question_type == '2' && (
+                <SingleForm value={'123'} type={'2'} />
+              )}
+              {item?.question_type == '3' && (
+                <SingleForm value={'123'} type={'3'} />
+              )}
+            </span>
+            {this.state.type == 'mark' &&
+              (item?.question_type == '1' ? (
+                <span>参考答案： {item?.question_value} </span>
+              ) : (
+                <div>参考答案： {item?.question_value} </div>
+              ))}
             {this.state.type === 'edit' && (
               <Popconfirm
                 key="3"

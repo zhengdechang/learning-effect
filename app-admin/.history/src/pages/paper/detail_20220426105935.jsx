@@ -9,92 +9,27 @@ import { getConfig, getUser } from '@/utils/dict';
 import { connect } from 'dva';
 // import { history } from 'umi';
 import BaseForm from '@/components/base-form';
-
 class SingleForm extends BaseForm {
   constructor(props) {
     super(props);
     _.assign(this.state, {});
   }
 
-  extendComponentDidMount = () => {
-    this.setState({
-      options: {
-        submitter: this.getSubmitter(),
-      },
-    });
-  };
-
-  getSubmitter = () => {
-    return {
-      // 配置按钮文本
-      searchConfig: {
-        resetText: '重置',
-        submitText: '提交',
-      },
-      // 配置按钮的属性
-      resetButtonProps: {
-        style: {
-          // 隐藏重置按钮
-          display: 'none',
-        },
-      },
-      submitButtonProps: {},
-
-      // 完全自定义整个区域
-      render: (props, doms) => {
-        return [
-          // <Popconfirm
-          //   placement="topRight"
-          //   title="确定要重置答题卡？"
-          //   onConfirm={() => props.form?.resetFields()}
-          //   okText="确定"
-          //   cancelText="取消"
-          //   key="rest"
-          // >
-          //   <Button type="primary" danger>
-          //     重置
-          //   </Button>
-          // </Popconfirm>,
-          // <Popconfirm
-          //   placement="topRight"
-          //   title="确定要提交答题卡？"
-          //   onConfirm={() => props.form?.submit?.()}
-          //   okText="确定"
-          //   cancelText="取消"
-          //   key="submit"
-          // >
-          //   <Button type="primary">交卷</Button>
-          // </Popconfirm>,
-        ];
-      },
-    };
-  };
   getColumns = () => {
     const columns = [
       {
-        type:
-          this.props.formType == '1'
-            ? 'select'
-            : this.props.formType == '2'
-            ? 'text'
-            : 'area',
-        width: this.props.formType == '1' ? 'xs' : 'lg',
-        name: `${this.props.item._id}`,
-        onChange: (e) => {
-          this.props.onChange(
-            this.props.item?._id,
-            this.props.formType == '1' ? e : e.target.value,
-          );
-        },
-        value: this.props.value,
+        type: 'select',
+        width: 'xs',
+        name: `item?._id`,
+        // value: '111',
+        // onChange: (v) => {
+        //   console.log(v);
+        // },
         label: ``,
-        options: _.map(
-          this.props.item?.question_content?.options,
-          (option) => ({
-            value: option?.option_key,
-            label: option?.option_key,
-          }),
-        ),
+        // options: _.map(item?.question_content?.options, (option) => ({
+        //   value: option?.option_key,
+        //   label: option?.option_key,
+        // })),
         // disabled:true,
         // value:'B'
       },
@@ -279,38 +214,10 @@ export default class Component extends React.PureComponent {
     return _.map(list, (item, index) => {
       return (
         <div className={styles.questionItem} key={index}>
-          <section style={{ display: item?.question_type == '1' && 'flex' }}>
+          <section>
             <span>{index + 1}.</span>&nbsp;
             <span>{item?.question_content?.question_title}</span>&nbsp;
             <span>（{item?.question_score} 分）</span>&nbsp;&nbsp;&nbsp;
-            {this.state.type == 'exam' && (
-              <div>
-                {item?.question_type == '1' && (
-                  <SingleForm
-                    onChange={this.props.onChange}
-                    value={this.props.formValue?.[item?._id]}
-                    item={item}
-                    formType={'1'}
-                  />
-                )}
-                {item?.question_type == '2' && (
-                  <SingleForm
-                    onChange={this.props.onChange}
-                    value={this.props.formValue?.[item?._id]}
-                    item={item}
-                    formType={'2'}
-                  />
-                )}
-                {item?.question_type == '3' && (
-                  <SingleForm
-                    onChange={this.props.onChange}
-                    value={this.props.formValue?.[item?._id]}
-                    item={item}
-                    formType={'3'}
-                  />
-                )}
-              </div>
-            )}
             {this.state.type == 'mark' &&
               (item?.question_type == '1' ? (
                 <span>参考答案： {item?.question_value} </span>
@@ -331,6 +238,7 @@ export default class Component extends React.PureComponent {
                 </Button>
               </Popconfirm>
             )}
+            <SingleForm></SingleForm>
           </section>
           {item?.question_content?.options && (
             <ul className={styles.questionOptions}>

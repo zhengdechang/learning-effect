@@ -72,29 +72,19 @@ class SingleForm extends BaseForm {
   getColumns = () => {
     const columns = [
       {
-        type:
-          this.props.formType == '1'
-            ? 'select'
-            : this.props.formType == '2'
-            ? 'text'
-            : 'area',
-        width: this.props.formType == '1' ? 'xs' : 'lg',
-        name: `${this.props.item._id}`,
-        onChange: (e) => {
-          this.props.onChange(
-            this.props.item?._id,
-            this.props.formType == '1' ? e : e.target.value,
-          );
-        },
+        type: 'select',
+        width: 'xs',
+        name: `item?._id`,
         value: this.props.value,
+        // value: '111',
+        // onChange: (v) => {
+        //   console.log(v);
+        // },
         label: ``,
-        options: _.map(
-          this.props.item?.question_content?.options,
-          (option) => ({
-            value: option?.option_key,
-            label: option?.option_key,
-          }),
-        ),
+        // options: _.map(item?.question_content?.options, (option) => ({
+        //   value: option?.option_key,
+        //   label: option?.option_key,
+        // })),
         // disabled:true,
         // value:'B'
       },
@@ -283,34 +273,9 @@ export default class Component extends React.PureComponent {
             <span>{index + 1}.</span>&nbsp;
             <span>{item?.question_content?.question_title}</span>&nbsp;
             <span>（{item?.question_score} 分）</span>&nbsp;&nbsp;&nbsp;
-            {this.state.type == 'exam' && (
-              <div>
-                {item?.question_type == '1' && (
-                  <SingleForm
-                    onChange={this.props.onChange}
-                    value={this.props.formValue?.[item?._id]}
-                    item={item}
-                    formType={'1'}
-                  />
-                )}
-                {item?.question_type == '2' && (
-                  <SingleForm
-                    onChange={this.props.onChange}
-                    value={this.props.formValue?.[item?._id]}
-                    item={item}
-                    formType={'2'}
-                  />
-                )}
-                {item?.question_type == '3' && (
-                  <SingleForm
-                    onChange={this.props.onChange}
-                    value={this.props.formValue?.[item?._id]}
-                    item={item}
-                    formType={'3'}
-                  />
-                )}
-              </div>
-            )}
+            <span>
+              {item?.question_type == '1' && <SingleForm value={'123'} />}
+            </span>
             {this.state.type == 'mark' &&
               (item?.question_type == '1' ? (
                 <span>参考答案： {item?.question_value} </span>

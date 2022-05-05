@@ -75,10 +75,10 @@ class AnswerSheet extends BaseForm {
   };
 
   handleSubmit = async () => {
-    // const validateValue = await this.formRef.current?.validateFields();
+    const validateValue = await this.formRef.current?.validateFields();
 
-    // console.log(validateValue, 'validateValue');
-    const answers = this.formatValue(this.props.formValue);
+    console.log(validateValue, 'validateValue');
+    const answers = this.formatValue(validateValue);
 
     console.log(answers, '1');
 
@@ -144,7 +144,10 @@ class AnswerSheet extends BaseForm {
         type: 'select',
         width: 'xs',
         name: `${item?._id}`,
-        value: this.props.formValue?.[item?._id],
+        // value: '111',
+        // onChange: (v) => {
+        //   console.log(v);
+        // },
         onChange: (value) => {
           this.props.onChange(item?._id, value);
         },
@@ -163,10 +166,9 @@ class AnswerSheet extends BaseForm {
       (item, index) => ({
         type: 'text',
         width: 'lg',
-        value: '111',
+        // value: '111',
         name: `${item?._id}`,
         label: `填空题 ${index + 1}`,
-        value: this.props.formValue?.[item?._id],
         placeholder: '请输入',
         onChange: (e) => {
           this.props.onChange(item?._id, e.target.value);
@@ -179,7 +181,6 @@ class AnswerSheet extends BaseForm {
       width: 'lg',
       name: `${item?._id}`,
       label: `简答题 ${index + 1}`,
-      value: this.props.formValue?.[item?._id],
       placeholder: '请输入',
       onChange: (e) => {
         this.props.onChange(item?._id, e.target.value);
@@ -369,7 +370,6 @@ export default class Component extends React.PureComponent {
           completionList={this.props.completionList}
           shortList={this.props.shortList}
           examId={this.state.examId}
-          formValue={this.state.formValue}
           handlEndtExam={this.handlEndtExam}
         />
       </ProCard>
@@ -448,7 +448,7 @@ export default class Component extends React.PureComponent {
               type="exam"
               paperId={this.state.paper?._id}
               formValue={this.state.formValue}
-              onChange={this.onChange}
+              onChange={this.state.onChange}
             />
           </>
         )}

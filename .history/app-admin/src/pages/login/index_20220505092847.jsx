@@ -77,13 +77,6 @@ export default class Component extends React.PureComponent {
   }
 
   getComScore = (signAverage, scoreAverage) => {
-    if (
-      !signAverage ||
-      !scoreAverage ||
-      isNaN(signAverage) ||
-      isNaN(scoreAverage)
-    )
-      return false;
     console.log('signAverage, scoreAverage: ', signAverage, scoreAverage);
 
     let signCom = 0;
@@ -146,7 +139,6 @@ export default class Component extends React.PureComponent {
 
         console.log(comScore, 'comScore');
 
-        if (comScore == false) return;
         let mark_id = markList?.filter(
           (item) => item.com_score == comScore,
         )?.[0]?._id;

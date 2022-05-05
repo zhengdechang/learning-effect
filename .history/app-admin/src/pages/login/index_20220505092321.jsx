@@ -77,15 +77,6 @@ export default class Component extends React.PureComponent {
   }
 
   getComScore = (signAverage, scoreAverage) => {
-    if (
-      !signAverage ||
-      !scoreAverage ||
-      isNaN(signAverage) ||
-      isNaN(scoreAverage)
-    )
-      return false;
-    console.log('signAverage, scoreAverage: ', signAverage, scoreAverage);
-
     let signCom = 0;
     let scoreCom = 0;
     if (signAverage < 30) signCom = 1;
@@ -99,7 +90,7 @@ export default class Component extends React.PureComponent {
     if (60 <= scoreAverage < 80) scoreCom = 3;
     if (80 <= scoreAverage < 90) scoreCom = 4;
     if (scoreAverage >= 90) scoreCom = 5;
-    console.log('signCom + scoreCom: ', signCom, scoreCom);
+
     return signCom + scoreCom;
   };
 
@@ -129,7 +120,7 @@ export default class Component extends React.PureComponent {
       sessionStorage.setItem('config', JSON.stringify(config));
       sessionStorage.setItem('user', JSON.stringify(user));
 
-      if (user.user_type == 3 && user.mark_id) {
+      if (user.user_type == 3 && !user.mark_id) {
         let signList = await this.getSignList(user._id);
         let examList = await this.getExamList(user._id);
         let signAverage = _.meanBy(signList, function (o) {
@@ -146,7 +137,6 @@ export default class Component extends React.PureComponent {
 
         console.log(comScore, 'comScore');
 
-        if (comScore == false) return;
         let mark_id = markList?.filter(
           (item) => item.com_score == comScore,
         )?.[0]?._id;

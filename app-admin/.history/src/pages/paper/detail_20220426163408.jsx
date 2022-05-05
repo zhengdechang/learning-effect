@@ -79,22 +79,23 @@ class SingleForm extends BaseForm {
             ? 'text'
             : 'area',
         width: this.props.formType == '1' ? 'xs' : 'lg',
-        name: `${this.props.item._id}`,
+        name: `item?._id`,
         onChange: (e) => {
           this.props.onChange(
-            this.props.item?._id,
+            item?._id,
             this.props.formType == '1' ? e : e.target.value,
           );
         },
         value: this.props.value,
+        // value: '111',
+        // onChange: (v) => {
+        //   console.log(v);
+        // },
         label: ``,
-        options: _.map(
-          this.props.item?.question_content?.options,
-          (option) => ({
-            value: option?.option_key,
-            label: option?.option_key,
-          }),
-        ),
+        // options: _.map(item?.question_content?.options, (option) => ({
+        //   value: option?.option_key,
+        //   label: option?.option_key,
+        // })),
         // disabled:true,
         // value:'B'
       },
@@ -287,25 +288,22 @@ export default class Component extends React.PureComponent {
               <div>
                 {item?.question_type == '1' && (
                   <SingleForm
-                    onChange={this.props.onChange}
                     value={this.props.formValue?.[item?._id]}
-                    item={item}
+                    _id={item?._id}
                     formType={'1'}
                   />
                 )}
                 {item?.question_type == '2' && (
                   <SingleForm
-                    onChange={this.props.onChange}
                     value={this.props.formValue?.[item?._id]}
-                    item={item}
+                    _id={item?._id}
                     formType={'2'}
                   />
                 )}
                 {item?.question_type == '3' && (
                   <SingleForm
-                    onChange={this.props.onChange}
                     value={this.props.formValue?.[item?._id]}
-                    item={item}
+                    _id={item?._id}
                     formType={'3'}
                   />
                 )}

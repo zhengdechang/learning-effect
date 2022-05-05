@@ -287,7 +287,6 @@ export default class Component extends React.PureComponent {
               <div>
                 {item?.question_type == '1' && (
                   <SingleForm
-                    onChange={this.props.onChange}
                     value={this.props.formValue?.[item?._id]}
                     item={item}
                     formType={'1'}
@@ -295,7 +294,6 @@ export default class Component extends React.PureComponent {
                 )}
                 {item?.question_type == '2' && (
                   <SingleForm
-                    onChange={this.props.onChange}
                     value={this.props.formValue?.[item?._id]}
                     item={item}
                     formType={'2'}
@@ -303,7 +301,6 @@ export default class Component extends React.PureComponent {
                 )}
                 {item?.question_type == '3' && (
                   <SingleForm
-                    onChange={this.props.onChange}
                     value={this.props.formValue?.[item?._id]}
                     item={item}
                     formType={'3'}

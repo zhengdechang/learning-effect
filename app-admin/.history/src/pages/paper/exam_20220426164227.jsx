@@ -75,10 +75,10 @@ class AnswerSheet extends BaseForm {
   };
 
   handleSubmit = async () => {
-    // const validateValue = await this.formRef.current?.validateFields();
+    const validateValue = await this.formRef.current?.validateFields();
 
-    // console.log(validateValue, 'validateValue');
-    const answers = this.formatValue(this.props.formValue);
+    console.log(validateValue, 'validateValue');
+    const answers = this.formatValue(validateValue);
 
     console.log(answers, '1');
 
