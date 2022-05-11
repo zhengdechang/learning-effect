@@ -75,8 +75,8 @@ class AnswerSheet extends BaseForm {
         },
       },
       () => {
-        this.setState({
-          transFormValue: this.trans(this.state.formValueList),
+        this.setState(() => {
+          transFormValue: this.trans(this.state.formValueList);
         });
       },
     );
@@ -134,7 +134,7 @@ class AnswerSheet extends BaseForm {
     const validateValue = await this.formRef.current?.validateFields();
     let answers = this.formatValue(validateValue);
 
-    answers = { ...answers, ...this.state.transFormValue };
+    answers = answers;
 
     let score = _.pickBy(answers.other, (value, key) => {
       return key.includes('_');
@@ -241,7 +241,7 @@ class AnswerSheet extends BaseForm {
             placeholder: '请输入',
             value: this.props.isView
               ? this.props.answerList[0]?.select_score
-              : this.state.transFormValue?.select_score,
+              : transFormValue?.select_score,
             disabled: this.props.isView && true,
           },
           !_.isEmpty(completionColumns) && {
@@ -253,7 +253,7 @@ class AnswerSheet extends BaseForm {
             disabled: this.props.isView && true,
             value: this.props.isView
               ? this.props.answerList[0]?.empty_score
-              : this.state.transFormValue?.empty_score,
+              : transFormValue?.empty_score,
           },
           !_.isEmpty(shortColumns) && {
             type: 'text',
@@ -264,7 +264,7 @@ class AnswerSheet extends BaseForm {
             style: { float: 'right' },
             value: this.props.isView
               ? this.props.answerList[0]?.brief_score
-              : this.state.transFormValue?.brief_score,
+              : transFormValue?.brief_score,
             disabled: this.props.isView && true,
           },
         ]?.filter((item) => !!item),

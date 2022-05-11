@@ -13,7 +13,6 @@ import { getConfig, getUser } from '@/utils/dict';
 const mergeList = (answerList = [], questionList = []) => {
   if (_.isEmpty(answerList)) return questionList;
   let list = [];
-
   let res = answerList.map((item) => {
     questionList.map((i) => {
       if (item.question_id == i?._id) {
@@ -34,53 +33,8 @@ const mergeList = (answerList = [], questionList = []) => {
 class AnswerSheet extends BaseForm {
   constructor(props) {
     super(props);
-    _.assign(this.state, {
-      formValueList: {},
-      transFormValue: {},
-    });
+    _.assign(this.state, {});
   }
-
-  trans = (formValueList) => {
-    let res = { empty_score: 0, select_score: 0, brief_score: 0 };
-    Object.keys(formValueList).map((item) => {
-      if (item.split('_')?.[1].includes('1')) {
-        res = {
-          ...res,
-          select_score: res.select_score + Number(formValueList?.[item] ?? 0),
-        };
-      }
-      if (item.split('_')?.[1].includes('2')) {
-        res = {
-          ...res,
-          empty_score: res.empty_score + Number(formValueList?.[item] ?? 0),
-        };
-      }
-      if (item.split('_')?.[1].includes('3')) {
-        res = {
-          ...res,
-          brief_score: res.brief_score + Number(formValueList?.[item] ?? 0),
-        };
-      }
-    });
-
-    return res;
-  };
-
-  onChange = (e, key) => {
-    this.setState(
-      {
-        formValueList: {
-          ...this.state.formValueList,
-          [key]: e.target.value,
-        },
-      },
-      () => {
-        this.setState({
-          transFormValue: this.trans(this.state.formValueList),
-        });
-      },
-    );
-  };
 
   extendComponentDidMount = () => {
     this.setState({
@@ -108,7 +62,7 @@ class AnswerSheet extends BaseForm {
 
       // 完全自定义整个区域
       render: (props, doms) => {
-        return !this.props.isView
+        return !this.props.answerList[0]?.empty_score
           ? [
               <Popconfirm
                 placement="topRight"
@@ -134,52 +88,41 @@ class AnswerSheet extends BaseForm {
     const validateValue = await this.formRef.current?.validateFields();
     let answers = this.formatValue(validateValue);
 
-    answers = { ...answers, ...this.state.transFormValue };
-
-    let score = _.pickBy(answers.other, (value, key) => {
-      return key.includes('_');
-    });
-
-    let scoreUnique = {};
-
-    Object.keys(score).map((item) => {
-      scoreUnique = {
-        ...scoreUnique,
-        [item.slice(0, 24)]: score?.[item],
-      };
-    });
+    answers = answers;
 
     let sum =
       Number(answers?.select_score ?? 0) +
       Number(+answers?.empty_score ?? 0) +
       +Number(answers?.brief_score ?? 0);
 
+    console.log(sum, 'sum');
+
     const query = `mutation AddScore($id: ID, $sign: UpdateScore){
       addScore(id: $id, sign: $sign)
     }`;
-
     const variables = {
       id: this.props.answerList[0]?.exam_id,
       sign: {
         ...answers,
         sum_score: sum,
-        other: JSON.stringify(scoreUnique),
       },
     };
 
     try {
       await graphql(query, variables);
       message.success('提交完成');
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   formatValue = (obj) => {
-    const { brief_score, empty_score, select_score, ...other } = obj;
+    console.log(obj, 'obj');
+    const { brief_score, empty_score, select_score } = obj;
     const data = {
       brief_score,
       empty_score,
       select_score,
-      other,
     };
 
     return data;
@@ -239,10 +182,8 @@ class AnswerSheet extends BaseForm {
             name: `select_score`,
             label: `选择题总分`,
             placeholder: '请输入',
-            value: this.props.isView
-              ? this.props.answerList[0]?.select_score
-              : this.state.transFormValue?.select_score,
-            disabled: this.props.isView && true,
+            value: this.props.answerList[0]?.empty_score,
+            disabled: this.props.answerList[0]?.empty_score && true,
           },
           !_.isEmpty(completionColumns) && {
             type: 'text',
@@ -250,10 +191,8 @@ class AnswerSheet extends BaseForm {
             name: `empty_score`,
             label: `填空题总分`,
             placeholder: '请输入',
-            disabled: this.props.isView && true,
-            value: this.props.isView
-              ? this.props.answerList[0]?.empty_score
-              : this.state.transFormValue?.empty_score,
+            disabled: this.props.answerList[0]?.empty_score && true,
+            value: this.props.answerList[0]?.empty_score,
           },
           !_.isEmpty(shortColumns) && {
             type: 'text',
@@ -262,10 +201,8 @@ class AnswerSheet extends BaseForm {
             label: `简答题总分`,
             placeholder: '请输入',
             style: { float: 'right' },
-            value: this.props.isView
-              ? this.props.answerList[0]?.brief_score
-              : this.state.transFormValue?.brief_score,
-            disabled: this.props.isView && true,
+            value: this.props.answerList[0]?.brief_score,
+            disabled: this.props.answerList[0]?.brief_score && true,
           },
         ]?.filter((item) => !!item),
       ),
@@ -277,12 +214,13 @@ class AnswerSheet extends BaseForm {
         return {
           type: 'text',
           width: 'xs',
-          name: `${item?._id}_${item.question_type}`,
+          name: `${item?._id}_score`,
           label: `选择题 ${index + 1}得分`,
-          onChange: (e) => {
-            this.onChange(e, `${item?._id}_${item.question_type}`);
-          },
-          value: this.props.answerList[0]?.other?.[`${item?._id}`],
+          options: _.map(item?.question_content?.options, (option) => ({
+            value: option?.option_key,
+            label: option?.option_key,
+          })),
+          // value: item?.answer_value,
           disabled: this.props.isView && true,
         };
       },
@@ -293,13 +231,10 @@ class AnswerSheet extends BaseForm {
       (item, index) => ({
         type: 'text',
         width: 'xs',
-        name: `${item?._id}_${item.question_type}`,
+        name: `${item?._id}_score`,
         label: `填空题 ${index + 1}得分`,
         placeholder: '请输入',
-        onChange: (e) => {
-          this.onChange(e, `${item?._id}_${item.question_type}`);
-        },
-        value: this.props.answerList[0]?.other?.[`${item?._id}`],
+        // value: item?.answer_value,
         disabled: this.props.isView && true,
       }),
     );
@@ -309,13 +244,9 @@ class AnswerSheet extends BaseForm {
       (item, index) => ({
         type: 'text',
         width: 'xs',
-        name: `${item?._id}_${item.question_type}`,
+        name: `${item?._id}_score`,
         label: `简答题 ${index + 1}得分`,
         placeholder: '请输入',
-        onChange: (e) => {
-          this.onChange(e, `${item?._id}_${item.question_type}`);
-        },
-        value: this.props.answerList[0]?.other?.[`${item?._id}`],
         disabled: this.props.isView && true,
       }),
     );
@@ -384,6 +315,7 @@ class MyTable extends BaseTable {
         title: '操作',
         valueType: 'option',
         render: (text, record, _, action) => {
+          console.log('record: ', record?.exam_id, record);
           return [
             !!!record?.sum_score && (
               <a
@@ -468,7 +400,7 @@ class MyTable extends BaseTable {
     };
     const res = await graphql(query, variables);
     let { total, data } = res?.examList;
-
+    console.log(data, res, 'data');
     data = data?.map((item, index) => {
       let { user, paper, ...i } = item;
       return {
@@ -479,7 +411,7 @@ class MyTable extends BaseTable {
         ...user?.[0]?.class[0],
       };
     });
-
+    console.log(data, '222');
     return {
       total,
       data,
@@ -539,6 +471,8 @@ export default class Component extends React.PureComponent {
   };
 
   changeMarkStatus = (markStatue, isView) => {
+    console.log('isView: ', isView);
+
     this.setState({
       markStatue: markStatue,
       isView: isView,
@@ -559,7 +493,6 @@ export default class Component extends React.PureComponent {
             empty_score
             brief_score
             sum_score
-            other
             user{
               name
               user_type
@@ -598,21 +531,6 @@ export default class Component extends React.PureComponent {
     return data;
   };
 
-  transOther = (other) => {
-    if (_.isEmpty(other)) return;
-
-    let res = JSON.parse(other);
-    let result = {};
-    Object.keys(res).map((item) => {
-      result = {
-        ...result,
-        [item]: res?.[item],
-      };
-    });
-
-    return result;
-  };
-
   getAnswerList = async (id, pid, exam_id) => {
     const query = `query AnswerList($filters: Filters) {
         answerList(filters: $filters){
@@ -648,10 +566,8 @@ export default class Component extends React.PureComponent {
 
     try {
       res = await graphql(query, variables);
-
       let examId = res?.answerList.data?.[0]?.exam_id;
       const data = await this.getData(examId);
-
       res = res?.answerList.data?.map((item) => {
         const { question_id, ...i } = item;
         return {
@@ -662,14 +578,16 @@ export default class Component extends React.PureComponent {
           brief_score: data?.brief_score,
           select_score: data?.select_score,
           empty_score: data?.empty_score,
-          other: this.transOther(data.other),
         };
       });
 
       this.setState({
         answerList: res,
       });
-    } catch (error) {}
+      console.log(res, 'res');
+    } catch (error) {
+      console.error(error);
+    }
 
     // const questionList = _.get(res, 'questionList');
     // this.formQuestionList(questionList);

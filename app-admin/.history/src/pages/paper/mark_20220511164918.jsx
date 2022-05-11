@@ -36,48 +36,17 @@ class AnswerSheet extends BaseForm {
     super(props);
     _.assign(this.state, {
       formValueList: {},
-      transFormValue: {},
     });
   }
-
-  trans = (formValueList) => {
-    let res = { empty_score: 0, select_score: 0, brief_score: 0 };
-    Object.keys(formValueList).map((item) => {
-      if (item.split('_')?.[1].includes('1')) {
-        res = {
-          ...res,
-          select_score: res.select_score + Number(formValueList?.[item] ?? 0),
-        };
-      }
-      if (item.split('_')?.[1].includes('2')) {
-        res = {
-          ...res,
-          empty_score: res.empty_score + Number(formValueList?.[item] ?? 0),
-        };
-      }
-      if (item.split('_')?.[1].includes('3')) {
-        res = {
-          ...res,
-          brief_score: res.brief_score + Number(formValueList?.[item] ?? 0),
-        };
-      }
-    });
-
-    return res;
-  };
 
   onChange = (e, key) => {
     this.setState(
       {
-        formValueList: {
-          ...this.state.formValueList,
-          [key]: e.target.value,
-        },
+        ...formValueList,
+        [key]: e.target.value,
       },
       () => {
-        this.setState({
-          transFormValue: this.trans(this.state.formValueList),
-        });
+        console.log(this.state.formValueList);
       },
     );
   };
@@ -134,7 +103,7 @@ class AnswerSheet extends BaseForm {
     const validateValue = await this.formRef.current?.validateFields();
     let answers = this.formatValue(validateValue);
 
-    answers = { ...answers, ...this.state.transFormValue };
+    answers = answers;
 
     let score = _.pickBy(answers.other, (value, key) => {
       return key.includes('_');
@@ -153,6 +122,8 @@ class AnswerSheet extends BaseForm {
       Number(answers?.select_score ?? 0) +
       Number(+answers?.empty_score ?? 0) +
       +Number(answers?.brief_score ?? 0);
+
+    console.log('sum: ', sum);
 
     const query = `mutation AddScore($id: ID, $sign: UpdateScore){
       addScore(id: $id, sign: $sign)
@@ -239,9 +210,7 @@ class AnswerSheet extends BaseForm {
             name: `select_score`,
             label: `选择题总分`,
             placeholder: '请输入',
-            value: this.props.isView
-              ? this.props.answerList[0]?.select_score
-              : this.state.transFormValue?.select_score,
+            value: this.props.answerList[0]?.empty_score,
             disabled: this.props.isView && true,
           },
           !_.isEmpty(completionColumns) && {
@@ -251,9 +220,7 @@ class AnswerSheet extends BaseForm {
             label: `填空题总分`,
             placeholder: '请输入',
             disabled: this.props.isView && true,
-            value: this.props.isView
-              ? this.props.answerList[0]?.empty_score
-              : this.state.transFormValue?.empty_score,
+            value: this.props.answerList[0]?.empty_score,
           },
           !_.isEmpty(shortColumns) && {
             type: 'text',
@@ -262,9 +229,7 @@ class AnswerSheet extends BaseForm {
             label: `简答题总分`,
             placeholder: '请输入',
             style: { float: 'right' },
-            value: this.props.isView
-              ? this.props.answerList[0]?.brief_score
-              : this.state.transFormValue?.brief_score,
+            value: this.props.answerList[0]?.brief_score,
             disabled: this.props.isView && true,
           },
         ]?.filter((item) => !!item),
@@ -274,6 +239,7 @@ class AnswerSheet extends BaseForm {
     let choiceScore = _.map(
       mergeList(this.props.answerList, this.props.choiceList),
       (item, index) => {
+        console.log('item: ', item);
         return {
           type: 'text',
           width: 'xs',
@@ -599,6 +565,7 @@ export default class Component extends React.PureComponent {
   };
 
   transOther = (other) => {
+    console.log('other: ', other);
     if (_.isEmpty(other)) return;
 
     let res = JSON.parse(other);
@@ -665,7 +632,7 @@ export default class Component extends React.PureComponent {
           other: this.transOther(data.other),
         };
       });
-
+      console.log(res, 'res');
       this.setState({
         answerList: res,
       });

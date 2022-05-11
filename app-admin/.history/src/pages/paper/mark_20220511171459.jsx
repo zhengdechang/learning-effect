@@ -75,8 +75,8 @@ class AnswerSheet extends BaseForm {
         },
       },
       () => {
-        this.setState({
-          transFormValue: this.trans(this.state.formValueList),
+        this.setState(() => {
+          transFormValue: this.trans(this.state.formValueList);
         });
       },
     );
@@ -134,7 +134,7 @@ class AnswerSheet extends BaseForm {
     const validateValue = await this.formRef.current?.validateFields();
     let answers = this.formatValue(validateValue);
 
-    answers = { ...answers, ...this.state.transFormValue };
+    answers = answers;
 
     let score = _.pickBy(answers.other, (value, key) => {
       return key.includes('_');

@@ -12,7 +12,7 @@ module.exports = app => {
     select_score: { type: Number },
     empty_score: { type: Number },
     brief_score: { type: Number },
-    other: { type: String },
+    other: { type: JSON },
     sum_score: { type: Number, default: 0 },
   });
 

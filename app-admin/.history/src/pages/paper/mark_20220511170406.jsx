@@ -36,7 +36,6 @@ class AnswerSheet extends BaseForm {
     super(props);
     _.assign(this.state, {
       formValueList: {},
-      transFormValue: {},
     });
   }
 
@@ -44,24 +43,27 @@ class AnswerSheet extends BaseForm {
     let res = { empty_score: 0, select_score: 0, brief_score: 0 };
     Object.keys(formValueList).map((item) => {
       if (item.split('_')?.[1].includes('1')) {
+        console.log(formValueList?.item, 'formValueList?.item ');
         res = {
           ...res,
-          select_score: res.select_score + Number(formValueList?.[item] ?? 0),
+          select_score: res.select_score + Number(formValueList?.item ?? 0),
         };
       }
       if (item.split('_')?.[1].includes('2')) {
         res = {
           ...res,
-          empty_score: res.empty_score + Number(formValueList?.[item] ?? 0),
+          empty_score: res.select_score + Number(formValueList?.item ?? 0),
         };
       }
       if (item.split('_')?.[1].includes('3')) {
         res = {
           ...res,
-          brief_score: res.brief_score + Number(formValueList?.[item] ?? 0),
+          brief_score: res.select_score + Number(formValueList?.item ?? 0),
         };
       }
     });
+
+    console.log('res: ', res);
 
     return res;
   };
@@ -75,9 +77,7 @@ class AnswerSheet extends BaseForm {
         },
       },
       () => {
-        this.setState({
-          transFormValue: this.trans(this.state.formValueList),
-        });
+        console.log(this.trans(this.state.formValueList));
       },
     );
   };
@@ -134,7 +134,7 @@ class AnswerSheet extends BaseForm {
     const validateValue = await this.formRef.current?.validateFields();
     let answers = this.formatValue(validateValue);
 
-    answers = { ...answers, ...this.state.transFormValue };
+    answers = answers;
 
     let score = _.pickBy(answers.other, (value, key) => {
       return key.includes('_');
@@ -239,9 +239,7 @@ class AnswerSheet extends BaseForm {
             name: `select_score`,
             label: `选择题总分`,
             placeholder: '请输入',
-            value: this.props.isView
-              ? this.props.answerList[0]?.select_score
-              : this.state.transFormValue?.select_score,
+            value: this.props.answerList[0]?.empty_score,
             disabled: this.props.isView && true,
           },
           !_.isEmpty(completionColumns) && {
@@ -251,9 +249,7 @@ class AnswerSheet extends BaseForm {
             label: `填空题总分`,
             placeholder: '请输入',
             disabled: this.props.isView && true,
-            value: this.props.isView
-              ? this.props.answerList[0]?.empty_score
-              : this.state.transFormValue?.empty_score,
+            value: this.props.answerList[0]?.empty_score,
           },
           !_.isEmpty(shortColumns) && {
             type: 'text',
@@ -262,9 +258,7 @@ class AnswerSheet extends BaseForm {
             label: `简答题总分`,
             placeholder: '请输入',
             style: { float: 'right' },
-            value: this.props.isView
-              ? this.props.answerList[0]?.brief_score
-              : this.state.transFormValue?.brief_score,
+            value: this.props.answerList[0]?.brief_score,
             disabled: this.props.isView && true,
           },
         ]?.filter((item) => !!item),
