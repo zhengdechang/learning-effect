@@ -1,0 +1,15 @@
+type Know {
+  _id: ID @deprecated(reason: "考勤ID")
+  know_name: String @deprecated(reason: "标签名称")
+  com_score: String @deprecated(reason: "综合分数")
+}
+
+type KnowList {
+  data: [Know]
+  total: Int
+}
+
+input KnowInput {
+  know_name: String @deprecated(reason: "标签名称")
+  com_score: String @deprecated(reason: "综合分数")
+}
