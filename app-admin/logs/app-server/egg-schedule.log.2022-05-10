@@ -1,0 +1,8 @@
+2022-05-11 09:06:48,454 INFO 25652 [Job#16522312075801726256248445002] E:\桌面\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2022-05-11 09:06:48,458 INFO 25652 [Job#16522312084201726264652759002] E:\桌面\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2022-05-11 09:06:48,466 INFO 25652 [Job#16522312075801726256248445002] E:\桌面\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 11ms. 
+2022-05-11 09:06:48,467 INFO 25652 [Job#16522312084261726264704486002] E:\桌面\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-05-11 09:06:48,478 INFO 25652 [Job#16522312084201726264652759002] E:\桌面\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 20ms. 
+2022-05-11 09:06:48,417 INFO 14392 [Timer] E:\桌面\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53591603ms at 2022-05-12 00:00:00.019
+2022-05-11 09:06:48,425 INFO 14392 [Timer] E:\桌面\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53592579ms at 2022-05-12 00:00:01.004
+2022-05-11 09:06:48,434 INFO 14392 [Timer] E:\桌面\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69791574ms at 2022-05-12 04:30:00.008

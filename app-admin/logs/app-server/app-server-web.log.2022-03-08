@@ -1,0 +1,1598 @@
+2022-03-08 20:05:59,027 ERROR 8392 [-/127.0.0.1/-/3ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:4:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 8392
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:13:39,146 ERROR 23196 [-/127.0.0.1/-/5ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:5:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 23196
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:13:40,337 ERROR 23196 [-/127.0.0.1/-/1ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:5:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 23196
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:14:11,041 ERROR 7700 [-/127.0.0.1/-/5ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:5:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 7700
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:20:45,624 ERROR 24100 [-/127.0.0.1/-/14ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24100
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:23:02,944 ERROR 24424 [-/127.0.0.1/-/17ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24424
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:23:53,734 ERROR 25292 [-/127.0.0.1/-/91ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 25292
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:24:25,125 ERROR 22856 [-/127.0.0.1/-/12ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 22856
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:24:37,495 ERROR 24856 [-/127.0.0.1/-/8ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24856
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:24:56,301 ERROR 24292 [-/127.0.0.1/-/11ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24292
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:25:04,845 ERROR 7024 [-/127.0.0.1/-/7ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 7024
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:25:16,541 ERROR 19296 [-/127.0.0.1/-/59ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 19296
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:25:32,846 ERROR 18656 [-/127.0.0.1/-/26ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:6:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 18656
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 20:26:43,685 ERROR 21448 [-/127.0.0.1/-/6ms GET /api/users] nodejs.TypeError: Cannot read property 'model' of undefined
+    at Object.exports.index (D:\我的创作\外包项目\learning-effect\app-server\app\controller\users.js:5:29)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 21448
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 22:26:21,297 WARN 12232 [-/127.0.0.1/-/23ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 22:26:21,299 WARN 12232 [-/127.0.0.1/-/25ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 12232
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:50,426 WARN 26876 [-/127.0.0.1/-/10ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:50,429 WARN 26876 [-/127.0.0.1/-/12ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:50,442 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:50,443 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:51,962 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:51,963 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:51,972 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:51,973 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,355 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,356 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,365 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,365 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,525 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,526 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,535 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,536 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,719 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,720 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,726 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,727 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,882 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,883 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:52,890 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:52,891 WARN 26876 [-/127.0.0.1/-/2ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:07:53,797 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:07:53,798 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:30,989 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:30,990 WARN 26876 [-/127.0.0.1/-/2ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:30,997 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:30,997 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,180 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,181 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,187 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,188 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,336 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,336 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,343 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,343 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,528 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,529 WARN 26876 [-/127.0.0.1/-/2ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,537 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,537 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,698 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,698 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,704 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,705 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,875 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,876 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:31,884 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:31,885 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:32,040 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:32,041 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:32,048 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:32,049 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,246 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,246 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,255 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,256 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,433 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,434 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,441 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,441 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,601 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,602 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,609 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,609 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,778 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,778 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,786 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,786 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,946 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,947 WARN 26876 [-/127.0.0.1/-/2ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:08:39,957 WARN 26876 [-/127.0.0.1/-/0ms POST /graphql] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-03-08 23:08:39,958 WARN 26876 [-/127.0.0.1/-/1ms POST /graphql] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "invalid csrf token"
+pid: 26876
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:02,413 ERROR 25888 [-/127.0.0.1/-/16ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:02,424 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:03,797 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:03,807 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:03,974 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:03,981 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:04,155 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:04,162 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:04,293 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:04,300 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:07,417 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:10:07,429 ERROR 25888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 25888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:12:42,875 ERROR 3028 [-/127.0.0.1/-/19ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":1,"column":1}]
+path: undefined
+pid: 3028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:12:42,886 ERROR 3028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":1,"column":1}]
+path: undefined
+pid: 3028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:14:01,080 ERROR 21516 [-/127.0.0.1/-/14ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:809:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+message: "Syntax Error: Expected Name, found }"
+locations: [{"line":1,"column":12}]
+path: undefined
+pid: 21516
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:14:01,092 ERROR 21516 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:809:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+message: "Syntax Error: Expected Name, found }"
+locations: [{"line":1,"column":12}]
+path: undefined
+pid: 21516
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:14:07,292 ERROR 27044 [-/127.0.0.1/-/12ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:809:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+message: "Syntax Error: Expected Name, found }"
+locations: [{"line":1,"column":12}]
+path: undefined
+pid: 27044
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:14:07,304 ERROR 27044 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:809:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+message: "Syntax Error: Expected Name, found }"
+locations: [{"line":1,"column":12}]
+path: undefined
+pid: 27044
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:25:06,875 ERROR 9588 [-/127.0.0.1/-/16ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 9588
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:25:06,886 ERROR 9588 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 9588
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:26:39,311 ERROR 3956 [-/127.0.0.1/-/16ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 3956
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-08 23:26:39,323 ERROR 3956 [-/127.0.0.1/-/2ms POST /graphql] nodejs.GraphQLError: Cannot extend type "Query" because it does not exist in the existing schema.
+    at Object.extendSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\extendSchema.js:100:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:28:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+message: "Cannot extend type \"Query\" because it does not exist in the existing schema."
+locations: [{"line":8,"column":1}]
+path: undefined
+pid: 3956
+hostname: LAPTOP-RN3TRVQJ
+

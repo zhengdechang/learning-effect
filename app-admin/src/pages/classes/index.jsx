@@ -4,7 +4,7 @@ import BaseForm from '@/components/base-form';
 import _ from 'lodash';
 import { Popconfirm, message } from 'antd';
 import graphql from '@/utils/graphql';
-import { getClasses } from '@/services/classes';
+import { getClasses, updateClasses } from '@/services/classes';
 
 export default class Component extends BaseTable {
   modalRef = React.createRef();
@@ -57,6 +57,11 @@ export default class Component extends BaseTable {
             },
           ],
         },
+      },
+      {
+        title: '知识平均完成度',
+        dataIndex: 'com_pc',
+        ellipsis: true,
       },
       {
         title: '操作',
@@ -124,6 +129,8 @@ export default class Component extends BaseTable {
           message.success('添加成功');
           this.actionRef.current.reload();
           formRef.current?.resetFields();
+
+          // await updateClasses('622b2022975a2a6948676d96', { com_pc: '1234' });
 
           return true;
         } catch (error) {

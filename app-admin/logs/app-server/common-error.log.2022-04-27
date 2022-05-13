@@ -1,0 +1,17 @@
+2022-04-27 15:50:09,767 ERROR 31684 [egg-mongoose] mongodb://127.0.0.1/learning_effect disconnected
+2022-04-27 21:02:22,775 ERROR 25364 nodejs.ClusterClientNoResponseError: client no response in 10819539ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-28 09:06:01,902 ERROR 25364 nodejs.ClusterClientNoResponseError: client no response in 43417522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+

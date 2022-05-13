@@ -1,0 +1,16 @@
+2022-03-18 23:59:57,303 INFO 22484 [egg-logrotator] app logger reload: got log-reload message
+2022-03-19 03:06:53,690 WARN 22484 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-19 03:06:53,691 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 09:12:24,792 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 09:12:24,945 INFO 22484 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Sanery\\AppData\\Local\\Temp\\egg-multipart-tmp\\app-server"
+2022-03-19 09:12:25,057 INFO 22484 [-/127.0.0.1/-/115ms SCHEDULE /__schedule?path=D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-03-19 10:12:59,657 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 13:32:28,916 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 13:37:27,791 WARN 22484 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-19 13:37:27,794 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 16:53:57,564 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 20:03:08,990 WARN 22484 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-19 20:03:09,009 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 23:59:49,795 INFO 22484 [egg-logrotator] clean all log before 31 days
+2022-03-19 23:59:50,787 INFO 22484 [egg-logrotator] broadcast log-reload
+2022-03-19 23:59:50,787 INFO 22484 [egg-logrotator] rotate files success by DayRotator, files ["D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\common-error.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\common-error.log.2022-03-19","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\app-server-web.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\app-server-web.log.2022-03-19","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-web.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-web.log.2022-03-19","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-schedule.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-schedule.log.2022-03-19","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-agent.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-agent.log.2022-03-19"]

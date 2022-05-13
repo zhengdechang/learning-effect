@@ -1,0 +1,72 @@
+2022-03-11 09:20:06,125 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 23383220ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 11:15:27,611 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 243768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 12:30:08,795 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 739750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 16:06:48,553 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 10798821ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 17:16:00,311 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 4151743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 17:34:32,927 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 212189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 19:02:59,501 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 433497ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 19:47:03,983 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 683678ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 22:43:34,786 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 9670335ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+

@@ -1,0 +1,24 @@
+2022-05-10 13:05:52,359 ERROR 14392 nodejs.ClusterClientNoResponseError: client no response in 426007ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 14392
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-10 22:01:57,527 ERROR 14392 nodejs.ClusterClientNoResponseError: client no response in 10815909ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 14392
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 09:06:48,434 ERROR 14392 nodejs.ClusterClientNoResponseError: client no response in 39889908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 14392
+hostname: LAPTOP-0HJCDJRM
+

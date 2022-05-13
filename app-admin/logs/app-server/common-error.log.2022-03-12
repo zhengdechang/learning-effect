@@ -1,0 +1,238 @@
+2022-03-12 04:49:36,828 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 6580871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 12:06:36,765 ERROR 22396 nodejs.ClusterClientNoResponseError: client no response in 644966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 22396
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 12:06:36,767 ERROR 22396 nodejs.ClusterClientNoResponseError: client no response in 626483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 22396
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 13:31:20,852 ERROR 22396 nodejs.ClusterClientNoResponseError: client no response in 927499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 22396
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 17:14:45,305 ERROR 17100 [-/127.0.0.1/-/17ms POST /graphql] nodejs.GraphQLError: Syntax Error: Cannot parse the unexpected character "\uFF01".
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at readToken (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:302:32)
+    at Object.lookahead (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:61:43)
+    at Object.advanceLexer [as advance] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:52:33)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1296:11)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseNamedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:630:11)
+    at parseTypeReference (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:611:12)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:812:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Cannot parse the unexpected character \"\\uFF01\"."
+locations: [{"line":89,"column":17}]
+path: undefined
+pid: 17100
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 17:16:18,144 ERROR 23272 [-/127.0.0.1/-/35ms POST /graphql] nodejs.GraphQLError: Syntax Error: Cannot parse the unexpected character "\uFF01".
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at readToken (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:302:32)
+    at Object.lookahead (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:61:43)
+    at Object.advanceLexer [as advance] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:52:33)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1296:11)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseNamedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:630:11)
+    at parseTypeReference (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:611:12)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:812:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Cannot parse the unexpected character \"\\uFF01\"."
+locations: [{"line":89,"column":17}]
+path: undefined
+pid: 23272
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 17:17:46,948 ERROR 22536 [-/127.0.0.1/-/15ms POST /graphql] nodejs.GraphQLError: Syntax Error: Cannot parse the unexpected character "\uFF01".
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at readToken (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:302:32)
+    at Object.lookahead (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:61:43)
+    at Object.advanceLexer [as advance] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:52:33)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1296:11)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseNamedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:630:11)
+    at parseTypeReference (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:611:12)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:812:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Cannot parse the unexpected character \"\\uFF01\"."
+locations: [{"line":89,"column":17}]
+path: undefined
+pid: 22536
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 17:19:34,906 ERROR 23156 [-/127.0.0.1/-/18ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 23156
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 17:26:49,065 ERROR 23048 [-/127.0.0.1/-/24ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 23048
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 18:18:49,549 ERROR 22396 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:178:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\我的创作\\外包项目\\learning-effect\\app-server\\app\\graphql\\question\\scalars"
+name: "EPERMError"
+pid: 22396
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 23:57:39,284 ERROR 22652 [-/127.0.0.1/-/18ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 22652
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 23:57:41,263 ERROR 22652 [-/127.0.0.1/-/2ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 22652
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 23:57:55,078 ERROR 22652 [-/127.0.0.1/-/1ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 22652
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-12 23:59:26,797 ERROR 11924 [-/127.0.0.1/-/16ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 11924
+hostname: LAPTOP-RN3TRVQJ
+

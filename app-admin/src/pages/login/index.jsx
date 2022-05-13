@@ -9,7 +9,9 @@ import styles from './index.less';
 import graphql from '@/utils/graphql';
 import _ from 'lodash';
 import { addMark, getMarkList, updateMark } from '@/services/mark';
-import { updateUser } from '@/services/user';
+import { updateUser, getUserList } from '@/services/user';
+import { IsEmpty, getComPc } from '@/utils/dict';
+import { getClasses, updateClasses } from '@/services/classes';
 
 export default class Component extends React.PureComponent {
   constructor(props) {
@@ -36,9 +38,7 @@ export default class Component extends React.PureComponent {
     let res;
     try {
       res = await graphql(query, variables);
-    } catch (error) {
-      console.error(error);
-    }
+    } catch (error) {}
     return res?.signList?.data
       ?.filter((item) => item.user_id == user_id)
       .map((item) => {
@@ -72,7 +72,7 @@ export default class Component extends React.PureComponent {
     };
     const res = await graphql(query, variables);
     let { total, data } = res?.examList;
-    // console.log('data', data);
+    //
     return data?.filter((item) => item.user_id == user_id);
   }
 
@@ -84,7 +84,6 @@ export default class Component extends React.PureComponent {
       isNaN(scoreAverage)
     )
       return false;
-    console.log('signAverage, scoreAverage: ', signAverage, scoreAverage);
 
     let signCom = 0;
     let scoreCom = 0;
@@ -99,8 +98,43 @@ export default class Component extends React.PureComponent {
     if (60 <= scoreAverage < 80) scoreCom = 3;
     if (80 <= scoreAverage < 90) scoreCom = 4;
     if (scoreAverage >= 90) scoreCom = 5;
-    console.log('signCom + scoreCom: ', signCom, scoreCom);
+
     return signCom + scoreCom;
+  };
+
+  getList = async () => {
+    let { userList } = await getUserList();
+
+    userList.data.map(async (item) => {
+      let com_pc = await getComPc(item);
+
+      updateUser(item._id, {
+        com_pc: JSON.stringify(com_pc),
+      });
+    });
+
+    let res = await getClasses();
+
+    res.data.map(async (item) => {
+      let arr = [];
+
+      let { userList } = await getUserList({ classes_id: item._id });
+
+      if (IsEmpty(userList.data)) return;
+
+      userList.data.map((item) => {
+        let result = !IsEmpty(item?.com_pc) ? JSON.parse(item.com_pc) : {};
+        arr = [...arr, ...Object.values(result)];
+      });
+
+      if (!IsEmpty(arr)) {
+        let class_com_pc = _.mean(arr) * 100;
+
+        await updateClasses(item._id, {
+          com_pc: `${class_com_pc.toFixed(2)}%`,
+        });
+      }
+    });
   };
 
   varifyUserInfo = async (values) => {
@@ -110,7 +144,6 @@ export default class Component extends React.PureComponent {
         method: 'GET',
       });
     } catch (error) {
-      console.error(error);
       return;
     }
 
@@ -122,7 +155,7 @@ export default class Component extends React.PureComponent {
         method: 'POST',
         data: { ...values },
       });
-      // console.log('routes', routes);
+      //
 
       localStorage.setItem('token', token);
       localStorage.setItem('routes', JSON.stringify(routes));
@@ -144,22 +177,22 @@ export default class Component extends React.PureComponent {
 
         let comScore = this.getComScore(signAverage, scoreAverage); //综合得分
 
-        console.log(comScore, 'comScore');
-
         if (comScore == false) return;
         let mark_id = markList?.filter(
           (item) => item.com_score == comScore,
         )?.[0]?._id;
 
-        updateUser(user._id, mark_id);
-
-        console.log('comScore', markList, mark_id);
+        updateUser(user._id, { mark_id: mark_id });
       }
+      this.getList();
+
+      if (user.user_type == 3) {
+        this.getList();
+      }
+
       message.success('登录成功');
       history.push('/');
-    } catch (error) {
-      console.error(error);
-    }
+    } catch (error) {}
   };
 
   render = () => {

@@ -1,0 +1,1373 @@
+2022-03-09 01:13:02,984 ERROR 23936 [-/127.0.0.1/-/14ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 23936
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:13:02,996 ERROR 23936 [-/127.0.0.1/-/2ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 23936
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:14:51,328 ERROR 10180 [-/127.0.0.1/-/15ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 10180
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:14:51,339 ERROR 10180 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 10180
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:15:14,467 ERROR 8696 [-/127.0.0.1/-/13ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 8696
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:15:14,478 ERROR 8696 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 8696
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:15:56,050 ERROR 8696 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 8696
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:15:56,062 ERROR 8696 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 8696
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:16:21,577 ERROR 8696 [-/127.0.0.1/-/0ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 8696
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 01:16:21,592 ERROR 8696 [-/127.0.0.1/-/0ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found }
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found }"
+locations: [{"line":9,"column":1}]
+path: undefined
+pid: 8696
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:02:28,778 ERROR 24292 [-/127.0.0.1/-/16ms POST /graphql] nodejs.Error: Type "null" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at Array.reduce (<anonymous>)
+    at new GraphQLSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:122:28)
+
+pid: 24292
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:02:28,789 ERROR 24292 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Type "null" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at Array.reduce (<anonymous>)
+    at new GraphQLSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:122:28)
+
+pid: 24292
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:03:11,109 ERROR 6240 [-/127.0.0.1/-/16ms POST /graphql] nodejs.Error: Type "Episode" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at Array.reduce (<anonymous>)
+    at new GraphQLSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:122:28)
+
+pid: 6240
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:03:11,120 ERROR 6240 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Type "Episode" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at Array.reduce (<anonymous>)
+    at new GraphQLSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:122:28)
+
+pid: 6240
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:16:38,075 ERROR 22120 [-/127.0.0.1/-/14ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found String "用户ID"
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseConstArgument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:341:11)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArguments (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:321:50)
+    at parseDirective (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:586:16)
+    at parseDirectives (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:572:21)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:813:20)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Expected Name, found String \"用户ID\""
+locations: [{"line":11,"column":24}]
+path: undefined
+pid: 22120
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:16:38,086 ERROR 22120 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found String "用户ID"
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseConstArgument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:341:11)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArguments (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:321:50)
+    at parseDirective (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:586:16)
+    at parseDirectives (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:572:21)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:813:20)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Expected Name, found String \"用户ID\""
+locations: [{"line":11,"column":24}]
+path: undefined
+pid: 22120
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:16:38,522 ERROR 22120 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found String "用户ID"
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseConstArgument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:341:11)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArguments (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:321:50)
+    at parseDirective (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:586:16)
+    at parseDirectives (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:572:21)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:813:20)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Expected Name, found String \"用户ID\""
+locations: [{"line":11,"column":24}]
+path: undefined
+pid: 22120
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:16:38,530 ERROR 22120 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found String "用户ID"
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseConstArgument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:341:11)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArguments (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:321:50)
+    at parseDirective (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:586:16)
+    at parseDirectives (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:572:21)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:813:20)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Expected Name, found String \"用户ID\""
+locations: [{"line":11,"column":24}]
+path: undefined
+pid: 22120
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:16:38,701 ERROR 22120 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found String "用户ID"
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseConstArgument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:341:11)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArguments (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:321:50)
+    at parseDirective (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:586:16)
+    at parseDirectives (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:572:21)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:813:20)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Expected Name, found String \"用户ID\""
+locations: [{"line":11,"column":24}]
+path: undefined
+pid: 22120
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:16:38,710 ERROR 22120 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found String "用户ID"
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseConstArgument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:341:11)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArguments (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:321:50)
+    at parseDirective (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:586:16)
+    at parseDirectives (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:572:21)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:813:20)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+message: "Syntax Error: Expected Name, found String \"用户ID\""
+locations: [{"line":11,"column":24}]
+path: undefined
+pid: 22120
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:41:27,034 ERROR 13128 [-/127.0.0.1/-/4ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:15:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 13128
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:41:47,892 ERROR 5528 [-/127.0.0.1/-/4ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:15:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 5528
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:41:49,858 ERROR 5528 [-/127.0.0.1/-/0ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:15:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 5528
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:42:15,377 ERROR 1620 [-/127.0.0.1/-/5ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:16:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 1620
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:44:15,253 ERROR 10836 [-/127.0.0.1/-/4ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:16:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 10836
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:45:23,241 ERROR 25092 [-/127.0.0.1/-/3ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:15:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+message: "获取公钥失败"
+pid: 25092
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 02:45:53,446 ERROR 27048 [-/127.0.0.1/-/4ms GET /rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:16:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+message: "获取公钥失败"
+pid: 27048
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:13:48,785 ERROR 25408 [-/127.0.0.1/-/9ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:14:45,713 ERROR 25408 [-/127.0.0.1/-/3ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:14:46,073 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:22,212 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:22,598 ERROR 25408 [-/127.0.0.1/-/2ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:26,042 ERROR 25408 [-/127.0.0.1/-/2ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:26,836 ERROR 25408 [-/127.0.0.1/-/2ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:27,174 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:51,560 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:15:53,506 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:17:24,982 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:17:25,032 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:18:38,038 ERROR 25408 [-/127.0.0.1/-/1ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:18:39,035 ERROR 25408 [-/127.0.0.1/-/2ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:19:02,975 ERROR 25408 [-/127.0.0.1/-/2ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:19:03,025 ERROR 25408 [-/127.0.0.1/-/2ms GET /api/rsa] nodejs.InternalServerError: 获取公钥失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.getRsa (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:18:14)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "获取公钥失败"
+pid: 25408
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:24:32,017 ERROR 27512 [-/127.0.0.1/-/10ms POST /api/verify] nodejs.InternalServerError: 解密失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "解密失败"
+pid: 27512
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:25:42,413 ERROR 26384 [-/127.0.0.1/-/7ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 26384
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:25:57,878 ERROR 26384 [-/127.0.0.1/-/2ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 26384
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:26:59,721 ERROR 5712 [-/127.0.0.1/-/11ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:29:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 5712
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:28:09,115 ERROR 26944 [-/127.0.0.1/-/7ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 26944
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:35:03,233 ERROR 17924 [-/127.0.0.1/-/6ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:30:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 17924
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:35:32,118 ERROR 20032 [-/127.0.0.1/-/8ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:30:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 20032
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:42:38,911 ERROR 22572 [-/127.0.0.1/-/7ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 22572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:44:06,043 ERROR 24972 [-/127.0.0.1/-/7ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24972
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:44:06,698 ERROR 24972 [-/127.0.0.1/-/2ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24972
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:44:06,965 ERROR 24972 [-/127.0.0.1/-/2ms POST /api/verify] nodejs.Error: Error during decryption (probably incorrect key). Original error: TypeError: Cannot read property 'length' of undefined
+    at NodeRSA.module.exports.NodeRSA.$$decryptKey (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:301:19)
+    at NodeRSA.module.exports.NodeRSA.decrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\node-rsa\src\NodeRSA.js:249:21)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:28:34)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+
+pid: 24972
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 03:52:26,610 ERROR 9080 [-/127.0.0.1/-/33ms POST /api/verify] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of model
+    at Cipher.update (internal/crypto/cipher.js:157:11)
+    at crypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-cookies\lib\keygrip.js:78:23)
+    at Keygrip.encrypt (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-cookies\lib\keygrip.js:29:12)
+    at Cookies.set (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-cookies\lib\cookies.js:105:55)
+    at LoginController.verify (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:48:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 9080
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 07:14:48,586 ERROR 23544 nodejs.ClusterClientNoResponseError: client no response in 10805383ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 23544
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 11:47:46,088 ERROR 23544 nodejs.ClusterClientNoResponseError: client no response in 16377491ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 23544
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 13:30:09,963 ERROR 23544 nodejs.ClusterClientNoResponseError: client no response in 248529ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 23544
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 13:30:10,931 ERROR 23544 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 23544
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 16:41:11,753 ERROR 25572 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 16:41:21,036 ERROR 25572 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 16:45:35,505 ERROR 25572 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 16:45:48,260 ERROR 25572 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 16:46:55,032 ERROR 25572 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 16:46:59,255 ERROR 25572 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25572
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 19:01:02,811 ERROR 23256 nodejs.ClusterClientNoResponseError: client no response in 2888309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 23256
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 19:28:20,739 ERROR 23256 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 23256
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 21:56:33,724 ERROR 5968 nodejs.ClusterClientNoResponseError: client no response in 372821ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 22:01:55,363 ERROR 2220 [-/127.0.0.1/-/14ms POST /graphql] nodejs.GraphQLError: Syntax Error: Cannot parse the unexpected character ";".
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at readToken (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:302:32)
+    at Object.lookahead (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:61:43)
+    at Object.advanceLexer [as advance] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:52:33)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1296:11)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseNamedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:630:11)
+    at parseUnionMemberTypes (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:914:18)
+    at parseUnionTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:892:15)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:667:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+message: "Syntax Error: Cannot parse the unexpected character \";\"."
+locations: [{"line":17,"column":33}]
+path: undefined
+pid: 2220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 22:01:55,375 ERROR 2220 [-/127.0.0.1/-/2ms POST /graphql] nodejs.GraphQLError: Syntax Error: Cannot parse the unexpected character ";".
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at readToken (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:302:32)
+    at Object.lookahead (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:61:43)
+    at Object.advanceLexer [as advance] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\lexer.js:52:33)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1296:11)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseNamedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:630:11)
+    at parseUnionMemberTypes (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:914:18)
+    at parseUnionTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:892:15)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:667:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+message: "Syntax Error: Cannot parse the unexpected character \";\"."
+locations: [{"line":17,"column":33}]
+path: undefined
+pid: 2220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 22:06:43,340 ERROR 22888 [-/127.0.0.1/-/13ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found !
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:809:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+message: "Syntax Error: Expected Name, found !"
+locations: [{"line":22,"column":46}]
+path: undefined
+pid: 22888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 22:06:43,351 ERROR 22888 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found !
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:809:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+message: "Syntax Error: Expected Name, found !"
+locations: [{"line":22,"column":46}]
+path: undefined
+pid: 22888
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-09 23:37:29,809 ERROR 5968 nodejs.ClusterClientNoResponseError: client no response in 361232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+

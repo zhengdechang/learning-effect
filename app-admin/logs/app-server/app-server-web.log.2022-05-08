@@ -1,0 +1,374 @@
+2022-04-23 13:00:00,136 WARN 5092 [-/127.0.0.1/-/18ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 5092
+hostname: PC-20220417WIYG
+
+2022-04-23 15:09:33,316 ERROR 7580 [-/127.0.0.1/-/52ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 7580
+hostname: PC-20220417WIYG
+
+2022-04-23 15:09:37,463 ERROR 7580 [-/127.0.0.1/-/12ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 7580
+hostname: PC-20220417WIYG
+
+2022-04-23 15:09:52,713 ERROR 7412 [-/127.0.0.1/-/42ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 7412
+hostname: PC-20220417WIYG
+
+2022-04-23 15:10:11,875 ERROR 6516 [-/127.0.0.1/-/39ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 6516
+hostname: PC-20220417WIYG
+
+2022-04-23 15:11:31,331 ERROR 6516 [-/127.0.0.1/-/16ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 6516
+hostname: PC-20220417WIYG
+
+2022-04-23 15:34:35,512 WARN 3380 [-/127.0.0.1/-/30ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 3380
+hostname: PC-20220417WIYG
+
+2022-04-23 15:34:45,362 WARN 3380 [-/127.0.0.1/-/3ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 3380
+hostname: PC-20220417WIYG
+
+2022-04-23 18:42:47,203 WARN 15840 [-/127.0.0.1/-/16ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 15840
+hostname: PC-20220417WIYG
+
+2022-04-24 16:32:47,722 WARN 21412 [-/127.0.0.1/-/4ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 21412
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:32:50,326 WARN 21412 [-/127.0.0.1/-/4ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 21412
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:32:55,453 WARN 21412 [-/127.0.0.1/-/3ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 21412
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:42:06,162 ERROR 13408 [-/127.0.0.1/-/36ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:43:19,145 ERROR 13408 [-/127.0.0.1/-/12ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:43:24,093 ERROR 13408 [-/127.0.0.1/-/8ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:44:30,625 ERROR 13408 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:45:00,826 ERROR 13408 [-/127.0.0.1/-/11ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:45:33,076 ERROR 13408 [-/127.0.0.1/-/8ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:45:47,877 ERROR 13408 [-/127.0.0.1/-/9ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:46:02,957 ERROR 13604 [-/127.0.0.1/-/45ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13604
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:46:37,828 ERROR 1192 [-/127.0.0.1/-/54ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 1192
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-08 23:07:29,695 WARN 9096 [-/127.0.0.1/-/25ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 9096
+hostname: PC-20220417WIYG
+

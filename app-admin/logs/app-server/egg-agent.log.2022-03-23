@@ -1,0 +1,43 @@
+2022-03-22 01:49:20,341 INFO 9624 [egg-logrotator] agent logger reload: got log-reload message
+2022-03-22 09:24:44,149 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 27323897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-22 10:15:30,868 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 2106346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-22 11:21:44,583 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 1112716ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-22 12:21:53,701 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 2248526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-23 16:36:28,774 INFO 16156 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-23 16:36:29,042 INFO 16156 [egg:core] dump config after load, 5ms
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher] Start watching: ["D:\\我的创作\\外包项目\\learning-effect\\app-server\\app","D:\\我的创作\\外包项目\\learning-effect\\app-server\\config","D:\\我的创作\\外包项目\\learning-effect\\app-server\\mocks","D:\\我的创作\\外包项目\\learning-effect\\app-server\\mocks_proxy","D:\\我的创作\\外包项目\\learning-effect\\app-server\\app.js"]
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher] Start watching: "D:\\我的创作\\外包项目\\learning-effect\\app-server\\app"
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher] Start watching: "D:\\我的创作\\外包项目\\learning-effect\\app-server\\config"
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher] Start watching: "D:\\我的创作\\外包项目\\learning-effect\\app-server\\mocks"
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher] Start watching: "D:\\我的创作\\外包项目\\learning-effect\\app-server\\mocks_proxy"
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher] Start watching: "D:\\我的创作\\外包项目\\learning-effect\\app-server\\app.js"
+2022-03-23 16:36:29,094 INFO 16156 [egg-watcher:agent] watcher start success
+2022-03-23 16:36:29,146 INFO 16156 [egg:core] dump config after ready, 9ms

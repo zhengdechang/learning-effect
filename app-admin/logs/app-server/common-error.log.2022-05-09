@@ -1,0 +1,25 @@
+2022-05-09 16:07:15,394 ERROR 14392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14392
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-09 21:01:52,287 ERROR 14392 nodejs.ClusterClientNoResponseError: client no response in 10805317ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 14392
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-10 09:06:59,654 ERROR 14392 nodejs.ClusterClientNoResponseError: client no response in 43505776ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 14392
+hostname: LAPTOP-0HJCDJRM
+

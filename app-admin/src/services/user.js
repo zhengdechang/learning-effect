@@ -13,6 +13,7 @@ export async function getUserList(filters, current, pageSize) {
           classes_id
           mark_id
           info_id
+          com_pc
         }
         total
       }
@@ -28,15 +29,15 @@ export async function getUserList(filters, current, pageSize) {
   try {
     res = await graphql(query, variables);
   } catch (error) {
-    console.error(error);
+
   }
-  console.log(res, 'res')
+
   return res
 
 }
 
 
-export async function updateUser(user_id, mark_id) {
+export async function updateUser(user_id, user) {
 
   const updateQuery = `mutation UpdateUser($id: ID, $user: UserInput){
       updateUser(id: $id, user: $user)
@@ -44,7 +45,7 @@ export async function updateUser(user_id, mark_id) {
   const updateVariables = {
     id: user_id,
     user: {
-      mark_id: mark_id,
+      ...user
     },
   };
 
@@ -52,7 +53,7 @@ export async function updateUser(user_id, mark_id) {
     await graphql(updateQuery, updateVariables,);
     return true;
   } catch (error) {
-    console.error(error);
+
   }
 
 }

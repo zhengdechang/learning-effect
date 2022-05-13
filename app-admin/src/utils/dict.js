@@ -1,6 +1,10 @@
 import request from '@/utils/request';
 import graphql from '@/utils/graphql';
 import { message } from 'antd';
+import { getExamList } from '@/services/exam'
+import _ from 'lodash';
+import { getKnowList } from '@/services/know'
+import { getQuestion } from '@/services/question'
 
 export async function getConfig() {
     let config;
@@ -79,3 +83,62 @@ export const IsEmpty = (val) => {
     }
     return false;
 };
+
+export const getComPc = async (user) => {
+    let complement = []
+
+    let com_pc = {}
+
+    let { data } = await getExamList({ user_id: user._id })
+    let examList = data.filter(item => !IsEmpty(item.knowList))
+
+
+    examList.map(async (item) => {
+        let paperKnow = {}
+        let questionList = (await getQuestion(item.paper_id))?.questionList?.filter(item => !IsEmpty(item.know_score))
+        questionList.map(i => {
+            Object.keys(JSON.parse(i.know_score)).map(key => {
+                paperKnow = {
+                    ...paperKnow,
+                    [key]:
+                        (!IsEmpty(paperKnow?.[key]) ? paperKnow?.[key] : 0) +
+                        _.divide(+(JSON.parse(i.know_score)?.[key]), questionList?.length),
+                };
+            })
+
+        })
+
+        let knowList = JSON.parse(item.knowList)
+
+        let com = {}
+
+        Object.keys(knowList).map(key => {
+            Object.keys(paperKnow).map(k => {
+                if (key == k) {
+                    com = {
+                        ...com,
+                        [key]: _.divide(+paperKnow?.[key], +knowList?.[key])
+                    }
+                }
+            })
+        })
+        complement.push(com)
+
+
+        complement.map(item => {
+            Object.keys(item).map(key => {
+                com_pc = {
+                    ...com_pc,
+                    [key]:
+                        (!IsEmpty(com_pc?.[key]) ? com_pc?.[key] : 0) +
+                        item[key],
+                };
+            })
+        })
+    })
+
+    let datas = (await getKnowList()).data
+
+    return com_pc
+
+}

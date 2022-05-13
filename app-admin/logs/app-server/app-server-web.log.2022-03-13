@@ -1,0 +1,699 @@
+2022-03-13 00:02:04,227 ERROR 23052 [-/127.0.0.1/-/14ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:35:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 23052
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:02:51,796 ERROR 22212 [-/127.0.0.1/-/15ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:36:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 22212
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:05:14,599 ERROR 14600 [-/127.0.0.1/-/16ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:35:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 14600
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:09:41,464 ERROR 14600 [-/127.0.0.1/-/4ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:35:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 14600
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:10:27,698 ERROR 14016 [-/127.0.0.1/-/16ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:36:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 14016
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:10:57,053 ERROR 11096 [-/127.0.0.1/-/15ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 11096
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:11:22,099 ERROR 3500 [-/127.0.0.1/-/17ms POST /api/loginIn] nodejs.InternalServerError: 校验失败
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:34:16)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "校验失败"
+pid: 3500
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:11:41,350 ERROR 12136 [-/127.0.0.1/-/24ms POST /api/loginIn] nodejs.ReferenceError: app is not defined
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:41:19)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+
+pid: 12136
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:12:09,332 ERROR 7460 [-/127.0.0.1/-/28ms POST /api/loginIn] nodejs.ReferenceError: app is not defined
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:42:19)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+
+pid: 7460
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:12:34,266 ERROR 21672 [-/127.0.0.1/-/27ms POST /api/loginIn] nodejs.TypeError: callback is not a function
+    at failure (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:117:14)
+    at AsyncFunction.<computed>.sign (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:41:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+
+pid: 21672
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:13:00,582 ERROR 7548 [-/127.0.0.1/-/26ms POST /api/loginIn] nodejs.TypeError: callback is not a function
+    at failure (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:117:14)
+    at AsyncFunction.<computed>.sign (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:41:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+
+pid: 7548
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:13:45,216 ERROR 1916 [-/127.0.0.1/-/28ms POST /api/loginIn] nodejs.TypeError: callback is not a function
+    at failure (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:101:14)
+    at Object.module.exports [as sign] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:117:14)
+    at AsyncFunction.<computed>.sign (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:43:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+
+pid: 1916
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:15:07,359 ERROR 11380 [-/127.0.0.1/-/27ms POST /api/loginIn] nodejs.Error: Expected "payload" to be a plain object.
+    at validate (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:40:11)
+    at validatePayload (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:62:10)
+    at Object.module.exports [as sign] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:114:7)
+    at AsyncFunction.<computed>.sign (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:43:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+
+pid: 11380
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 00:15:42,924 ERROR 22036 [-/127.0.0.1/-/30ms POST /api/loginIn] nodejs.Error: Expected "payload" to be a plain object.
+    at validate (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:40:11)
+    at validatePayload (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:62:10)
+    at Object.module.exports [as sign] (D:\我的创作\外包项目\learning-effect\app-server\node_modules\jsonwebtoken\sign.js:114:7)
+    at AsyncFunction.<computed>.sign (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at LoginController.loginIn (D:\我的创作\外包项目\learning-effect\app-server\app\controller\login.js:43:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+
+pid: 22036
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 01:29:26,109 ERROR 8444 [-/127.0.0.1/-/3ms GET /api] nodejs.TypeError: Assignment to constant variable.
+    at D:\我的创作\外包项目\learning-effect\app-server\app\middleware\jwt.js:12:13
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 8444
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 01:32:11,227 ERROR 23880 [-/127.0.0.1/-/4ms GET /api] nodejs.TypeError: Assignment to constant variable.
+    at D:\我的创作\外包项目\learning-effect\app-server\app\middleware\jwt.js:12:13
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 23880
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 01:32:42,675 ERROR 6716 [-/127.0.0.1/-/7ms GET /api] nodejs.TypeError: Assignment to constant variable.
+    at D:\我的创作\外包项目\learning-effect\app-server\app\middleware\jwt.js:13:13
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 6716
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 01:34:52,881 ERROR 21168 [-/127.0.0.1/-/4ms GET /api] nodejs.TypeError: Assignment to constant variable.
+    at D:\我的创作\外包项目\learning-effect\app-server\app\middleware\jwt.js:11:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:11
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 21168
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 02:53:22,643 WARN 23940 [-/127.0.0.1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:38:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 23940
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 02:54:04,927 WARN 23940 [-/127.0.0.1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:38:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 23940
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 02:54:31,666 WARN 23940 [-/127.0.0.1/-/7ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:38:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 23940
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 02:55:59,741 WARN 23940 [-/127.0.0.1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:38:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 23940
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 03:47:16,100 WARN 1212 [-/127.0.0.1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 1212
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 10:44:30,337 ERROR 26544 [-/127.0.0.1/-/24ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found )
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseInputValueDef (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:842:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArgumentDefs (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:832:10)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:810:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+message: "Syntax Error: Expected Name, found )"
+locations: [{"line":65,"column":17}]
+path: undefined
+pid: 26544
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 11:31:24,980 ERROR 26544 [-/127.0.0.1/-/3ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found )
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseInputValueDef (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:842:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArgumentDefs (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:832:10)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:810:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+message: "Syntax Error: Expected Name, found )"
+locations: [{"line":65,"column":17}]
+path: undefined
+pid: 26544
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 11:32:55,954 ERROR 3116 [-/127.0.0.1/-/30ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected Name, found )
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseName (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:92:15)
+    at parseInputValueDef (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:842:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1348:16)
+    at parseArgumentDefs (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:832:10)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:810:14)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+message: "Syntax Error: Expected Name, found )"
+locations: [{"line":65,"column":17}]
+path: undefined
+pid: 3116
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 11:41:18,593 WARN 28648 [-/127.0.0.1/-/20ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 11:47:50,715 WARN 28648 [-/127.0.0.1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 14:16:31,042 WARN 28648 [-/127.0.0.1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 14:19:51,327 WARN 28648 [-/127.0.0.1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 14:20:27,020 WARN 28648 [-/127.0.0.1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 14:21:31,317 WARN 28648 [-/127.0.0.1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 14:22:18,233 WARN 28648 [-/127.0.0.1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 28648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-13 22:43:14,878 WARN 15268 [-/127.0.0.1/-/3ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (D:\我的创作\外包项目\learning-effect\app-server\app\controller\user.js:39:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 15268
+hostname: LAPTOP-RN3TRVQJ
+

@@ -1,0 +1,62 @@
+2022-03-27 11:15:59,571 ERROR 7528 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7528
+hostname: MS-PEROIYTSXWUR
+
+2022-03-27 12:20:41,830 ERROR 7528 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7528
+hostname: MS-PEROIYTSXWUR
+
+2022-03-27 14:59:27,104 ERROR 7528 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7528
+hostname: MS-PEROIYTSXWUR
+
+2022-04-22 15:03:35,200 ERROR 21276 [egg-mongoose] mongodb://127.0.0.1/learning_effect disconnected
+2022-04-22 16:11:59,074 ERROR 9588 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-22 17:14:53,415 ERROR 9588 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-22 22:02:46,557 ERROR 9588 nodejs.ClusterClientNoResponseError: client no response in 10808794ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 08:59:41,561 ERROR 9588 nodejs.ClusterClientNoResponseError: client no response in 125814338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+

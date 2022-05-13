@@ -1,0 +1,442 @@
+2022-04-23 00:16:26,538 ERROR 10620 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10620
+hostname: PC-20220417WIYG
+
+2022-04-23 04:47:38,192 ERROR 10620 nodejs.ClusterClientNoResponseError: client no response in 10808892ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10620
+hostname: PC-20220417WIYG
+
+2022-04-23 12:47:16,816 ERROR 10620 nodejs.ClusterClientNoResponseError: client no response in 28778545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10620
+hostname: PC-20220417WIYG
+
+2022-04-23 13:09:39,025 ERROR 8844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 13:54:59,757 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 2551321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\新建文件夹\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 14:57:17,592 ERROR 8844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 15:09:33,315 ERROR 7580 [-/127.0.0.1/-/52ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 7580
+hostname: PC-20220417WIYG
+
+2022-04-23 15:09:37,462 ERROR 7580 [-/127.0.0.1/-/12ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 7580
+hostname: PC-20220417WIYG
+
+2022-04-23 15:09:52,712 ERROR 7412 [-/127.0.0.1/-/42ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 7412
+hostname: PC-20220417WIYG
+
+2022-04-23 15:10:11,874 ERROR 6516 [-/127.0.0.1/-/39ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 6516
+hostname: PC-20220417WIYG
+
+2022-04-23 15:11:31,330 ERROR 6516 [-/127.0.0.1/-/16ms POST /graphql] nodejs.Error: Query.markList defined in resolvers, but not in schema
+Error: Query.markList defined in resolvers, but not in schema
+
+pid: 6516
+hostname: PC-20220417WIYG
+
+2022-04-23 15:13:33,306 ERROR 8844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 15:57:19,394 ERROR 8844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 18:31:33,344 ERROR 8844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 18:43:12,439 ERROR 8844 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8844
+hostname: PC-20220417WIYG
+
+2022-04-23 20:54:12,474 ERROR 9212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9212
+hostname: PC-20220417WIYG
+
+2022-04-23 21:16:20,652 ERROR 9212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9212
+hostname: PC-20220417WIYG
+
+2022-04-23 21:29:24,857 ERROR 9212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9212
+hostname: PC-20220417WIYG
+
+2022-04-23 21:43:12,167 ERROR 8724 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8724
+hostname: PC-20220417WIYG
+
+2022-04-23 21:56:05,350 ERROR 8724 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8724
+hostname: PC-20220417WIYG
+
+2022-04-24 09:03:28,664 ERROR 5004 [egg-mongoose] mongodb://127.0.0.1/learning_effect disconnected
+2022-04-24 11:19:45,374 ERROR 9588 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 12:20:05,309 ERROR 9588 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 13:20:30,248 ERROR 9588 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9588
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 13:32:32,118 ERROR 13860 [egg-mongoose] mongodb://127.0.0.1/learning_effect disconnected
+2022-04-24 14:20:54,758 ERROR 15536 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15536
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 15:24:15,088 ERROR 15536 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15536
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:36:56,156 ERROR 15536 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15536
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:42:06,158 ERROR 13408 [-/127.0.0.1/-/36ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:43:19,142 ERROR 13408 [-/127.0.0.1/-/12ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:43:24,089 ERROR 13408 [-/127.0.0.1/-/8ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:44:30,622 ERROR 13408 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:45:00,823 ERROR 13408 [-/127.0.0.1/-/11ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:45:33,072 ERROR 13408 [-/127.0.0.1/-/8ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:45:38,616 ERROR 13408 [egg-mongoose] mongodb://127.0.0.1/learning_effect disconnected
+2022-04-24 16:45:47,873 ERROR 13408 [-/127.0.0.1/-/9ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13408
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:46:02,952 ERROR 13604 [-/127.0.0.1/-/45ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 13604
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:46:37,820 ERROR 1192 [-/127.0.0.1/-/54ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 1192
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:46:54,828 ERROR 15536 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15536
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-24 16:47:00,199 ERROR 15536 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15536
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-25 21:01:22,690 ERROR 25364 nodejs.ClusterClientNoResponseError: client no response in 10819196ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-26 09:06:27,967 ERROR 25364 nodejs.ClusterClientNoResponseError: client no response in 43505160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+

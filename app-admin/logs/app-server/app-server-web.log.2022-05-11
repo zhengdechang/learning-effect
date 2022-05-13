@@ -1,0 +1,145 @@
+2022-05-11 11:09:31,414 ERROR 32664 [-/127.0.0.1/-/55ms POST /graphql] nodejs.Error: Type "c" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 32664
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 11:09:36,753 ERROR 32664 [-/127.0.0.1/-/13ms POST /graphql] nodejs.Error: Type "c" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 32664
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 11:09:58,392 ERROR 14012 [-/127.0.0.1/-/66ms POST /graphql] nodejs.Error: Type "c" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 14012
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 11:11:18,783 ERROR 36048 [-/127.0.0.1/-/53ms POST /graphql] nodejs.Error: Type "c" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 36048
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 11:12:06,374 ERROR 15120 [-/127.0.0.1/-/62ms POST /graphql] nodejs.Error: Type "c" not found in document.
+    at ASTDefinitionBuilder._resolveType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (E:\桌面\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (E:\桌面\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (E:\桌面\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at E:\桌面\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 15120
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 12:25:55,915 WARN 29608 [-/127.0.0.1/-/6ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 29608
+hostname: LAPTOP-0HJCDJRM
+
+2022-05-11 12:26:00,502 WARN 29608 [-/127.0.0.1/-/4ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 29608
+hostname: LAPTOP-0HJCDJRM
+

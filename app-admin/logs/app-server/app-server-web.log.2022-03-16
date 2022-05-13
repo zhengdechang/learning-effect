@@ -1,0 +1,126 @@
+2022-03-16 00:55:14,642 ERROR 29072 [-/127.0.0.1/-/22ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 29072
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-16 00:55:14,973 ERROR 29072 [-/127.0.0.1/-/7ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 29072
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-16 00:55:15,356 ERROR 29072 [-/127.0.0.1/-/5ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 29072
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-16 00:55:15,567 ERROR 29072 [-/127.0.0.1/-/3ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 29072
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-16 00:56:48,149 ERROR 16416 [-/127.0.0.1/-/23ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 16416
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-16 00:56:48,270 ERROR 16416 [-/127.0.0.1/-/6ms POST /graphql] nodejs.Error: Type "Number" not found in document.
+    at ASTDefinitionBuilder._resolveType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:134:11)
+    at ASTDefinitionBuilder.buildType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:218:79)
+    at ASTDefinitionBuilder._buildWrappedType (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:227:24)
+    at ASTDefinitionBuilder.buildField (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:248:18)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:302:21
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:28:31
+    at Array.reduce (<anonymous>)
+    at keyValMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\jsutils\keyValMap.js:27:15)
+    at ASTDefinitionBuilder._makeFieldDefMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:299:49)
+    at fields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:284:23)
+    at resolveThunk (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:370:40)
+    at defineFieldMap (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:532:18)
+    at GraphQLObjectType.getFields (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\definition.js:506:44)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:232:38)
+    at typeMapReducer (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:213:12)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\type\schema.js:239:20
+
+pid: 16416
+hostname: LAPTOP-RN3TRVQJ
+

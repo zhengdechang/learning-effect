@@ -1,0 +1,411 @@
+2022-03-11 02:50:23,084 INFO 1120 [egg-logrotator] app logger reload: got log-reload message
+2022-03-11 09:20:06,139 WARN 1120 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-11 09:20:06,160 INFO 1120 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Sanery\\AppData\\Local\\Temp\\egg-multipart-tmp\\app-server"
+2022-03-11 09:20:06,165 WARN 1120 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 09:20:06,216 INFO 1120 [-/127.0.0.1/-/64ms SCHEDULE /__schedule?path=D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-03-11 09:39:00,422 INFO 23720 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 09:39:00,446 INFO 23720 [egg-multipart] stream mode enable
+2022-03-11 09:39:00,910 INFO 23720 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 09:39:01,471 INFO 23720 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 09:39:01,473 INFO 23720 [egg-security] use methodnoallow middleware
+2022-03-11 09:39:01,474 INFO 23720 [egg-security] use noopen middleware
+2022-03-11 09:39:01,474 INFO 23720 [egg-security] use nosniff middleware
+2022-03-11 09:39:01,475 INFO 23720 [egg-security] use xssProtection middleware
+2022-03-11 09:39:01,476 INFO 23720 [egg-security] use xframe middleware
+2022-03-11 09:39:01,476 INFO 23720 [egg-security] use dta middleware
+2022-03-11 09:39:01,476 INFO 23720 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 09:39:01,507 INFO 23720 [egg:core] dump config after load, 5ms
+2022-03-11 09:39:01,511 INFO 23720 [egg-mongoose] starting...
+2022-03-11 09:39:01,541 INFO 23720 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 09:39:01,548 INFO 23720 [egg-mongoose] instance[0] start successfully
+2022-03-11 09:39:01,551 INFO 23720 [egg-watcher:application] watcher start success
+2022-03-11 09:39:01,561 INFO 23720 [egg:core] dump config after ready, 7ms
+2022-03-11 11:15:27,612 WARN 23720 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 12:30:08,795 WARN 23720 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 16:06:48,558 WARN 23720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-11 16:06:48,560 WARN 23720 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 17:16:00,309 WARN 23720 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 17:34:32,932 WARN 23720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-11 17:34:32,937 WARN 23720 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 17:43:07,994 INFO 27964 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 17:43:08,029 INFO 27964 [egg-multipart] stream mode enable
+2022-03-11 17:43:08,402 INFO 27964 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 17:43:08,854 INFO 27964 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 17:43:08,856 INFO 27964 [egg-security] use methodnoallow middleware
+2022-03-11 17:43:08,856 INFO 27964 [egg-security] use noopen middleware
+2022-03-11 17:43:08,857 INFO 27964 [egg-security] use nosniff middleware
+2022-03-11 17:43:08,857 INFO 27964 [egg-security] use xssProtection middleware
+2022-03-11 17:43:08,858 INFO 27964 [egg-security] use xframe middleware
+2022-03-11 17:43:08,858 INFO 27964 [egg-security] use dta middleware
+2022-03-11 17:43:08,858 INFO 27964 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 17:43:08,887 INFO 27964 [egg:core] dump config after load, 6ms
+2022-03-11 17:43:08,891 INFO 27964 [egg-mongoose] starting...
+2022-03-11 17:43:08,921 INFO 27964 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 17:43:08,928 INFO 27964 [egg-mongoose] instance[0] start successfully
+2022-03-11 17:43:08,931 INFO 27964 [egg-watcher:application] watcher start success
+2022-03-11 17:43:08,942 INFO 27964 [egg:core] dump config after ready, 6ms
+2022-03-11 18:10:13,314 INFO 26952 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:10:13,341 INFO 26952 [egg-multipart] stream mode enable
+2022-03-11 18:10:13,646 INFO 26952 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:10:14,022 INFO 26952 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:10:14,024 INFO 26952 [egg-security] use methodnoallow middleware
+2022-03-11 18:10:14,024 INFO 26952 [egg-security] use noopen middleware
+2022-03-11 18:10:14,025 INFO 26952 [egg-security] use nosniff middleware
+2022-03-11 18:10:14,025 INFO 26952 [egg-security] use xssProtection middleware
+2022-03-11 18:10:14,025 INFO 26952 [egg-security] use xframe middleware
+2022-03-11 18:10:14,026 INFO 26952 [egg-security] use dta middleware
+2022-03-11 18:10:14,026 INFO 26952 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:10:14,052 INFO 26952 [egg:core] dump config after load, 6ms
+2022-03-11 18:10:14,056 INFO 26952 [egg-mongoose] starting...
+2022-03-11 18:10:14,085 INFO 26952 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:10:14,092 INFO 26952 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:10:14,093 INFO 26952 [egg-watcher:application] watcher start success
+2022-03-11 18:10:14,103 INFO 26952 [egg:core] dump config after ready, 6ms
+2022-03-11 18:11:20,495 INFO 18924 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:11:20,516 INFO 18924 [egg-multipart] stream mode enable
+2022-03-11 18:11:20,807 INFO 18924 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:11:21,156 INFO 18924 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:11:21,158 INFO 18924 [egg-security] use methodnoallow middleware
+2022-03-11 18:11:21,159 INFO 18924 [egg-security] use noopen middleware
+2022-03-11 18:11:21,159 INFO 18924 [egg-security] use nosniff middleware
+2022-03-11 18:11:21,160 INFO 18924 [egg-security] use xssProtection middleware
+2022-03-11 18:11:21,160 INFO 18924 [egg-security] use xframe middleware
+2022-03-11 18:11:21,161 INFO 18924 [egg-security] use dta middleware
+2022-03-11 18:11:21,161 INFO 18924 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:11:21,185 INFO 18924 [egg:core] dump config after load, 5ms
+2022-03-11 18:11:21,190 INFO 18924 [egg-mongoose] starting...
+2022-03-11 18:11:21,217 INFO 18924 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:11:21,225 INFO 18924 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:11:21,228 INFO 18924 [egg-watcher:application] watcher start success
+2022-03-11 18:11:21,236 INFO 18924 [egg:core] dump config after ready, 6ms
+2022-03-11 18:11:52,314 INFO 28852 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:11:52,335 INFO 28852 [egg-multipart] stream mode enable
+2022-03-11 18:11:52,765 INFO 28852 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:11:53,202 INFO 28852 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:11:53,204 INFO 28852 [egg-security] use methodnoallow middleware
+2022-03-11 18:11:53,204 INFO 28852 [egg-security] use noopen middleware
+2022-03-11 18:11:53,205 INFO 28852 [egg-security] use nosniff middleware
+2022-03-11 18:11:53,205 INFO 28852 [egg-security] use xssProtection middleware
+2022-03-11 18:11:53,206 INFO 28852 [egg-security] use xframe middleware
+2022-03-11 18:11:53,206 INFO 28852 [egg-security] use dta middleware
+2022-03-11 18:11:53,206 INFO 28852 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:11:53,230 INFO 28852 [egg:core] dump config after load, 5ms
+2022-03-11 18:11:53,235 INFO 28852 [egg-mongoose] starting...
+2022-03-11 18:11:53,262 INFO 28852 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:11:53,269 INFO 28852 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:11:53,273 INFO 28852 [egg-watcher:application] watcher start success
+2022-03-11 18:11:53,281 INFO 28852 [egg:core] dump config after ready, 6ms
+2022-03-11 18:12:12,441 INFO 32300 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:12:12,467 INFO 32300 [egg-multipart] stream mode enable
+2022-03-11 18:12:12,795 INFO 32300 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:12:13,162 INFO 32300 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:12:13,164 INFO 32300 [egg-security] use methodnoallow middleware
+2022-03-11 18:12:13,165 INFO 32300 [egg-security] use noopen middleware
+2022-03-11 18:12:13,165 INFO 32300 [egg-security] use nosniff middleware
+2022-03-11 18:12:13,166 INFO 32300 [egg-security] use xssProtection middleware
+2022-03-11 18:12:13,166 INFO 32300 [egg-security] use xframe middleware
+2022-03-11 18:12:13,167 INFO 32300 [egg-security] use dta middleware
+2022-03-11 18:12:13,167 INFO 32300 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:12:13,200 INFO 32300 [egg:core] dump config after load, 7ms
+2022-03-11 18:12:13,205 INFO 32300 [egg-mongoose] starting...
+2022-03-11 18:12:13,240 INFO 32300 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:12:13,247 INFO 32300 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:12:13,252 INFO 32300 [egg-watcher:application] watcher start success
+2022-03-11 18:12:13,260 INFO 32300 [egg:core] dump config after ready, 6ms
+2022-03-11 18:14:14,088 INFO 27688 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:14:14,111 INFO 27688 [egg-multipart] stream mode enable
+2022-03-11 18:14:14,439 INFO 27688 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:14:14,806 INFO 27688 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:14:14,809 INFO 27688 [egg-security] use methodnoallow middleware
+2022-03-11 18:14:14,809 INFO 27688 [egg-security] use noopen middleware
+2022-03-11 18:14:14,810 INFO 27688 [egg-security] use nosniff middleware
+2022-03-11 18:14:14,811 INFO 27688 [egg-security] use xssProtection middleware
+2022-03-11 18:14:14,811 INFO 27688 [egg-security] use xframe middleware
+2022-03-11 18:14:14,812 INFO 27688 [egg-security] use dta middleware
+2022-03-11 18:14:14,812 INFO 27688 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:14:14,843 INFO 27688 [egg:core] dump config after load, 6ms
+2022-03-11 18:14:14,848 INFO 27688 [egg-mongoose] starting...
+2022-03-11 18:14:14,879 INFO 27688 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:14:14,886 INFO 27688 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:14:14,890 INFO 27688 [egg-watcher:application] watcher start success
+2022-03-11 18:14:14,899 INFO 27688 [egg:core] dump config after ready, 7ms
+2022-03-11 18:15:24,498 INFO 13148 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:15:24,522 INFO 13148 [egg-multipart] stream mode enable
+2022-03-11 18:15:24,843 INFO 13148 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:15:25,201 INFO 13148 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:15:25,203 INFO 13148 [egg-security] use methodnoallow middleware
+2022-03-11 18:15:25,204 INFO 13148 [egg-security] use noopen middleware
+2022-03-11 18:15:25,205 INFO 13148 [egg-security] use nosniff middleware
+2022-03-11 18:15:25,205 INFO 13148 [egg-security] use xssProtection middleware
+2022-03-11 18:15:25,206 INFO 13148 [egg-security] use xframe middleware
+2022-03-11 18:15:25,206 INFO 13148 [egg-security] use dta middleware
+2022-03-11 18:15:25,206 INFO 13148 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:15:25,236 INFO 13148 [egg:core] dump config after load, 8ms
+2022-03-11 18:15:25,239 INFO 13148 [egg-mongoose] starting...
+2022-03-11 18:15:25,272 INFO 13148 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:15:25,280 INFO 13148 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:15:25,284 INFO 13148 [egg-watcher:application] watcher start success
+2022-03-11 18:15:25,292 INFO 13148 [egg:core] dump config after ready, 6ms
+2022-03-11 18:15:31,417 INFO 23904 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:15:31,439 INFO 23904 [egg-multipart] stream mode enable
+2022-03-11 18:15:31,727 INFO 23904 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:15:32,089 INFO 23904 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:15:32,091 INFO 23904 [egg-security] use methodnoallow middleware
+2022-03-11 18:15:32,091 INFO 23904 [egg-security] use noopen middleware
+2022-03-11 18:15:32,092 INFO 23904 [egg-security] use nosniff middleware
+2022-03-11 18:15:32,092 INFO 23904 [egg-security] use xssProtection middleware
+2022-03-11 18:15:32,093 INFO 23904 [egg-security] use xframe middleware
+2022-03-11 18:15:32,093 INFO 23904 [egg-security] use dta middleware
+2022-03-11 18:15:32,093 INFO 23904 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:15:32,119 INFO 23904 [egg:core] dump config after load, 6ms
+2022-03-11 18:15:32,123 INFO 23904 [egg-mongoose] starting...
+2022-03-11 18:15:32,152 INFO 23904 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:15:32,159 INFO 23904 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:15:32,163 INFO 23904 [egg-watcher:application] watcher start success
+2022-03-11 18:15:32,170 INFO 23904 [egg:core] dump config after ready, 5ms
+2022-03-11 18:15:58,306 INFO 24732 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:15:58,334 INFO 24732 [egg-multipart] stream mode enable
+2022-03-11 18:15:58,655 INFO 24732 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:15:59,066 INFO 24732 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:15:59,068 INFO 24732 [egg-security] use methodnoallow middleware
+2022-03-11 18:15:59,069 INFO 24732 [egg-security] use noopen middleware
+2022-03-11 18:15:59,069 INFO 24732 [egg-security] use nosniff middleware
+2022-03-11 18:15:59,070 INFO 24732 [egg-security] use xssProtection middleware
+2022-03-11 18:15:59,070 INFO 24732 [egg-security] use xframe middleware
+2022-03-11 18:15:59,070 INFO 24732 [egg-security] use dta middleware
+2022-03-11 18:15:59,071 INFO 24732 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:15:59,096 INFO 24732 [egg:core] dump config after load, 6ms
+2022-03-11 18:15:59,100 INFO 24732 [egg-mongoose] starting...
+2022-03-11 18:15:59,133 INFO 24732 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:15:59,141 INFO 24732 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:15:59,145 INFO 24732 [egg-watcher:application] watcher start success
+2022-03-11 18:15:59,153 INFO 24732 [egg:core] dump config after ready, 6ms
+2022-03-11 18:16:10,664 INFO 30984 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:16:10,687 INFO 30984 [egg-multipart] stream mode enable
+2022-03-11 18:16:11,019 INFO 30984 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:16:11,419 INFO 30984 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:16:11,421 INFO 30984 [egg-security] use methodnoallow middleware
+2022-03-11 18:16:11,422 INFO 30984 [egg-security] use noopen middleware
+2022-03-11 18:16:11,423 INFO 30984 [egg-security] use nosniff middleware
+2022-03-11 18:16:11,423 INFO 30984 [egg-security] use xssProtection middleware
+2022-03-11 18:16:11,424 INFO 30984 [egg-security] use xframe middleware
+2022-03-11 18:16:11,424 INFO 30984 [egg-security] use dta middleware
+2022-03-11 18:16:11,425 INFO 30984 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:16:11,452 INFO 30984 [egg:core] dump config after load, 5ms
+2022-03-11 18:16:11,456 INFO 30984 [egg-mongoose] starting...
+2022-03-11 18:16:11,485 INFO 30984 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:16:11,493 INFO 30984 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:16:11,497 INFO 30984 [egg-watcher:application] watcher start success
+2022-03-11 18:16:11,505 INFO 30984 [egg:core] dump config after ready, 6ms
+2022-03-11 18:16:12,498 INFO 24840 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:16:12,523 INFO 24840 [egg-multipart] stream mode enable
+2022-03-11 18:16:12,818 INFO 24840 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:16:13,178 INFO 24840 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:16:13,180 INFO 24840 [egg-security] use methodnoallow middleware
+2022-03-11 18:16:13,180 INFO 24840 [egg-security] use noopen middleware
+2022-03-11 18:16:13,181 INFO 24840 [egg-security] use nosniff middleware
+2022-03-11 18:16:13,181 INFO 24840 [egg-security] use xssProtection middleware
+2022-03-11 18:16:13,181 INFO 24840 [egg-security] use xframe middleware
+2022-03-11 18:16:13,182 INFO 24840 [egg-security] use dta middleware
+2022-03-11 18:16:13,182 INFO 24840 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:16:13,208 INFO 24840 [egg:core] dump config after load, 5ms
+2022-03-11 18:16:13,213 INFO 24840 [egg-mongoose] starting...
+2022-03-11 18:16:13,242 INFO 24840 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:16:13,249 INFO 24840 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:16:13,252 INFO 24840 [egg-watcher:application] watcher start success
+2022-03-11 18:16:13,260 INFO 24840 [egg:core] dump config after ready, 6ms
+2022-03-11 18:16:47,323 INFO 28636 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:16:47,348 INFO 28636 [egg-multipart] stream mode enable
+2022-03-11 18:16:47,671 INFO 28636 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:16:48,037 INFO 28636 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:16:48,039 INFO 28636 [egg-security] use methodnoallow middleware
+2022-03-11 18:16:48,039 INFO 28636 [egg-security] use noopen middleware
+2022-03-11 18:16:48,040 INFO 28636 [egg-security] use nosniff middleware
+2022-03-11 18:16:48,041 INFO 28636 [egg-security] use xssProtection middleware
+2022-03-11 18:16:48,041 INFO 28636 [egg-security] use xframe middleware
+2022-03-11 18:16:48,042 INFO 28636 [egg-security] use dta middleware
+2022-03-11 18:16:48,042 INFO 28636 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:16:48,069 INFO 28636 [egg:core] dump config after load, 6ms
+2022-03-11 18:16:48,074 INFO 28636 [egg-mongoose] starting...
+2022-03-11 18:16:48,106 INFO 28636 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:16:48,114 INFO 28636 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:16:48,118 INFO 28636 [egg-watcher:application] watcher start success
+2022-03-11 18:16:48,126 INFO 28636 [egg:core] dump config after ready, 7ms
+2022-03-11 18:16:54,873 INFO 28400 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:16:54,897 INFO 28400 [egg-multipart] stream mode enable
+2022-03-11 18:16:55,228 INFO 28400 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:16:55,636 INFO 28400 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:16:55,638 INFO 28400 [egg-security] use methodnoallow middleware
+2022-03-11 18:16:55,639 INFO 28400 [egg-security] use noopen middleware
+2022-03-11 18:16:55,639 INFO 28400 [egg-security] use nosniff middleware
+2022-03-11 18:16:55,640 INFO 28400 [egg-security] use xssProtection middleware
+2022-03-11 18:16:55,640 INFO 28400 [egg-security] use xframe middleware
+2022-03-11 18:16:55,641 INFO 28400 [egg-security] use dta middleware
+2022-03-11 18:16:55,641 INFO 28400 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:16:55,666 INFO 28400 [egg:core] dump config after load, 6ms
+2022-03-11 18:16:55,670 INFO 28400 [egg-mongoose] starting...
+2022-03-11 18:16:55,700 INFO 28400 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:16:55,707 INFO 28400 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:16:55,711 INFO 28400 [egg-watcher:application] watcher start success
+2022-03-11 18:16:55,719 INFO 28400 [egg:core] dump config after ready, 6ms
+2022-03-11 18:17:45,138 INFO 26952 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:17:45,159 INFO 26952 [egg-multipart] stream mode enable
+2022-03-11 18:17:45,448 INFO 26952 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:17:45,812 INFO 26952 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:17:45,814 INFO 26952 [egg-security] use methodnoallow middleware
+2022-03-11 18:17:45,815 INFO 26952 [egg-security] use noopen middleware
+2022-03-11 18:17:45,815 INFO 26952 [egg-security] use nosniff middleware
+2022-03-11 18:17:45,816 INFO 26952 [egg-security] use xssProtection middleware
+2022-03-11 18:17:45,817 INFO 26952 [egg-security] use xframe middleware
+2022-03-11 18:17:45,817 INFO 26952 [egg-security] use dta middleware
+2022-03-11 18:17:45,817 INFO 26952 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:17:45,842 INFO 26952 [egg:core] dump config after load, 6ms
+2022-03-11 18:17:45,846 INFO 26952 [egg-mongoose] starting...
+2022-03-11 18:17:45,875 INFO 26952 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:17:45,882 INFO 26952 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:17:45,886 INFO 26952 [egg-watcher:application] watcher start success
+2022-03-11 18:17:45,893 INFO 26952 [egg:core] dump config after ready, 5ms
+2022-03-11 18:18:48,941 INFO 30460 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:18:48,961 INFO 30460 [egg-multipart] stream mode enable
+2022-03-11 18:18:49,256 INFO 30460 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:18:49,620 INFO 30460 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:18:49,622 INFO 30460 [egg-security] use methodnoallow middleware
+2022-03-11 18:18:49,623 INFO 30460 [egg-security] use noopen middleware
+2022-03-11 18:18:49,623 INFO 30460 [egg-security] use nosniff middleware
+2022-03-11 18:18:49,623 INFO 30460 [egg-security] use xssProtection middleware
+2022-03-11 18:18:49,624 INFO 30460 [egg-security] use xframe middleware
+2022-03-11 18:18:49,624 INFO 30460 [egg-security] use dta middleware
+2022-03-11 18:18:49,624 INFO 30460 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:18:49,651 INFO 30460 [egg:core] dump config after load, 6ms
+2022-03-11 18:18:49,655 INFO 30460 [egg-mongoose] starting...
+2022-03-11 18:18:49,684 INFO 30460 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:18:49,691 INFO 30460 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:18:49,695 INFO 30460 [egg-watcher:application] watcher start success
+2022-03-11 18:18:49,703 INFO 30460 [egg:core] dump config after ready, 6ms
+2022-03-11 18:18:50,749 INFO 32056 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:18:50,771 INFO 32056 [egg-multipart] stream mode enable
+2022-03-11 18:18:51,065 INFO 32056 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:18:51,423 INFO 32056 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:18:51,425 INFO 32056 [egg-security] use methodnoallow middleware
+2022-03-11 18:18:51,425 INFO 32056 [egg-security] use noopen middleware
+2022-03-11 18:18:51,426 INFO 32056 [egg-security] use nosniff middleware
+2022-03-11 18:18:51,426 INFO 32056 [egg-security] use xssProtection middleware
+2022-03-11 18:18:51,427 INFO 32056 [egg-security] use xframe middleware
+2022-03-11 18:18:51,427 INFO 32056 [egg-security] use dta middleware
+2022-03-11 18:18:51,427 INFO 32056 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:18:51,453 INFO 32056 [egg:core] dump config after load, 6ms
+2022-03-11 18:18:51,457 INFO 32056 [egg-mongoose] starting...
+2022-03-11 18:18:51,486 INFO 32056 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:18:51,493 INFO 32056 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:18:51,497 INFO 32056 [egg-watcher:application] watcher start success
+2022-03-11 18:18:51,505 INFO 32056 [egg:core] dump config after ready, 6ms
+2022-03-11 18:27:55,056 INFO 27208 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:27:55,078 INFO 27208 [egg-multipart] stream mode enable
+2022-03-11 18:27:55,452 INFO 27208 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:27:55,814 INFO 27208 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:27:55,816 INFO 27208 [egg-security] use methodnoallow middleware
+2022-03-11 18:27:55,816 INFO 27208 [egg-security] use noopen middleware
+2022-03-11 18:27:55,817 INFO 27208 [egg-security] use nosniff middleware
+2022-03-11 18:27:55,817 INFO 27208 [egg-security] use xssProtection middleware
+2022-03-11 18:27:55,818 INFO 27208 [egg-security] use xframe middleware
+2022-03-11 18:27:55,819 INFO 27208 [egg-security] use dta middleware
+2022-03-11 18:27:55,819 INFO 27208 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:27:55,844 INFO 27208 [egg:core] dump config after load, 5ms
+2022-03-11 18:27:55,848 INFO 27208 [egg-mongoose] starting...
+2022-03-11 18:27:55,876 INFO 27208 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:27:55,884 INFO 27208 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:27:55,887 INFO 27208 [egg-watcher:application] watcher start success
+2022-03-11 18:27:55,895 INFO 27208 [egg:core] dump config after ready, 6ms
+2022-03-11 18:30:44,572 INFO 28848 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 18:30:44,595 INFO 28848 [egg-multipart] stream mode enable
+2022-03-11 18:30:44,901 INFO 28848 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 18:30:45,333 INFO 28848 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 18:30:45,336 INFO 28848 [egg-security] use methodnoallow middleware
+2022-03-11 18:30:45,337 INFO 28848 [egg-security] use noopen middleware
+2022-03-11 18:30:45,337 INFO 28848 [egg-security] use nosniff middleware
+2022-03-11 18:30:45,338 INFO 28848 [egg-security] use xssProtection middleware
+2022-03-11 18:30:45,338 INFO 28848 [egg-security] use xframe middleware
+2022-03-11 18:30:45,339 INFO 28848 [egg-security] use dta middleware
+2022-03-11 18:30:45,339 INFO 28848 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 18:30:45,364 INFO 28848 [egg:core] dump config after load, 6ms
+2022-03-11 18:30:45,368 INFO 28848 [egg-mongoose] starting...
+2022-03-11 18:30:45,398 INFO 28848 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 18:30:45,406 INFO 28848 [egg-mongoose] instance[0] start successfully
+2022-03-11 18:30:45,410 INFO 28848 [egg-watcher:application] watcher start success
+2022-03-11 18:30:45,418 INFO 28848 [egg:core] dump config after ready, 6ms
+2022-03-11 19:02:59,501 WARN 28848 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 19:47:03,987 WARN 28848 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-11 19:47:04,011 WARN 28848 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 22:43:34,787 WARN 28848 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-11 22:43:34,794 WARN 28848 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-11 23:04:08,242 INFO 29372 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 23:04:08,266 INFO 29372 [egg-multipart] stream mode enable
+2022-03-11 23:04:08,591 INFO 29372 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 23:04:08,966 INFO 29372 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 23:04:08,968 INFO 29372 [egg-security] use methodnoallow middleware
+2022-03-11 23:04:08,968 INFO 29372 [egg-security] use noopen middleware
+2022-03-11 23:04:08,969 INFO 29372 [egg-security] use nosniff middleware
+2022-03-11 23:04:08,969 INFO 29372 [egg-security] use xssProtection middleware
+2022-03-11 23:04:08,970 INFO 29372 [egg-security] use xframe middleware
+2022-03-11 23:04:08,970 INFO 29372 [egg-security] use dta middleware
+2022-03-11 23:04:08,970 INFO 29372 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 23:04:08,998 INFO 29372 [egg:core] dump config after load, 7ms
+2022-03-11 23:04:09,003 INFO 29372 [egg-mongoose] starting...
+2022-03-11 23:04:09,034 INFO 29372 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 23:04:09,041 INFO 29372 [egg-mongoose] instance[0] start successfully
+2022-03-11 23:04:09,045 INFO 29372 [egg-watcher:application] watcher start success
+2022-03-11 23:04:09,053 INFO 29372 [egg:core] dump config after ready, 7ms
+2022-03-11 23:04:19,536 INFO 31772 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 23:04:19,567 INFO 31772 [egg-multipart] stream mode enable
+2022-03-11 23:04:19,881 INFO 31772 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 23:04:20,298 INFO 31772 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 23:04:20,302 INFO 31772 [egg-security] use methodnoallow middleware
+2022-03-11 23:04:20,302 INFO 31772 [egg-security] use noopen middleware
+2022-03-11 23:04:20,303 INFO 31772 [egg-security] use nosniff middleware
+2022-03-11 23:04:20,303 INFO 31772 [egg-security] use xssProtection middleware
+2022-03-11 23:04:20,304 INFO 31772 [egg-security] use xframe middleware
+2022-03-11 23:04:20,304 INFO 31772 [egg-security] use dta middleware
+2022-03-11 23:04:20,304 INFO 31772 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 23:04:20,333 INFO 31772 [egg:core] dump config after load, 6ms
+2022-03-11 23:04:20,338 INFO 31772 [egg-mongoose] starting...
+2022-03-11 23:04:20,372 INFO 31772 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 23:04:20,379 INFO 31772 [egg-mongoose] instance[0] start successfully
+2022-03-11 23:04:20,383 INFO 31772 [egg-watcher:application] watcher start success
+2022-03-11 23:04:20,392 INFO 31772 [egg:core] dump config after ready, 7ms
+2022-03-11 23:04:55,964 INFO 8520 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 23:04:55,985 INFO 8520 [egg-multipart] stream mode enable
+2022-03-11 23:04:56,393 INFO 8520 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 23:04:56,881 INFO 8520 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 23:04:56,883 INFO 8520 [egg-security] use methodnoallow middleware
+2022-03-11 23:04:56,884 INFO 8520 [egg-security] use noopen middleware
+2022-03-11 23:04:56,884 INFO 8520 [egg-security] use nosniff middleware
+2022-03-11 23:04:56,885 INFO 8520 [egg-security] use xssProtection middleware
+2022-03-11 23:04:56,885 INFO 8520 [egg-security] use xframe middleware
+2022-03-11 23:04:56,885 INFO 8520 [egg-security] use dta middleware
+2022-03-11 23:04:56,885 INFO 8520 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 23:04:56,911 INFO 8520 [egg:core] dump config after load, 6ms
+2022-03-11 23:04:56,915 INFO 8520 [egg-mongoose] starting...
+2022-03-11 23:04:56,946 INFO 8520 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 23:04:56,953 INFO 8520 [egg-mongoose] instance[0] start successfully
+2022-03-11 23:04:56,957 INFO 8520 [egg-watcher:application] watcher start success
+2022-03-11 23:04:56,964 INFO 8520 [egg:core] dump config after ready, 5ms
+2022-03-11 23:28:06,734 INFO 22480 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-11 23:28:06,759 INFO 22480 [egg-multipart] stream mode enable
+2022-03-11 23:28:07,060 INFO 22480 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-11 23:28:07,428 INFO 22480 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-11 23:28:07,430 INFO 22480 [egg-security] use methodnoallow middleware
+2022-03-11 23:28:07,430 INFO 22480 [egg-security] use noopen middleware
+2022-03-11 23:28:07,431 INFO 22480 [egg-security] use nosniff middleware
+2022-03-11 23:28:07,431 INFO 22480 [egg-security] use xssProtection middleware
+2022-03-11 23:28:07,432 INFO 22480 [egg-security] use xframe middleware
+2022-03-11 23:28:07,432 INFO 22480 [egg-security] use dta middleware
+2022-03-11 23:28:07,432 INFO 22480 [egg-security] compose 6 middlewares into one security middleware
+2022-03-11 23:28:07,458 INFO 22480 [egg:core] dump config after load, 6ms
+2022-03-11 23:28:07,462 INFO 22480 [egg-mongoose] starting...
+2022-03-11 23:28:07,491 INFO 22480 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-11 23:28:07,499 INFO 22480 [egg-mongoose] instance[0] start successfully
+2022-03-11 23:28:07,503 INFO 22480 [egg-watcher:application] watcher start success
+2022-03-11 23:28:07,512 INFO 22480 [egg:core] dump config after ready, 7ms
+2022-03-11 23:59:53,098 INFO 22480 [egg-logrotator] clean all log before 31 days
+2022-03-11 23:59:54,099 INFO 22480 [egg-logrotator] broadcast log-reload
+2022-03-11 23:59:54,099 INFO 22480 [egg-logrotator] rotate files success by DayRotator, files ["D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\common-error.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\common-error.log.2022-03-11","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\app-server-web.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\app-server-web.log.2022-03-11","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-web.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-web.log.2022-03-11","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-schedule.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-schedule.log.2022-03-11","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-agent.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-agent.log.2022-03-11"]

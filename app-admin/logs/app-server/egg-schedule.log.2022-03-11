@@ -1,0 +1,78 @@
+2022-03-11 09:20:06,124 INFO 8844 [Timer] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68993892ms at 2022-03-12 04:30:00.016
+2022-03-11 09:20:06,152 INFO 1120 [Job#16469616061081343956493555001] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-03-11 09:20:06,216 INFO 1120 [Job#16469616061081343956493555001] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 64ms. 
+2022-03-11 09:39:00,445 INFO 23720 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 09:39:00,445 INFO 23720 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 09:39:00,445 INFO 23720 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 17:43:08,029 INFO 27964 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 17:43:08,029 INFO 27964 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 17:43:08,029 INFO 27964 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:10:13,340 INFO 26952 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:10:13,340 INFO 26952 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:10:13,340 INFO 26952 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:11:20,516 INFO 18924 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:11:20,516 INFO 18924 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:11:20,516 INFO 18924 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:11:52,334 INFO 28852 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:11:52,334 INFO 28852 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:11:52,334 INFO 28852 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:12:12,466 INFO 32300 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:12:12,466 INFO 32300 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:12:12,466 INFO 32300 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:14:14,111 INFO 27688 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:14:14,111 INFO 27688 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:14:14,111 INFO 27688 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:15:24,521 INFO 13148 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:15:24,521 INFO 13148 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:15:24,521 INFO 13148 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:15:31,438 INFO 23904 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:15:31,438 INFO 23904 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:15:31,438 INFO 23904 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:15:58,333 INFO 24732 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:15:58,333 INFO 24732 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:15:58,333 INFO 24732 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:16:10,686 INFO 30984 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:16:10,686 INFO 30984 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:16:10,686 INFO 30984 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:16:12,522 INFO 24840 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:16:12,522 INFO 24840 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:16:12,522 INFO 24840 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:16:47,348 INFO 28636 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:16:47,348 INFO 28636 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:16:47,348 INFO 28636 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:16:54,896 INFO 28400 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:16:54,896 INFO 28400 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:16:54,896 INFO 28400 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:17:45,158 INFO 26952 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:17:45,158 INFO 26952 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:17:45,158 INFO 26952 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:18:48,961 INFO 30460 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:18:48,961 INFO 30460 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:18:48,961 INFO 30460 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:18:50,770 INFO 32056 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:18:50,770 INFO 32056 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:18:50,770 INFO 32056 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:27:55,078 INFO 27208 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:27:55,078 INFO 27208 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:27:55,078 INFO 27208 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 18:30:44,595 INFO 28848 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 18:30:44,595 INFO 28848 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 18:30:44,595 INFO 28848 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 23:04:08,265 INFO 29372 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 23:04:08,265 INFO 29372 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 23:04:08,265 INFO 29372 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 23:04:19,566 INFO 31772 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 23:04:19,566 INFO 31772 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 23:04:19,566 INFO 31772 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 23:04:55,985 INFO 8520 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 23:04:55,985 INFO 8520 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 23:04:55,985 INFO 8520 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 23:28:06,758 INFO 22480 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-03-11 23:28:06,758 INFO 22480 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-03-11 23:28:06,758 INFO 22480 [egg-schedule]: register schedule D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-03-11 23:59:53,097 INFO 8844 [Timer] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86406908ms at 2022-03-13 00:00:00.005
+2022-03-11 23:59:53,093 INFO 22480 [Job#16470143930911871863716268002] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2022-03-11 23:59:53,098 INFO 22480 [Job#16470143930911871863716268002] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 5ms. 
+2022-03-11 23:59:54,090 INFO 22480 [Job#16470143940891871873696687002] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2022-03-11 23:59:54,099 INFO 22480 [Job#16470143940891871873696687002] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 9ms. 
+2022-03-11 23:59:54,093 INFO 8844 [Timer] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86406910ms at 2022-03-13 00:00:01.003

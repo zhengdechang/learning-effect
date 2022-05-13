@@ -1,0 +1,32 @@
+2022-03-20 04:38:09,145 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 10812001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-20 08:08:13,792 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 12603701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-20 10:45:30,564 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 7616021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-20 11:27:37,596 ERROR 9624 nodejs.ClusterClientNoResponseError: client no response in 1166469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9624
+hostname: LAPTOP-RN3TRVQJ
+

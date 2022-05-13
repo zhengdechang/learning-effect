@@ -1,0 +1,53 @@
+2022-04-26 10:41:21,572 ERROR 26180 [egg-mongoose] mongodb://127.0.0.1/learning_effect disconnected
+2022-04-26 10:41:23,603 ERROR 25364 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-26 10:41:23,606 ERROR 25364 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-26 15:08:53,396 ERROR 25364 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-26 16:13:38,620 ERROR 25364 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-26 21:01:45,673 ERROR 25364 nodejs.ClusterClientNoResponseError: client no response in 10804410ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-27 09:06:08,773 ERROR 25364 nodejs.ClusterClientNoResponseError: client no response in 43461612ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\桌面\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 25364
+hostname: LAPTOP-0HJCDJRM
+

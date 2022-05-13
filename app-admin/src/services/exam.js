@@ -16,7 +16,7 @@ export async function endExam(id) {
     try {
         await graphql(query, variables);
     } catch (error) {
-        console.error(error);
+
     }
 }
 
@@ -42,7 +42,7 @@ export async function addExam({ paper_id, user_id, sum_score },) {
         const res = await graphql(query, variables);
         message.success('添加成功');
     } catch (error) {
-        console.error(error);
+
         return;
     }
 }
@@ -105,7 +105,7 @@ export async function getExamList(filters, current, pageSize) {
             ...user?.[0]?.class[0],
         };
     });
-    console.log('data', data)
+
     return {
         total,
         data,
@@ -129,7 +129,7 @@ export async function updateExam(id, validateValue) {
         await graphql(query, variables);
         message.success('提交完成');
     } catch (error) {
-        console.error(error);
+
     }
 }
 

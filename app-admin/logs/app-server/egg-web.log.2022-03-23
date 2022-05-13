@@ -1,0 +1,30 @@
+2022-03-22 01:49:20,343 INFO 22484 [egg-logrotator] app logger reload: got log-reload message
+2022-03-22 09:24:44,138 WARN 22484 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-22 09:24:44,140 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 09:24:44,144 INFO 22484 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Sanery\\AppData\\Local\\Temp\\egg-multipart-tmp\\app-server"
+2022-03-22 09:24:44,171 INFO 22484 [-/127.0.0.1/-/29ms SCHEDULE /__schedule?path=D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-03-22 10:15:30,867 WARN 22484 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-22 10:15:30,868 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 11:21:44,581 WARN 22484 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-22 11:21:44,582 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 12:21:53,695 WARN 22484 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 16:36:30,367 INFO 22868 [egg:logger] init all loggers with options: {"dir":"D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"app-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-23 16:36:30,390 INFO 22868 [egg-multipart] stream mode enable
+2022-03-23 16:36:30,909 INFO 22868 [egg-mongoose] connecting mongodb://127.0.0.1/learning_effect
+2022-03-23 16:36:31,457 INFO 22868 [egg-static] starting static serve /public/ -> D:\我的创作\外包项目\learning-effect\app-server\app\public
+2022-03-23 16:36:31,460 INFO 22868 [egg-security] use methodnoallow middleware
+2022-03-23 16:36:31,461 INFO 22868 [egg-security] use noopen middleware
+2022-03-23 16:36:31,462 INFO 22868 [egg-security] use nosniff middleware
+2022-03-23 16:36:31,462 INFO 22868 [egg-security] use xssProtection middleware
+2022-03-23 16:36:31,463 INFO 22868 [egg-security] use xframe middleware
+2022-03-23 16:36:31,463 INFO 22868 [egg-security] use dta middleware
+2022-03-23 16:36:31,463 INFO 22868 [egg-security] compose 6 middlewares into one security middleware
+2022-03-23 16:36:31,503 INFO 22868 [egg:core] dump config after load, 6ms
+2022-03-23 16:36:31,507 INFO 22868 [egg-mongoose] starting...
+2022-03-23 16:36:31,540 INFO 22868 [egg-mongoose] mongodb://127.0.0.1/learning_effect connected successfully
+2022-03-23 16:36:31,548 INFO 22868 [egg-mongoose] instance[0] start successfully
+2022-03-23 16:36:31,552 INFO 22868 [egg-watcher:application] watcher start success
+2022-03-23 16:36:31,562 INFO 22868 [egg:core] dump config after ready, 8ms
+2022-03-24 00:00:00,061 INFO 22868 [egg-logrotator] clean all log before 31 days
+2022-03-24 00:00:01,029 INFO 22868 [egg-logrotator] broadcast log-reload
+2022-03-24 00:00:01,029 INFO 22868 [egg-logrotator] rotate files success by DayRotator, files ["D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\common-error.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\common-error.log.2022-03-23","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\app-server-web.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\app-server-web.log.2022-03-23","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-web.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-web.log.2022-03-23","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-schedule.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-schedule.log.2022-03-23","D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-agent.log -> D:\\我的创作\\外包项目\\learning-effect\\app-server\\logs\\app-server\\egg-agent.log.2022-03-23"]

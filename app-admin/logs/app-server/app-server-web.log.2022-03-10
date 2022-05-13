@@ -1,0 +1,289 @@
+2022-03-10 19:56:14,682 ERROR 21320 [-/127.0.0.1/-/13ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":33,"column":24}]
+path: undefined
+pid: 21320
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 19:56:14,693 ERROR 21320 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":33,"column":24}]
+path: undefined
+pid: 21320
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:26,397 ERROR 6928 [-/127.0.0.1/-/18ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:27,307 ERROR 6928 [-/127.0.0.1/-/3ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:28,130 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:28,419 ERROR 6928 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:29,233 ERROR 6928 [-/127.0.0.1/-/3ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:29,546 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:30,146 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:30,370 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:31,242 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:31,541 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:32,082 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:33,268 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:33,607 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:34,222 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:34,813 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:11,325 ERROR 23028 [-/127.0.0.1/-/20ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:12,066 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:12,737 ERROR 23028 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:12,967 ERROR 23028 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:13,934 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:14,563 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:20,516 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:20,640 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:21,144 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:22,106 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:22,700 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:22,737 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:23,036 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:26,338 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:26,921 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:27,005 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:27,309 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:28,011 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:28,781 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:29,123 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:29,890 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:30,317 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 23:23:13,556 ERROR 22264 [-/127.0.0.1/-/14ms POST /graphql] nodejs.Error: Type "ClassesInput" was defined more than once.
+    at Object.buildASTSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 22264
+hostname: LAPTOP-RN3TRVQJ
+

@@ -1,0 +1,9 @@
+2022-03-18 18:23:00,696 INFO 9624 [Timer] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 36419306ms at 2022-03-19 04:30:00.002
+2022-03-18 18:23:00,860 INFO 22484 [Job#16475989806945671201051364003] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-03-18 18:23:00,897 INFO 22484 [Job#16475989806945671201051364003] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 37ms. 
+2022-03-18 23:59:56,299 INFO 9624 [Timer] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86403703ms at 2022-03-20 00:00:00.002
+2022-03-18 23:59:56,302 INFO 22484 [Job#16476191962965873357968440003] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2022-03-18 23:59:56,323 INFO 22484 [Job#16476191962965873357968440003] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 20ms. 
+2022-03-18 23:59:57,296 INFO 9624 [Timer] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86403714ms at 2022-03-20 00:00:01.010
+2022-03-18 23:59:57,287 INFO 22484 [Job#16476191972855873367863327003] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2022-03-18 23:59:57,298 INFO 22484 [Job#16476191972855873367863327003] D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 11ms. 

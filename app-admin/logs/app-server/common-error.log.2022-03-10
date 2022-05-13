@@ -1,0 +1,525 @@
+2022-03-10 00:14:15,981 ERROR 5968 nodejs.ClusterClientNoResponseError: client no response in 425508ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 05:20:02,784 ERROR 5968 nodejs.ClusterClientNoResponseError: client no response in 10810043ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 09:59:50,349 ERROR 5968 nodejs.ClusterClientNoResponseError: client no response in 16787542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:11:47,625 ERROR 5968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:12:02,393 ERROR 5968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:12:04,619 ERROR 5968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:12:33,078 ERROR 5968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:14:12,182 ERROR 5968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:14:14,054 ERROR 5968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5968
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 12:59:25,643 ERROR 26220 nodejs.ClusterClientNoResponseError: client no response in 326009ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 13:29:03,945 ERROR 26220 nodejs.ClusterClientNoResponseError: client no response in 877942ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 16:05:35,105 ERROR 26220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 16:05:45,090 ERROR 26220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 16:05:46,995 ERROR 26220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 16:05:52,454 ERROR 26220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 16:05:56,322 ERROR 26220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 16:05:58,257 ERROR 26220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 26220
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 17:15:47,646 ERROR 17648 nodejs.ClusterClientNoResponseError: client no response in 238713ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17648
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 19:56:14,680 ERROR 21320 [-/127.0.0.1/-/13ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":33,"column":24}]
+path: undefined
+pid: 21320
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 19:56:14,691 ERROR 21320 [-/127.0.0.1/-/1ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\error\syntaxError.js:24:10)
+    at expect (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:811:3)
+    at many (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:663:16)
+    at parseDefinition (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:143:16)
+    at parseDocument (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:110:22)
+    at Object.parse (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":33,"column":24}]
+path: undefined
+pid: 21320
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:35:59,966 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:26,396 ERROR 6928 [-/127.0.0.1/-/18ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:27,306 ERROR 6928 [-/127.0.0.1/-/3ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:28,129 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:28,418 ERROR 6928 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:29,232 ERROR 6928 [-/127.0.0.1/-/3ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:29,546 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:30,145 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:30,370 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:31,242 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:31,540 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:32,081 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:33,268 ERROR 6928 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:33,606 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:34,221 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:48:34,812 ERROR 6928 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.signList defined in resolvers, but not in schema
+Error: Query.signList defined in resolvers, but not in schema
+
+pid: 6928
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 21:49:29,101 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:11,323 ERROR 23028 [-/127.0.0.1/-/20ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:12,065 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:12,735 ERROR 23028 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:12,966 ERROR 23028 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:13,933 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:14,563 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:20,514 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:20,639 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:21,144 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:22,105 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:22,698 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:22,736 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:23,035 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:26,337 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:26,920 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:27,005 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:27,308 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:28,010 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:28,780 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:29,122 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:29,889 ERROR 23028 [-/127.0.0.1/-/1ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:23:30,317 ERROR 23028 [-/127.0.0.1/-/2ms POST /graphql] nodejs.Error: Query.classesList defined in resolvers, but not in schema
+Error: Query.classesList defined in resolvers, but not in schema
+
+pid: 23028
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:38:06,427 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:40:36,185 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:41:39,210 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:41:46,360 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:43:26,206 ERROR 19960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19960
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 22:44:20,386 ERROR 3956 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3956
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-10 23:23:13,553 ERROR 22264 [-/127.0.0.1/-/14ms POST /graphql] nodejs.Error: Type "ClassesInput" was defined more than once.
+    at Object.buildASTSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (D:\我的创作\外包项目\learning-effect\app-server\node_modules\graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\lib\load_schema.js:72:31)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\我的创作\外包项目\learning-effect\app-server\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\我的创作\外包项目\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 22264
+hostname: LAPTOP-RN3TRVQJ
+
+2022-03-11 02:50:22,875 ERROR 8844 nodejs.ClusterClientNoResponseError: client no response in 10798410ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\我的创作\外包项目\learning-effect\app-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8844
+hostname: LAPTOP-RN3TRVQJ
+

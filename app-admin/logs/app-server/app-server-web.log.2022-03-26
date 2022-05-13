@@ -1,0 +1,306 @@
+2022-03-26 10:15:41,167 ERROR 12692 [-/127.0.0.1/-/20ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 12692
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:15:46,150 ERROR 12692 [-/127.0.0.1/-/9ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 12692
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:15:51,964 ERROR 12692 [-/127.0.0.1/-/4ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 12692
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:16:44,308 ERROR 15088 [-/127.0.0.1/-/32ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 15088
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:17:39,103 ERROR 728 [-/127.0.0.1/-/32ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 728
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:19:01,178 ERROR 6556 [-/127.0.0.1/-/29ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 6556
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:19:36,122 ERROR 6848 [-/127.0.0.1/-/37ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 6848
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:20:13,087 ERROR 10080 [-/127.0.0.1/-/31ms POST /graphql] nodejs.GraphQLError: Syntax Error: Unexpected Name "Input"
+    at syntaxError (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\error\syntaxError.js:24:10)
+    at unexpected (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1322:33)
+    at parseDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:152:9)
+    at parseDocument (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:110:22)
+    at Object.parse (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+message: "Syntax Error: Unexpected Name \"Input\""
+locations: [{"line":58,"column":1}]
+path: undefined
+pid: 10080
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:21:10,147 ERROR 1200 [-/127.0.0.1/-/27ms POST /graphql] nodejs.GraphQLError: Syntax Error: Unexpected Name "Input"
+    at syntaxError (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\error\syntaxError.js:24:10)
+    at unexpected (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1322:33)
+    at parseDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:152:9)
+    at parseDocument (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:110:22)
+    at Object.parse (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+message: "Syntax Error: Unexpected Name \"Input\""
+locations: [{"line":58,"column":1}]
+path: undefined
+pid: 1200
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 10:22:02,176 ERROR 13692 [-/127.0.0.1/-/35ms POST /graphql] nodejs.Error: Type "AnswerScore" was defined more than once.
+    at Object.buildASTSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\utilities\buildASTSchema.js:116:17)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:24:28)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xframe (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at xssProtection (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 13692
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 11:19:21,187 ERROR 6904 [-/127.0.0.1/-/19ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\error\syntaxError.js:24:10)
+    at expect (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:811:3)
+    at many (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:663:16)
+    at parseDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:143:16)
+    at parseDocument (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:110:22)
+    at Object.parse (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":167,"column":39}]
+path: undefined
+pid: 6904
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 11:19:21,231 ERROR 6904 [-/127.0.0.1/-/7ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\error\syntaxError.js:24:10)
+    at expect (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:811:3)
+    at many (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:663:16)
+    at parseDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:143:16)
+    at parseDocument (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:110:22)
+    at Object.parse (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":167,"column":39}]
+path: undefined
+pid: 6904
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 11:19:21,447 ERROR 6904 [-/127.0.0.1/-/8ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\error\syntaxError.js:24:10)
+    at expect (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:811:3)
+    at many (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:663:16)
+    at parseDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:143:16)
+    at parseDocument (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:110:22)
+    at Object.parse (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":167,"column":39}]
+path: undefined
+pid: 6904
+hostname: MS-PEROIYTSXWUR
+
+2022-03-26 11:20:20,886 ERROR 11836 [-/127.0.0.1/-/31ms POST /graphql] nodejs.GraphQLError: Syntax Error: Expected :, found @
+    at syntaxError (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\error\syntaxError.js:24:10)
+    at expect (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1299:32)
+    at parseFieldDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:811:3)
+    at many (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:1350:16)
+    at parseFieldsDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:799:50)
+    at parseObjectTypeDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:757:16)
+    at parseTypeSystemDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:663:16)
+    at parseDefinition (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:143:16)
+    at parseDocument (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:110:22)
+    at Object.parse (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql@0.13.2@graphql\language\parser.js:38:10)
+    at Object.buildSchemaFromTypeDefinitions (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\generate\buildSchemaFromTypeDefinitions.js:20:33)
+    at makeExecutableSchema (F:\桌面\yaern\learning-effect\app-server\node_modules\_graphql-tools@3.1.1@graphql-tools\dist\makeExecutableSchema.js:27:29)
+    at Application.get (F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\lib\load_schema.js:72:31)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-graphql@2.8.0@egg-graphql\app\middleware\graphql.js:68:23
+    at dispatch (F:\桌面\yaern\learning-effect\app-server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\桌面\yaern\learning-effect\app-server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Syntax Error: Expected :, found @"
+locations: [{"line":167,"column":39}]
+path: undefined
+pid: 11836
+hostname: MS-PEROIYTSXWUR
+

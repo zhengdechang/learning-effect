@@ -1,0 +1,57 @@
+2022-03-28 09:29:27,993 WARN 11512 [-/127.0.0.1/-/25ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:41:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 11512
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-22 15:02:41,720 WARN 21276 [-/127.0.0.1/-/26ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 21276
+hostname: LAPTOP-0HJCDJRM
+
+2022-04-22 15:02:46,064 WARN 21276 [-/127.0.0.1/-/3ms POST /login] nodejs.UnauthorizedError: 用户名或密码错误
+    at Object.throw (E:\桌面\learning-effect\app-server\node_modules\egg-core\node_modules\koa\lib\context.js:97:11)
+    at UserController.login (E:\桌面\learning-effect\app-server\app\controller\user.js:43:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-graphql\app\middleware\graphql.js:74:5
+    at async E:\桌面\learning-effect\app-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\桌面\learning-effect\app-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\桌面\learning-effect\app-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\桌面\learning-effect\app-server\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\桌面\learning-effect\app-server\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\桌面\learning-effect\app-server\node_modules\egg\app\middleware\meta.js:18:5)
+message: "用户名或密码错误"
+pid: 21276
+hostname: LAPTOP-0HJCDJRM
+
