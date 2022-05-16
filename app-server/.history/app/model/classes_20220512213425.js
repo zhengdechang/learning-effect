@@ -10,6 +10,7 @@ module.exports = app => {
     },
     com_pc: {
       type: String,
+      unique: true,
     },
   });
 

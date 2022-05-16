@@ -8,9 +8,6 @@ module.exports = app => {
       type: String,
       unique: true,
     },
-    com_pc: {
-      type: String,
-    },
   });
 
   // 班级表

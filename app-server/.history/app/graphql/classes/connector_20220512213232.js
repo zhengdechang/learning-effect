@@ -52,7 +52,7 @@ class Connector {
         try {
 
             let res = await this.ctx.model.Classes.where({ _id: ObjectId(id), ...filters }).updateOne({ ...classes });
-            console.log('classes: ', id, classes, res);
+            console.log('classes: ', classes, res);
             return res
         } catch (error) {
             this.ctx.throw(500, '修改标签信息失败');

@@ -1,47 +1,69 @@
 import React, { useEffect, useState } from 'react';
 import { Chart, Interval, Tooltip } from 'bizcharts';
-import './index.less'
+// import './index.less'
 import { IsEmpty, getComPc } from '@/utils/dict';
 
 import { getKnowList } from '@/services/know'
-import { updateUser } from '@/services/user';
-
+import { getUserList } from '@/services/user';
 import _ from 'lodash'
 
 const KnowCharts = (props) => {
 
-    let { scoreData = [], user } = props
+    let { scoreData = [], classes } = props
     const [Data, setData] = useState([]);
+    const [result, setResult] = useState({});
 
     useEffect(async () => {
 
-
-        console.log('user: ', user);
-
-        let com_pc = await getComPc(user)
-        console.log('com_pc: ', com_pc);
+        if (IsEmpty(classes)) return
 
 
 
+        let { userList } = await getUserList({ classes_id: classes._id });
+
+
+        if (IsEmpty(userList.data)) return;
+
+        let res = {}
+        userList.data.map(async (item) => {
+
+            let com_pc = await getComPc(item)
+
+
+            Object.keys(com_pc).map(key => {
+                if (!IsEmpty(res?.[key])) {
+                    res = {
+                        ...res,
+                        [key]: _.mean([res?.[key], com_pc?.[key]])
+                    }
+
+                } else {
+                    res = {
+                        ...res,
+                        [key]: com_pc?.[key]
+                    }
+                }
+            })
+            setResult(res)
+        });
+
+    }, [classes])
+
+
+    useEffect(async () => {
         let { data } = (await getKnowList())
+
         let Data = data.map(item => {
-            let sales = !IsEmpty(com_pc?.[item?._id]) ? +com_pc?.[item?._id] * 100 : 0
+            let sales = !IsEmpty(result?.[item?._id]) ? +result?.[item?._id] * 100 : 0
+
             return {
                 know: item.know_name,
                 sales: sales.toFixed(2),
             }
         })
-
-
-        updateUser(user._id, {
-            com_pc: JSON.stringify(com_pc)
-        });
-
-
         setData(Data)
 
-
-    }, [user])
+    }, [result]);
 
 
     const scale = {

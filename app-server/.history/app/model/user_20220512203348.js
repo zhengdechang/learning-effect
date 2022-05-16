@@ -18,8 +18,8 @@ module.exports = app => {
     created_at: { type: String },
     classes_id: { type: Schema.Types.ObjectId, ref: 'Classes' },
     mark_id: { type: Schema.Types.ObjectId, ref: 'Mark' },
-    info_id: { type: String },
-    com_pc: { type: String }
+    info_id: { type: String }
+     com_pc: { type: String }
   });
 
   // 用户表

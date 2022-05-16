@@ -2,16 +2,13 @@ import React from 'react';
 import BaseTable from '@/components/base-table';
 import BaseForm from '@/components/base-form';
 import { QuestionCircleOutlined } from '@ant-design/icons';
-import { Popconfirm, message, Tooltip, Modal } from 'antd';
+import { Popconfirm, message, Tooltip } from 'antd';
 import graphql from '@/utils/graphql';
 import moment from 'moment';
 import _ from 'lodash';
 import { getConfig } from '@/utils/dict';
 import { getClasses } from '@/services/classes';
-import { getMarkList } from '@/services/mark';
-import { getInfoList } from '@/services/info';
-import './index.less';
-import KnowCharts from './knowCharts';
+
 class UserForm extends BaseForm {
   constructor(props) {
     super(props);
@@ -20,35 +17,12 @@ class UserForm extends BaseForm {
     });
   }
 
-  handleOk = () => {
-    this.props.changeVisible(false);
-  };
-
-  handleCancel = () => {
-    this.props.changeVisible(false);
-  };
-
-  Modal = () => {
-    return (
-      <Modal
-        title="学生知识完成度统计表"
-        visible={this.props.visible}
-        onOk={this.handleOk}
-        onCancel={this.handleCancel}
-        width={1200}
-        bodyStyle={{ height: '450px' }}
-      >
-        <KnowCharts user={this.props.user} />
-      </Modal>
-    );
-  };
-
   getColumns = () => {
     return [
       [
         {
           type: 'text',
-          width: 'sm',
+          width: 'md',
           name: 'phone',
           label: '手机号',
           placeholder: '请输入手机号',
@@ -98,30 +72,6 @@ class UserForm extends BaseForm {
             ],
           },
         },
-        this.props?.userType === this.props.config?.user_type?.student && {
-          type: 'select',
-          width: 'sm',
-          name: 'mark_id',
-          label: '标签',
-          options: this.props.mark,
-          // formItemProps: {
-          //   rules: [
-          //     {
-          //       required: true,
-          //       message: '此项为必填项',
-          //     },
-          //   ],
-          // },
-        },
-        this.props?.userType === this.props.config?.user_type?.student && {
-          type: 'select',
-          width: 'sm',
-          name: 'info_id',
-          label: '通知',
-          options: this.props.info,
-          mode: 'multiple',
-          showSearch: true,
-        },
       ],
     ];
   };
@@ -137,15 +87,12 @@ class UserForm extends BaseForm {
         user_type
         created_at
         classes_id
-        mark_id
-        info_id
       }
     }`;
     const addVariables = {
       user: {
         ...validateValue,
         user_type: this.props.userType,
-        info_id: validateValue?.info_id?.join(','),
         created_at: moment().valueOf().toString(),
       },
     };
@@ -157,7 +104,6 @@ class UserForm extends BaseForm {
       id: this.props.initialValues?._id,
       user: {
         ...validateValue,
-        info_id: validateValue?.info_id?.join(','),
       },
     };
 
@@ -172,25 +118,10 @@ class UserForm extends BaseForm {
       this.props.preRef.current?.reload();
       this.formRef.current?.resetFields();
       return true;
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
   };
-
-  // render = () => {
-  //   return (
-  //     <div>
-  //       <Modal
-  //         title="Basic Modal"
-  //         visible={true}
-  //         // onOk={handleOk}
-  //         // onCancel={handleCancel}
-  //       >
-  //         <p>Some contents...</p>
-  //         <p>Some contents...</p>
-  //         <p>Some contents...</p>
-  //       </Modal>
-  //     </div>
-  //   );
-  // };
 }
 
 export default class Component extends BaseTable {
@@ -203,10 +134,6 @@ export default class Component extends BaseTable {
       otherColumns: [],
       config: {},
       classes: [],
-      mark: [],
-      info: [],
-      visible: false,
-      user: {},
     });
   }
 
@@ -220,24 +147,9 @@ export default class Component extends BaseTable {
       label: classes_name,
     }));
 
-    let { data: mark } = await getMarkList();
-    mark = _.map(mark, ({ _id, mark_name }) => ({
-      value: _id,
-      label: mark_name,
-    }));
-
-    let { data: info } = await getInfoList();
-
-    info = _.map(info, ({ _id, info_name }) => ({
-      value: _id,
-      label: info_name,
-    }));
-
     this.setState({
       config,
       classes,
-      mark,
-      info,
     });
   };
 
@@ -257,20 +169,8 @@ export default class Component extends BaseTable {
       this.actionRef.current.reload();
     } catch (error) {
       message.error('删除失败');
+      console.error(error);
     }
-  };
-
-  click = (record) => {
-    this.setState({
-      visible: true,
-      user: record,
-    });
-  };
-
-  changeVisible = (bool) => {
-    this.setState({
-      visible: bool,
-    });
   };
 
   getColumns = () => {
@@ -291,15 +191,6 @@ export default class Component extends BaseTable {
               message: '此项为必填项',
             },
           ],
-        },
-        render: (item, record, index) => {
-          return record.user_type == 3 ? (
-            <div className="pointer" onClick={() => this.click(record)}>
-              {item}
-            </div>
-          ) : (
-            <div>{item}</div>
-          );
         },
       },
       {
@@ -325,95 +216,65 @@ export default class Component extends BaseTable {
           return moment(parseInt(text)).format('YYYY-MM-DD HH:mm');
         },
       },
-      // {
-      //   title: '创建时间',
-      //   dataIndex: 'created_at',
-      //   valueType: 'dateRange',
-      //   hideInTable: true,
-      //   search: {
-      //     transform: (value) => {
-      //       return {
-      //         startTime: value[0],
-      //         endTime: value[1],
-      //       };
-      //     },
-      //   },
-      // },
+      {
+        title: '创建时间',
+        dataIndex: 'created_at',
+        valueType: 'dateRange',
+        hideInTable: true,
+        search: {
+          transform: (value) => {
+            return {
+              startTime: value[0],
+              endTime: value[1],
+            };
+          },
+        },
+      },
       ...this.state.otherColumns,
       {
         title: '操作',
         valueType: 'option',
-        render: (text, record, _, action) => {
-          let idList = this.state.info?.map((item) => item.value);
-          let info_id = record.info_id?.filter((item) => idList.includes(item));
-          record = {
-            ...record,
-            info_id,
-          };
-
-          return [
-            <UserForm
-              key="1"
-              preRef={this.actionRef}
-              config={this.state.config}
-              userType={this.state.userType}
-              classes={this.state.classes}
-              mark={this.state.mark}
-              info={this.state.info}
-              initialValues={record}
-            >
-              <a>编辑</a>
-            </UserForm>,
-            <Popconfirm
-              key="2"
-              placement="rightTop"
-              title="确认删除？"
-              okText="删除"
-              cancelText="取消"
-              onConfirm={this.handleDelete.bind(this, [record._id])}
-            >
-              <a>删除</a>
-            </Popconfirm>,
-          ];
-        },
+        render: (text, record, _, action) => [
+          <UserForm
+            key="1"
+            preRef={this.actionRef}
+            config={this.state.config}
+            userType={this.state.userType}
+            classes={this.state.classes}
+            initialValues={record}
+          >
+            <a>编辑</a>
+          </UserForm>,
+          <Popconfirm
+            key="2"
+            placement="rightTop"
+            title="确认删除？"
+            okText="删除"
+            cancelText="取消"
+            onConfirm={this.handleDelete.bind(this, [record._id])}
+          >
+            <a>删除</a>
+          </Popconfirm>,
+        ],
       },
     ];
 
     if (this.state?.userType === this.state.config?.user_type?.student) {
-      columns.splice(
-        3,
-        0,
-        {
-          title: '班级',
-          dataIndex: 'classes_id',
-          valueType: 'select',
-          filters: true,
-          onFilter: true,
-          valueEnum: (() => {
-            const res = {};
-            _.forEach(
-              this.state.classes,
-              ({ value, label }) => (res[value] = { text: label }),
-            );
-            return res;
-          })(),
-        },
-        {
-          title: '标签',
-          dataIndex: 'mark_id',
-          valueType: 'select',
-          filters: true,
-          onFilter: true,
-          valueEnum: (() => {
-            const res = {};
-            _.forEach(
-              this.state.mark,
-              ({ value, label }) => (res[value] = { text: label }),
-            );
-            return res;
-          })(),
-        },
-      );
+      columns.splice(3, 0, {
+        title: '班级',
+        dataIndex: 'classes_id',
+        valueType: 'select',
+        filters: true,
+        onFilter: true,
+        valueEnum: (() => {
+          const res = {};
+          _.forEach(
+            this.state.classes,
+            ({ value, label }) => (res[value] = { text: label }),
+          );
+          return res;
+        })(),
+      });
     }
 
     return columns;
@@ -430,8 +291,6 @@ export default class Component extends BaseTable {
           user_type
           created_at
           classes_id
-          mark_id
-          info_id
         }
         total
       }
@@ -443,8 +302,8 @@ export default class Component extends BaseTable {
     }
 
     const variables = {
-      // current,
-      // pageSize,
+      current,
+      pageSize,
       filters: {
         ...filters,
         startTime: startTime && moment(startTime).valueOf().toString(),
@@ -455,16 +314,13 @@ export default class Component extends BaseTable {
     let res;
     try {
       res = await graphql(query, variables);
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
 
     return {
       total: res?.userList?.total,
-      data: res?.userList?.data.map((item) => {
-        return {
-          ...item,
-          info_id: item.info_id?.split(','),
-        };
-      }),
+      data: res?.userList?.data,
       status: 'success',
     };
   };
@@ -476,11 +332,6 @@ export default class Component extends BaseTable {
         config={this.state.config}
         userType={this.state.userType}
         classes={this.state.classes}
-        mark={this.state.mark}
-        info={this.state.info}
-        changeVisible={this.changeVisible}
-        visible={this.state.visible}
-        user={this.state.user}
       />,
     ];
   };

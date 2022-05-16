@@ -2,10 +2,12 @@ import React from 'react';
 import BaseTable from '@/components/base-table';
 import BaseForm from '@/components/base-form';
 import _ from 'lodash';
-import { Popconfirm, message } from 'antd';
+import { Popconfirm, message, Modal } from 'antd';
 import graphql from '@/utils/graphql';
 import { getClasses, updateClasses } from '@/services/classes';
-
+import { IsEmpty, getComPc } from '@/utils/dict';
+import { updateUser, getUserList } from '@/services/user';
+import KnowCharts from './knowCharts';
 export default class Component extends BaseTable {
   modalRef = React.createRef();
 
@@ -17,8 +19,51 @@ export default class Component extends BaseTable {
       config: {
         search: false,
       },
+      visible: false,
+      classes: {},
     });
   }
+
+  getList = async () => {
+    let { userList } = await getUserList();
+
+    userList.data.map(async (item) => {
+      //获取用户知识点完成度
+      let com_pc = await getComPc(item);
+
+      updateUser(item._id, {
+        com_pc: JSON.stringify(com_pc),
+      });
+    });
+
+    let res = await getClasses();
+
+    res.data.map(async (item) => {
+      let arr = [];
+
+      let { userList } = await getUserList({ classes_id: item._id });
+
+      if (IsEmpty(userList.data)) return;
+
+      userList.data.map((item) => {
+        let result = !IsEmpty(item?.com_pc) ? JSON.parse(item.com_pc) : {};
+        arr = [...arr, ...Object.values(result)];
+      });
+
+      //取平均值
+      if (!IsEmpty(arr)) {
+        let class_com_pc = _.mean(arr) * 100;
+
+        await updateClasses(item._id, {
+          com_pc: `${class_com_pc.toFixed(2)}%`,
+        });
+      }
+    });
+  };
+
+  extendComponentDidMount = () => {
+    // this.getList();
+  };
 
   handleDelete = async (ids) => {
     const query = `mutation DelClasses($ids: [ID]) {
@@ -34,8 +79,14 @@ export default class Component extends BaseTable {
       this.actionRef.current.reload();
     } catch (error) {
       message.error('删除失败');
-      console.error(error);
     }
+  };
+
+  click = (record) => {
+    this.setState({
+      visible: true,
+      classes: record,
+    });
   };
 
   getColumns = () => {
@@ -57,12 +108,19 @@ export default class Component extends BaseTable {
             },
           ],
         },
+        render: (item, record, index) => {
+          return (
+            <div className="pointer" onClick={() => this.click(record)}>
+              {item}
+            </div>
+          );
+        },
       },
-      {
-        title: '知识平均完成度',
-        dataIndex: 'com_pc',
-        ellipsis: true,
-      },
+      // {
+      //   title: '知识平均完成度',
+      //   dataIndex: 'com_pc',
+      //   ellipsis: true,
+      // },
       {
         title: '操作',
         valueType: 'option',
@@ -80,6 +138,33 @@ export default class Component extends BaseTable {
         ],
       },
     ];
+  };
+
+  handleOk = () => {
+    this.setState({
+      visible: false,
+    });
+  };
+
+  handleCancel = () => {
+    this.setState({
+      visible: false,
+    });
+  };
+
+  Modal = () => {
+    return (
+      <Modal
+        title="班级知识完成度统计表"
+        visible={this.state.visible}
+        onOk={this.handleOk}
+        onCancel={this.handleCancel}
+        width={1200}
+        bodyStyle={{ height: '450px' }}
+      >
+        <KnowCharts classes={this.state.classes} />
+      </Modal>
+    );
   };
 
   getData = async (params = {}) => {
@@ -135,13 +220,32 @@ export default class Component extends BaseTable {
           return true;
         } catch (error) {
           message.error('添加失败');
-          console.error(error);
         }
+      },
+      Modal: () => {
+        return (
+          <Modal
+            title="学生知识完成度统计表"
+            visible={this.state.visible}
+            onOk={this.handleOk}
+            onCancel={this.handleCancel}
+            width={1200}
+            bodyStyle={{ height: '450px' }}
+          >
+            <KnowCharts classes={this.state.classes} />
+          </Modal>
+        );
       },
     };
   };
 
   toolBarRender = () => {
-    return [<BaseForm ref={this.modalRef} {...this.getModalFormOptions()} />];
+    return [
+      <BaseForm
+        ref={this.modalRef}
+        {...this.getModalFormOptions()}
+        Modal={() => this.Modal()}
+      />,
+    ];
   };
 }

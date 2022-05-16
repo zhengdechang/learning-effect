@@ -12,7 +12,7 @@ module.exports = {
             return ctx.connector.classes.delClasses(ids);
         },
         updateClasses(root, { id, classes, filters }, ctx) {
-            return ctx.connector.classes.updateClasses(id, classes, filters);
+            return ctx.connector.mark.updateClasses(id, classes, filters);
         }
     }
 }

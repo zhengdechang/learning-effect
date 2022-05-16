@@ -393,6 +393,7 @@ export default class Component extends React.PureComponent {
         {this.renderForm()}
         {this.renderFormPageFooter()}
         {this.Modal && this.Modal()}
+        {this.props.Modal && this.props.Modal()}
       </div>
     );
   };

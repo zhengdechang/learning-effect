@@ -90,6 +90,9 @@ export const getComPc = async (user) => {
     let com_pc = {}
 
     let { data } = await getExamList({ user_id: user._id })
+    console.log('data: ', data);
+
+
     let examList = data.filter(item => !IsEmpty(item.knowList))
 
 

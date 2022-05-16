@@ -102,40 +102,40 @@ export default class Component extends React.PureComponent {
     return signCom + scoreCom;
   };
 
-  getList = async () => {
-    let { userList } = await getUserList();
+  // getList = async () => {
+  //   let { userList } = await getUserList();
 
-    userList.data.map(async (item) => {
-      let com_pc = await getComPc(item);
+  //   userList.data.map(async (item) => {
+  //     let com_pc = await getComPc(item);
 
-      updateUser(item._id, {
-        com_pc: JSON.stringify(com_pc),
-      });
-    });
+  //     updateUser(item._id, {
+  //       com_pc: JSON.stringify(com_pc),
+  //     });
+  //   });
 
-    let res = await getClasses();
+  //   let res = await getClasses();
 
-    res.data.map(async (item) => {
-      let arr = [];
+  //   res.data.map(async (item) => {
+  //     let arr = [];
 
-      let { userList } = await getUserList({ classes_id: item._id });
+  //     let { userList } = await getUserList({ classes_id: item._id });
 
-      if (IsEmpty(userList.data)) return;
+  //     if (IsEmpty(userList.data)) return;
 
-      userList.data.map((item) => {
-        let result = !IsEmpty(item?.com_pc) ? JSON.parse(item.com_pc) : {};
-        arr = [...arr, ...Object.values(result)];
-      });
+  //     userList.data.map((item) => {
+  //       let result = !IsEmpty(item?.com_pc) ? JSON.parse(item.com_pc) : {};
+  //       arr = [...arr, ...Object.values(result)];
+  //     });
 
-      if (!IsEmpty(arr)) {
-        let class_com_pc = _.mean(arr) * 100;
+  //     if (!IsEmpty(arr)) {
+  //       let class_com_pc = _.mean(arr) * 100;
 
-        await updateClasses(item._id, {
-          com_pc: `${class_com_pc.toFixed(2)}%`,
-        });
-      }
-    });
-  };
+  //       await updateClasses(item._id, {
+  //         com_pc: `${class_com_pc.toFixed(2)}%`,
+  //       });
+  //     }
+  //   });
+  // };
 
   varifyUserInfo = async (values) => {
     let publicKey;
@@ -184,11 +184,11 @@ export default class Component extends React.PureComponent {
 
         updateUser(user._id, { mark_id: mark_id });
       }
-      this.getList();
+      console.log('user.user_type: ', user.user_type);
 
-      if (user.user_type == 3) {
-        this.getList();
-      }
+      // if (user.user_type == 2) {
+      //   this.getList();
+      // }
 
       message.success('登录成功');
       history.push('/');

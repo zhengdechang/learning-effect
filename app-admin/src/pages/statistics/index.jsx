@@ -102,17 +102,11 @@ export default function IndexPage() {
         },
       ]);
 
-      console.log(data30, data60, data90, data120, '124');
-
       // let signData = data.map(item => {
       //   if (_.isEmpty(item.date)) return
 
       // })
-
-      console.log(data, 'res');
-    } catch (error) {
-      console.error(error);
-    }
+    } catch (error) {}
   };
 
   const getScore = async () => {
@@ -161,7 +155,6 @@ export default function IndexPage() {
       list = [...list, value];
     });
 
-    console.log(data, list, '222');
     setScoreData(
       list.sort((a, b) => (a['sum_score'] > b['sum_score'] ? 1 : -1)),
     );
@@ -217,14 +210,13 @@ export default function IndexPage() {
       list = [...list, value];
     });
     list = list.filter((item) => item.time >= 0);
-    console.log(data, list, '222');
+
     setTimeData(list.sort((a, b) => (a['time'] > b['time'] ? 1 : -1)));
   };
 
   useEffect(async () => {
     const user = await getUser();
     const config = await getConfig();
-    console.log('config: ', config, user);
 
     setUser(user);
     setConfig(config);

@@ -50,7 +50,7 @@ export async function updateClasses(id, validateValue) {
 
     try {
         const res = await graphql(query, variables);
-        message.success('修改成功');
+        // message.success('修改成功');
     } catch (error) {
         console.error(error);
         return;

@@ -77,14 +77,20 @@ const KnowCharts = (props) => {
     const [Data, setData] = useState([]);
 
     useEffect(async () => {
+        if (IsEmpty(user)) return
         let com_pc = await getComPc(user)
 
 
-        let { data } = (await getKnowList())
-        let Data = data.map(item => {
+        let Data = []
+
+        let { data } = await getKnowList()
+
+
+        Data = data.map(item => {
+            let sales = !IsEmpty(com_pc?.[item?._id]) ? +com_pc?.[item?._id] * 100 : 0
             return {
                 know: item.know_name,
-                sales: ((+com_pc?.[item?._id]) * 100).toFixed(2),
+                sales: sales.toFixed(2),
             }
         })
 

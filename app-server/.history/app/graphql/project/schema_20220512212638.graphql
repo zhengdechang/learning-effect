@@ -42,7 +42,7 @@ type Mutation {
   # classes
   addClasses(classes: ClassesInput): Classes @deprecated(reason: "新增班级")
   delClasses(ids: [ID]): [ID] @deprecated(reason: "删除班级")
-  updateClasses(id: ID, classes: ClassesInput, filters: Filters): ID
+  updateClasses(id: ID, mark: ClassesInput, filters: Filters): ID
     @deprecated(reason: "修改标签信息")
 
   # mark

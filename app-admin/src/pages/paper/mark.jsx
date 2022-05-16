@@ -9,7 +9,9 @@ import _ from 'lodash';
 import ProCard from '@ant-design/pro-card';
 import { Descriptions, message, Button, Alert, Popconfirm } from 'antd';
 import { getConfig, getUser } from '@/utils/dict';
-
+import { updateUser, getUserList } from '@/services/user';
+import { IsEmpty, getComPc } from '@/utils/dict';
+import { getClasses, updateClasses } from '@/services/classes';
 import { getQuestion } from '../../services/question';
 import { getExamList } from '../../services/exam';
 
@@ -197,6 +199,45 @@ class AnswerSheet extends BaseForm {
     return res;
   };
 
+  getList = async () => {
+    let { userList } = await getUserList();
+
+    userList.data.map(async (item) => {
+      //获取用户知识点完成度
+      let com_pc = await getComPc(item);
+
+      updateUser(item._id, {
+        com_pc: JSON.stringify(com_pc),
+      });
+    });
+
+    let res = await getClasses();
+
+    res.data.map(async (item) => {
+      let arr = [];
+
+      let { userList } = await getUserList({ classes_id: item._id });
+
+      if (IsEmpty(userList.data)) return;
+
+      userList.data.map((item) => {
+        let result = !IsEmpty(item?.com_pc) ? JSON.parse(item.com_pc) : {};
+        arr = [...arr, ...Object.values(result)];
+      });
+
+      //取平均值
+      if (!IsEmpty(arr)) {
+        let class_com_pc = _.mean(arr) * 100;
+
+        // console.log('com_pc: ', class_com_pc);
+
+        await updateClasses(item._id, {
+          com_pc: `${class_com_pc.toFixed(2)}%`,
+        });
+      }
+    });
+  };
+
   handleSubmit = async () => {
     const validateValue = await this.formRef.current?.validateFields();
     let answers = this.formatValue(validateValue);
@@ -240,14 +281,16 @@ class AnswerSheet extends BaseForm {
 
       let res = await this.getKnowList(this.props.paperId, this.props.examId);
 
+      //更新试卷知识点分数
       await graphql(query, {
         id: this.props.examId,
         sign: {
           knowList: JSON.stringify(res),
         },
+      }).then((res) => {
+        this.getList();
+        console.log('res: ', res);
       });
-
-      console.log('res: ', res);
     } catch (error) {}
   };
 
@@ -320,7 +363,8 @@ class AnswerSheet extends BaseForm {
             value: this.props.isView
               ? this.props.answerList[0]?.select_score
               : this.state.transFormValue?.select_score,
-            disabled: this.props.isView && true,
+            // disabled: this.props.isView && true,
+            disabled: true,
           },
           !_.isEmpty(completionColumns) && {
             type: 'text',
@@ -329,6 +373,7 @@ class AnswerSheet extends BaseForm {
             label: `填空题总分`,
             placeholder: '请输入',
             disabled: this.props.isView && true,
+            disabled: true,
             value: this.props.isView
               ? this.props.answerList[0]?.empty_score
               : this.state.transFormValue?.empty_score,
@@ -344,6 +389,7 @@ class AnswerSheet extends BaseForm {
               ? this.props.answerList[0]?.brief_score
               : this.state.transFormValue?.brief_score,
             disabled: this.props.isView && true,
+            disabled: true,
           },
         ]?.filter((item) => !!item),
       ),
@@ -547,6 +593,8 @@ class MyTable extends BaseTable {
       },
     };
     const res = await graphql(query, variables);
+
+    // this.getList();
     let { total, data } = res?.examList;
 
     data = data?.map((item, index) => {
