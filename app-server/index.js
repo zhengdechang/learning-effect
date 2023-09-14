@@ -2,7 +2,7 @@ const egg = require("egg");
 
 egg.startCluster(
   {
-    baseDir: "/var/task/app-server",
+    baseDir: path.join(__dirname, ".."),
     port: process.env.PORT || 7001, // default to 7001
   },
   () => {
