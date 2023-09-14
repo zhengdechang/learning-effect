@@ -44,7 +44,9 @@ module.exports = (appInfo) => {
   config.mongoose = {
     clients: {
       learningEffect: {
-        url: process.env.MONGODB_URL,
+        url:
+          process.env.MONGODB_URL ||
+          "mongodb+srv://dechang:dechang@cluster0.b9vurxx.mongodb.net/learning_effect?retryWrites=true&w=majority",
         options: {},
         plugins: [],
       },
