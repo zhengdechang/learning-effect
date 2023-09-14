@@ -1,8 +1,3 @@
-/*
- * @Description:
- * @Author: Devin
- * @Date: 2023-09-14 13:00:36
- */
 const egg = require("egg");
 
 egg.startCluster(

@@ -7,14 +7,14 @@
     "declarations": true
   },
   "dependencies": {
-    "egg": "^2.15.1",
-    "egg-graphql": "^2.8.0",
-    "egg-jwt": "^3.1.7",
-    "egg-mongoose": "^3.3.1",
-    "egg-scripts": "^2.11.0",
-    "lodash": "^4.17.21",
-    "md5": "^2.3.0",
-    "node-rsa": "^1.1.1",
+    "egg": "2.15.1",
+    "egg-graphql": "2.8.0",
+    "egg-jwt": "3.1.7",
+    "egg-mongoose": "3.3.1",
+    "egg-scripts": "2.11.0",
+    "lodash": "4.17.21",
+    "md5": "2.3.0",
+    "node-rsa": "1.1.1",
     "xss": "^1.0.11"
   },
   "devDependencies": {
