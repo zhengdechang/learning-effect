@@ -1,4 +1,5 @@
 const egg = require("egg");
+const path = require("path");
 
 egg.startCluster(
   {
