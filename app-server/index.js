@@ -3,7 +3,7 @@ const path = require("path");
 
 egg.startCluster(
   {
-    baseDir: path.join(__dirname, ".."),
+    baseDir: path.join(__dirname, "../app-server"),
     port: process.env.PORT || 7001, // default to 7001
   },
   () => {
