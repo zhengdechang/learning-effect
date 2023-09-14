@@ -6,15 +6,14 @@ export default defineConfig({
   },
   proxy: {
     '/api': {
-      'target': 'https://learning-effect.vercel.app',
-      'changeOrigin': true,
-      'pathRewrite': { '^/api': '' },
+      // target: 'http://127.0.0.1:7001',
+      target: 'https://learning-effect.vercel.app',
+      changeOrigin: true,
+      pathRewrite: { '^/api': '' },
     },
   },
   title: '智能分析系统',
-  links: [
-    { rel: 'icon', href: '/api/public/logo.ico' },
-  ],
+  links: [{ rel: 'icon', href: '/api/public/logo.ico' }],
   routes: [
     {
       path: '/login',
@@ -95,11 +94,11 @@ export default defineConfig({
           component: '@/pages/score/index',
         },
         {
-          "path": "/sign",
-          "title": "签到列表",
-          "icon": "icon-banji",
-          "exact": true,
-          "component": "@/pages/sign/index"
+          path: '/sign',
+          title: '签到列表',
+          icon: 'icon-banji',
+          exact: true,
+          component: '@/pages/sign/index',
         },
         {
           path: '/classes',
@@ -108,25 +107,25 @@ export default defineConfig({
           component: '@/pages/classes',
         },
         {
-          "path": "/mark",
-          "title": "标签管理",
-          "icon": "icon-banji",
-          "exact": true,
-          "component": "@/pages/mark/index"
+          path: '/mark',
+          title: '标签管理',
+          icon: 'icon-banji',
+          exact: true,
+          component: '@/pages/mark/index',
         },
         {
-          "path": "/know",
-          "title": "知识点管理",
-          "icon": "icon-banji",
-          "exact": true,
-          "component": "@/pages/know/index"
+          path: '/know',
+          title: '知识点管理',
+          icon: 'icon-banji',
+          exact: true,
+          component: '@/pages/know/index',
         },
         {
-          "path": "/info",
-          "title": "通知管理",
-          "icon": "icon-banji",
-          "exact": true,
-          "component": "@/pages/info/index"
+          path: '/info',
+          title: '通知管理',
+          icon: 'icon-banji',
+          exact: true,
+          component: '@/pages/info/index',
         },
         {
           path: '/statistics',
@@ -142,7 +141,7 @@ export default defineConfig({
           component: '@/pages/my',
           hideInMenu: true,
         },
-      ]
+      ],
     },
   ],
   // less 变量

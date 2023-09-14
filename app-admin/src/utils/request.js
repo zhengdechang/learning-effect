@@ -1,3 +1,8 @@
+/*
+ * @Description:
+ * @Author: Devin
+ * @Date: 2023-09-14 13:00:35
+ */
 import { extend } from 'umi-request';
 import { message } from 'antd';
 import { history } from 'umi';
@@ -20,15 +25,16 @@ const codeMessage = {
   504: '网关超时。',
 };
 
-const errorHandler = error => {
+const errorHandler = (error) => {
   const { response } = error;
   const { status, statusText } = response ?? {};
 
   if (status < 200 || status >= 300) {
-    response.json().then((res) => {
-      const msg = res?.message || codeMessage[status] || statusText;
-      message.error(msg);
-    });
+    response &&
+      response.json().then((res) => {
+        const msg = res?.message || codeMessage[status] || statusText;
+        message.error(msg);
+      });
   }
   if (status === 401) {
     sessionStorage.clear();
@@ -51,12 +57,12 @@ request.interceptors.request.use(async (url, options) => {
   const token = localStorage.getItem('token');
   if (token) {
     const headers = {
-      'Authorization': `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
     };
     return {
       url,
       options: { ...options, headers: { ...options?.headers, ...headers } },
-    }
+    };
   }
   return {
     url,
@@ -65,4 +71,3 @@ request.interceptors.request.use(async (url, options) => {
 });
 
 export default request;
-
